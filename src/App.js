@@ -1,24 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
+import { UserContextProvider } from "./context/authentification";
+import { Switch, Route, Redirect } from "react-router-dom";
+import { GlobalStyle } from "./styles/reset";
+import Home from "./pages/Home";
+import Signin from "./pages/Signin";
+// import firebase, { FirebaseContext } from "./context";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <GlobalStyle />
+      <Switch>
+        <Route exact path="/" component={Signin}></Route>
+        <Route exact path="/Home" component={Home}></Route>
+        <Redirect to="/"></Redirect>
+      </Switch>
+    </>
   );
 }
 
