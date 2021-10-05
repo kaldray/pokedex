@@ -1,4 +1,4 @@
-import styled, { css } from "styled-components";
+import styled from "styled-components";
 import { keyframes } from "styled-components";
 import { useState } from "react";
 
@@ -29,7 +29,6 @@ const ShowDescription = styled.span`
 
 const CardData = (props) => {
   const [hover, setHover] = useState({ display: "none" });
-  const [color, setColor] = useState({ color: "" });
 
   const { data } = props;
 
@@ -44,7 +43,7 @@ const CardData = (props) => {
         }}
       >
         <div>
-          <img src={data.thumbnail}></img>
+          <img src={data.thumbnail} alt="pokemon"></img>
         </div>
         <ul>
           <li>{data.name.french}</li>

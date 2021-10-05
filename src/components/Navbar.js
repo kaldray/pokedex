@@ -1,10 +1,9 @@
 import styled from "styled-components";
 import firebase from "firebase";
-import { getCurrentUser } from "../services/auth";
-import { LogOut, onAuth } from "../services/auth";
-import { Link, useHistory, Redirect } from "react-router-dom";
-import { useContext, useEffect, useState } from "react";
-import { UserContext, useUserContext } from "../context/authentification";
+import { Link, useHistory } from "react-router-dom";
+import { useContext } from "react";
+import { UserContext } from "../context/authentification";
+import { ReactComponent as Pokeball } from "../assets/pokeball.svg";
 
 const Nav = styled.nav`
   background-color: #ffbb44;
@@ -13,6 +12,11 @@ const Nav = styled.nav`
   display: flex;
   justify-content: flex-end;
   align-items: center;
+  svg {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+  }
 `;
 
 const Button = styled(Link)`
@@ -48,6 +52,7 @@ const Navbar = () => {
     <>
       <Header>
         <Nav>
+          <Pokeball></Pokeball>
           {user ? (
             <>
               <Button onClick={LogOut}>Deconnexion</Button>

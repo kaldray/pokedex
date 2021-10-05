@@ -1,6 +1,7 @@
-import { useContext, useState, useEffect } from "react";
-import "firebase/auth";
-import { AuthWithGoogle, onAuth } from "../services/auth";
+import firebase from "firebase";
+import { useContext } from "react";
+import { useHistory } from "react-router";
+import { UserContext } from "../context/authentification";
 import Navbar from "../components/Navbar";
 import styled from "styled-components";
 
@@ -14,6 +15,7 @@ const Main = styled.main`
 
 const SignButton = styled.div`
   background: none;
+
   #customBtn {
     display: inline-block;
     background: white;
@@ -32,11 +34,8 @@ const SignButton = styled.div`
     font-weight: normal;
   }
   span.icon {
-    background-image: url("./img/go.png");
     display: inline-block;
     vertical-align: middle;
-    width: 42px;
-    height: 42px;
   }
   span.buttonText {
     display: inline-block;
@@ -45,7 +44,6 @@ const SignButton = styled.div`
     padding-right: 42px;
     font-size: 14px;
     font-weight: bold;
-    /* font-family: "Roboto", sans-serif; */
   }
 
   &:hover {
@@ -54,23 +52,63 @@ const SignButton = styled.div`
   img {
     height: 42px;
     width: 42px;
+    @media (max-width: 768px) {
+      width: 21px;
+      height: 21px;
+    }
+  }
+`;
+
+const Section = styled.section`
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  h1 {
   }
 `;
 
 const Signin = () => {
+  const user = useContext(UserContext);
+  let history = useHistory();
+  const AuthWithGoogle = () => {
+    let provider = new firebase.auth.GoogleAuthProvider();
+    firebase
+      .auth()
+      .signInWithPopup(provider)
+      .then((result) => {
+        let user = result.user;
+        console.log(user);
+      })
+      .catch((error) => {
+        if (error) {
+          throw new error();
+        }
+      });
+
+    function Redirect() {
+      if (user)
+        // window.location.href = "http://localhost:3000/Home";
+        history.push("/Home");
+    }
+    Redirect();
+  };
   return (
     <>
       <Navbar></Navbar>
       <Main>
+        <Section>
+          <h1>Venez créer votre équipe de rêve !</h1>
+        </Section>
         <SignButton onClick={AuthWithGoogle}>
-          <span class="label">Sign in with : </span>
+          <span className="label">Log in with : </span>
 
-          <div id="customBtn" class="customGPlusSignIn">
-            <span class="icon">
+          <div id="customBtn" className="customGPlusSignIn">
+            <span className="icon">
               {" "}
-              <img src="./img/go.png"></img>{" "}
+              <img src="./img/go.png" alt="pokeball"></img>{" "}
             </span>
-            <span class="buttonText">Google</span>
+            <span className="buttonText">Google</span>
           </div>
         </SignButton>
       </Main>
