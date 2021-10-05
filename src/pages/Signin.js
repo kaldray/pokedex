@@ -15,7 +15,6 @@ const Main = styled.main`
 
 const SignButton = styled.div`
   background: none;
-
   #customBtn {
     display: inline-block;
     background: white;
