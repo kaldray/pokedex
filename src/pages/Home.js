@@ -1,9 +1,6 @@
 import Navbar from "../components/Navbar";
 import PokemonCard from "../components/Card/pokemonCard";
 import styled from "styled-components";
-import { useContext } from "react";
-import { UserContext } from "../context/authentification";
-import { useHistory } from "react-router";
 
 const Container = styled.main`
   width: 100%;
@@ -22,12 +19,7 @@ const Container = styled.main`
 `;
 
 const Home = () => {
-  const VerifyUser = () => {
-    let history = useHistory();
-    const { user } = useContext(UserContext);
-    if (!user) history.push("/");
-  };
-  VerifyUser();
+
   return (
     <>
       <Navbar></Navbar>

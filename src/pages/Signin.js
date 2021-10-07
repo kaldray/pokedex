@@ -15,6 +15,7 @@ const Main = styled.main`
 
 const SignButton = styled.div`
   background: none;
+
   #customBtn {
     display: inline-block;
     background: white;
@@ -77,6 +78,7 @@ const Signin = () => {
       .signInWithPopup(provider)
       .then((result) => {
         let user = result.user;
+        Redirect();
         console.log(user);
       })
       .catch((error) => {
@@ -86,11 +88,8 @@ const Signin = () => {
       });
 
     function Redirect() {
-      if (user)
-        // window.location.href = "http://localhost:3000/Home";
-        history.push("/Home");
+      if (user) history.push("/Home");
     }
-    Redirect();
   };
   return (
     <>

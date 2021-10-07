@@ -1,6 +1,7 @@
 import firebase from "firebase";
 import "firebase/auth";
 import { createContext, useContext, useState, useEffect } from "react";
+import { useHistory } from "react-router";
 
 const UserContext = createContext();
 
@@ -18,6 +19,7 @@ const useUserContext = () => {
 
 const UserContextProvider = ({ children }) => {
   const [user, setUser] = useState(null);
+  let history = useHistory();
 
   useEffect(() => {
     firebase.auth().onAuthStateChanged((user) => {
@@ -25,10 +27,11 @@ const UserContextProvider = ({ children }) => {
         setUser(user);
       } else {
         setUser(null);
+        history.push("/");
       }
       return user;
     });
-  }, [setUser]);
+  }, [setUser, history]);
   return (
     <>
       <UserContext.Provider value={{ user }}>{children}</UserContext.Provider>
