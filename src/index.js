@@ -1,13 +1,14 @@
 import React from "react";
 import firebase from "firebase";
 import ReactDOM from "react-dom";
-import { BrowserRouter as Router } from "react-router-dom";
 import App from "./App";
+import { BrowserRouter as Router } from "react-router-dom";
 import { UserContextProvider } from "./context/authentification";
 
 const firebaseConfig = {
   apiKey: "AIzaSyCHcpTVHRx6M-Kbq-hRMFSmvuA_Ja4MgVw",
   authDomain: "pokedex-9ff59.firebaseapp.com",
+  databaseURL: "https://pokedex-9ff59-default-rtdb.europe-west1.firebasedatabase.app",
   projectId: "pokedex-9ff59",
   storageBucket: "pokedex-9ff59.appspot.com",
   messagingSenderId: "108977343944",
