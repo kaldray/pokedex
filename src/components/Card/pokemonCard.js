@@ -32,7 +32,7 @@ const RegionContainer = styled.div`
     grid-column: 1;
     margin-bottom: 50px;
   }
-`;
+`
 
 const Research = styled.input`
   place-self: center;
