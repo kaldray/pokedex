@@ -1,22 +1,11 @@
 import firebase from "firebase";
 import "firebase/auth";
-import { createContext, useContext, useState, useEffect } from "react";
+import { createContext, useState, useEffect } from "react";
 import { useHistory } from "react-router";
 
 const UserContext = createContext();
 
-const useUserContext = () => {
-  //  get the context
-  const context = useContext(UserContext);
-
-  //  if `undefined`, throw an error
-  if (context === undefined) {
-    throw new Error("useUserContext was used outside of its Provider");
-  }
-
-  return context;
-};
-
+//GoogleUser context to pass user to other components
 const UserContextProvider = ({ children }) => {
   const [user, setUser] = useState(null);
   let history = useHistory();
@@ -25,6 +14,7 @@ const UserContextProvider = ({ children }) => {
     firebase.auth().onAuthStateChanged((user) => {
       if (user) {
         setUser(user);
+        history.push("/Home");
       } else {
         setUser(null);
         history.push("/");
@@ -39,4 +29,4 @@ const UserContextProvider = ({ children }) => {
   );
 };
 
-export { useUserContext, UserContext, UserContextProvider };
+export { UserContext, UserContextProvider };

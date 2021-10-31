@@ -68,18 +68,19 @@ const Section = styled.section`
   }
 `;
 
+
+
 const Signin = () => {
   const user = useContext(UserContext);
   let history = useHistory();
+  //Log to acces to Pokedex Data
   const AuthWithGoogle = () => {
     let provider = new firebase.auth.GoogleAuthProvider();
     firebase
       .auth()
       .signInWithPopup(provider)
       .then((result) => {
-        let user = result.user;
         Redirect();
-        console.log(user);
       })
       .catch((error) => {
         if (error) {
