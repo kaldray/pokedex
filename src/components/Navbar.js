@@ -26,7 +26,7 @@ const Nav = styled.nav`
 
 const Button = styled.button`
   background-color: transparent;
-  color: white;
+  color: #000000;
   font-weight: bold;
   height: fit-content;
   border: none;

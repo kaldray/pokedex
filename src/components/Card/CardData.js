@@ -33,6 +33,7 @@ const Description = styled.span`
   font-size: 12pt;
   font-weight: 400;
   width: 300px;
+  margin-bottom: 30px;
 `;
 
 const CardData = (props) => {
@@ -42,7 +43,7 @@ const CardData = (props) => {
     <>
       <CardPokemon>
         <div>
-          <img src={data.thumbnail} alt="pokemon"></img>
+          <img width="100px" height="100px" src={data.thumbnail} alt="pokemon"></img>
         </div>
         <ul>
           <li>{data.french} </li>

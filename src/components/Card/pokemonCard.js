@@ -6,10 +6,10 @@ import styled from "styled-components";
 
 const ButtonRegion = styled.button`
   background-color: #ffbb44;
-  width: 150px;
+  width: 100px;
   border: 1px solid black;
   border-radius: 10px 10px;
-  color: #ffffff;
+  color: #000000;
   font-size: 14pt;
   font-weight: 400;
   margin-left: 20px;
@@ -40,7 +40,8 @@ const Research = styled.input`
 `;
 
 const PokemonCard = () => {
-  const [data, setData] = useState([]);
+  let [data, setData] = useState([]);
+  const [pokemon,setPokemon] = useState([])
   //#region code to fetch data to an api
 
   // useEffect(() => {
@@ -53,86 +54,51 @@ const PokemonCard = () => {
   // }, []);
   //#endregion
 
+
   //Get data from firebase
   useEffect(() => {
-    const pokedexRef = firebase.database().ref("pokedex");
-    pokedexRef
-      .limitToFirst(151)
-      .get()
-      .then((snapshot) => {
-        setData(snapshot.val());
-      });
-  }, [setData]);
-
-  // fetch data from specifique region
-  const PokedexKanto = () => {
-    const pokedexRef = firebase.database().ref("pokedex");
-    pokedexRef
-      .limitToFirst(386)
-      .get()
-      .then((snapshot) => {
-        setData(snapshot.val());
-        console.log(data);
-      });
-  };
-  const PokedexHoenn = () => {
-    const pokedexRef = firebase.database().ref("pokedex");
-    pokedexRef
-      .limitToFirst(386)
-      .get()
-      .then((snapshot) => {
-        setData(snapshot.val());
-      });
-  };
-  const PokedexSinoh = () => {
-    const pokedexRef = firebase.database().ref("pokedex");
-    pokedexRef
-      .limitToFirst(493)
-      .get()
-      .then((snapshot) => {
-        setData(snapshot.val());
-      });
-  };
-  const PokedexUnys = () => {
-    const pokedexRef = firebase.database().ref("pokedex");
-    pokedexRef
-      .limitToFirst(649)
-      .get()
-      .then((snapshot) => {
-        setData(snapshot.val());
-      });
-  };
-  const PokedexKalos = () => {
-    const pokedexRef = firebase.database().ref("pokedex");
-    pokedexRef
-      .limitToFirst(721)
-      .get()
-      .then((snapshot) => {
-        setData(snapshot.val());
-      });
-  };
-  const PokedexAlola = () => {
-    const pokedexRef = firebase.database().ref("pokedex");
-    pokedexRef
-      .limitToFirst(809)
-      .get()
-      .then((snapshot) => {
-        setData(snapshot.val());
-      });
-  };
-  const PokedexGalar = () => {
     const pokedexRef = firebase.database().ref("pokedex");
     pokedexRef
       .limitToFirst(897)
       .get()
       .then((snapshot) => {
         setData(snapshot.val());
+        setPokemon(snapshot.val());
       });
+  }, [setData]);
+
+  // fetch data from specifique region
+  const PokedexJohto = () => {
+    setData(data = pokemon.filter(data=>data.id > 0 && data.id < 152))
   };
+  const PokedexKanto = () => {
+    setData(data = pokemon.filter(data=>data.id > 151 && data.id < 252))
+  };
+  const PokedexHoenn = () => {
+    setData( data =pokemon.filter(data=>data.id > 252 && data.id < 386))
+  };
+  const PokedexSinoh = () => {
+    setData(data = pokemon.filter(data=>data.id > 386 && data.id < 493))
+  };
+  const PokedexUnys = () => {
+    setData(data = pokemon.filter(data=>data.id > 494 && data.id < 649))
+  };
+  const PokedexKalos = () => {
+    setData(data = pokemon.filter(data=>data.id > 649 && data.id < 721))
+  };
+  const PokedexAlola = () => {
+    setData(data = pokemon.filter(data=>data.id > 722 && data.id < 809))
+  };
+  const PokedexGalar = () => {
+    setData(data = pokemon.filter(data=>data.id > 809 && data.id < 897))
+  };
+
+
 
   return (
     <>
       <RegionContainer>
+        <ButtonRegion onClick={PokedexJohto}>Johto</ButtonRegion>
         <ButtonRegion onClick={PokedexKanto}>Kanto</ButtonRegion>
         <ButtonRegion onClick={PokedexHoenn}>Hoenn</ButtonRegion>
         <ButtonRegion onClick={PokedexSinoh}>Sinoh</ButtonRegion>
