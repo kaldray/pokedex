@@ -8,12 +8,13 @@ const ButtonRegion = styled.button`
   background-color: #ffbb44;
   width: 100px;
   border: 1px solid black;
-  border-radius: 10px 10px;
+  border-radius: 30px 30px;
   color: #000000;
   font-size: 14pt;
   font-weight: 400;
   margin-left: 20px;
   font-family: "Noto Sans JP";
+  max-height: 31px;
   :hover {
     cursor: pointer;
   }
@@ -37,7 +38,22 @@ const RegionContainer = styled.div`
 const Research = styled.input`
   place-self: center;
   grid-column: 2;
+  border-radius: 30px 30px;
+  height: 31px;
 `;
+
+const ResearchButton = styled.button`
+grid-row: 2;
+width: 100px;
+grid-column: 2;
+place-self: center;
+border-radius: 30px 30px;
+height: 31px;
+border-color: black;
+:hover {
+    cursor: pointer;
+  }
+`
 
 const PokemonCard = () => {
   let [data, setData] = useState([]);
@@ -93,10 +109,20 @@ const PokemonCard = () => {
     setData(data = pokemon.filter(data=>data.id > 809 && data.id < 897))
   };
 
+  const searchPokemon = () =>{
+   let input = document.querySelector('#input')
+    setData(data = pokemon.filter(data=>data.french.toLowerCase() === input.value ))
+  }
 
+  const resetData = () => {
+   let input = document.querySelector('#input')
+    input.value === '' ? setData(data = pokemon) : searchPokemon()
+  }
 
   return (
     <>
+    <Research id='input' onChange={resetData} placeholder="Rechercher un pokémon"></Research>
+    <ResearchButton onClick={searchPokemon}>Capturer</ResearchButton>
       <RegionContainer>
         <ButtonRegion onClick={PokedexJohto}>Johto</ButtonRegion>
         <ButtonRegion onClick={PokedexKanto}>Kanto</ButtonRegion>
