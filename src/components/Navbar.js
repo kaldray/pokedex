@@ -27,18 +27,27 @@ const Nav = styled.nav`
 const Button = styled.button`
   background-color: transparent;
   color: #000000;
-  font-weight: bold;
+  font-weight: 400;
   height: fit-content;
   border: none;
-  margin: 20px;
+  margin: 0px 20px;
   padding: 5px;
+  font-size: 1em;
   &:hover {
     cursor: pointer;
   }
 `;
+
 export const Header = styled.header`
   width: 100vw;
 `;
+
+const PokeballLogo = styled(Pokeball)`
+:hover{
+  cursor: pointer;
+}
+`
+
 
 const Navbar = () => {
   let history = useHistory();
@@ -55,21 +64,19 @@ const Navbar = () => {
 
   const { user } = useContext(UserContext);
   const goToTop = () => {
-    window.scrollTo(0, 0);
+    window.scrollTo({top: 100,behavior: 'smooth'});
   };
   return (
     <>
       <Header>
         <Nav>
-          <Pokeball onClick={goToTop}></Pokeball>
+          <PokeballLogo onClick={goToTop}></PokeballLogo>
           {user ? (
             <>
-              <Button onClick={LogOut}>Deconnexion</Button>
+              <Button onClick={LogOut}>Déconnexion</Button>
             </>
           ) : (
             <>
-              <Button to="/Signin">Sign in</Button>
-              <Button>Sign up</Button>
             </>
           )}
         </Nav>

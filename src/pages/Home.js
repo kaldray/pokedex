@@ -2,7 +2,7 @@ import Navbar from "../components/Navbar";
 import PokemonCard from "../components/Card/pokemonCard";
 import styled from "styled-components";
 
-const Container = styled.main`
+export const Container = styled.main`
   width: 100%;
   min-height: 100vh;
   margin-top: 100px;

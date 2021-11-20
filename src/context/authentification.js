@@ -8,23 +8,26 @@ const UserContext = createContext();
 //GoogleUser context to pass user to other components
 const UserContextProvider = ({ children }) => {
   const [user, setUser] = useState(null);
+  const [uid, setUid] = useState(null);
   let history = useHistory();
 
   useEffect(() => {
     firebase.auth().onAuthStateChanged((user) => {
       if (user) {
         setUser(user);
+        setUid(user.uid);
         history.push("/Home");
       } else {
         setUser(null);
         history.push("/");
       }
-      return user;
     });
   }, [setUser, history]);
   return (
     <>
-      <UserContext.Provider value={{ user }}>{children}</UserContext.Provider>
+      <UserContext.Provider value={{ user, uid }}>
+        {children}
+      </UserContext.Provider>
     </>
   );
 };
