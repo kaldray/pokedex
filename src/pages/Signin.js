@@ -1,7 +1,4 @@
 import firebase from "firebase";
-import { useContext } from "react";
-import { useHistory } from "react-router";
-import { UserContext } from "../context/authentification";
 import Navbar from "../components/Navbar";
 import styled from "styled-components";
 
@@ -68,29 +65,19 @@ const Section = styled.section`
   }
 `;
 
-
-
 const Signin = () => {
-  const user = useContext(UserContext);
-  let history = useHistory();
-  //Log to acces to Pokedex Data
+  //Log to acces to Home with all pokemon Data
   const AuthWithGoogle = () => {
     let provider = new firebase.auth.GoogleAuthProvider();
     firebase
       .auth()
       .signInWithPopup(provider)
-      .then((result) => {
-        Redirect();
-      })
+      .then((result) => {})
       .catch((error) => {
         if (error) {
-          throw new error();
+          throw new Error("error");
         }
       });
-
-    function Redirect() {
-      if (user) history.push("/Home");
-    }
   };
   return (
     <>
