@@ -50,7 +50,7 @@ const CardData = (props) => {
     const getFavoriDataFromFirebase = () => {
       const pokedexData = firebase
         .database()
-        .ref("pokedex/" + uid + "/pokedexData");
+        .ref("users/" + uid + "/pokedexData");
       pokedexData
         .child(data.id - 1)
         .child("favorite")
@@ -66,7 +66,7 @@ const CardData = (props) => {
   const addPokemonToFavorite = () => {
     const pokedexData = firebase
       .database()
-      .ref("pokedex/" + uid + "/pokedexData");
+      .ref("users/" + uid + "/pokedexData");
     pokedexData
       .child(data.id - 1)
       .child("favorite")
@@ -83,7 +83,7 @@ const CardData = (props) => {
   const removePokemonFromTeam = () => {
     const pokedexData = firebase
       .database()
-      .ref("pokedex/" + uid + "/pokedexData");
+      .ref("users/" + uid + "/pokedexData");
     pokedexData
       .child(data.id - 1)
       .child("favorite")

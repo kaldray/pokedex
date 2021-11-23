@@ -1,6 +1,7 @@
 import firebase from "firebase";
 import Navbar from "../components/Navbar";
 import styled from "styled-components";
+import { ReactComponent as GoogleLogo } from "../assets/google.svg";
 
 const Main = styled.main`
   display: flex;
@@ -12,7 +13,8 @@ const Main = styled.main`
 
 const SignButton = styled.div`
   background: none;
-
+  display: flex;
+  align-items: center;
   #customBtn {
     display: inline-block;
     background: white;
@@ -22,6 +24,7 @@ const SignButton = styled.div`
     border: thin solid #888;
     box-shadow: 1px 1px 1px grey;
     white-space: nowrap;
+    margin-left: 10px;
   }
   #customBtn:hover {
     cursor: pointer;
@@ -33,6 +36,9 @@ const SignButton = styled.div`
   span.icon {
     display: inline-block;
     vertical-align: middle;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
   }
   span.buttonText {
     display: inline-block;
@@ -87,14 +93,13 @@ const Signin = () => {
           <h1>Venez créer votre équipe de rêve !</h1>
         </Section>
         <SignButton onClick={AuthWithGoogle}>
-          <span className="label">Log in with : </span>
+          <span className="label">Log in with :</span>
 
           <div id="customBtn" className="customGPlusSignIn">
             <span className="icon">
-              {" "}
-              <img src="./img/go.png" alt="pokeball"></img>{" "}
+              <GoogleLogo></GoogleLogo>
+              <span className="buttonText">Google</span>
             </span>
-            <span className="buttonText">Google</span>
           </div>
         </SignButton>
       </Main>

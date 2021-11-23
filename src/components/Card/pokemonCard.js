@@ -5,7 +5,7 @@ import "firebase/firebase-database";
 import styled from "styled-components";
 import { keyframes } from "styled-components";
 import { UserContext } from "../../context/authentification";
-import { pokedexData } from "../../services/pokedexData";
+import { pokedexData } from "../../data/pokedexData";
 
 const ButtonRegion = styled.button`
   background-color: #ffbb44;
@@ -17,6 +17,7 @@ const ButtonRegion = styled.button`
   font-weight: 400;
   margin-left: 20px;
   font-family: "Noto Sans JP";
+  text-align: center;
   max-height: 31px;
   :hover {
     cursor: pointer;
@@ -82,6 +83,11 @@ const Loader = styled.div`
   animation: ${spin} 1s infinite;
   grid-column: 2;
   place-self: center;
+  @media screen and (max-width: 768px) {
+    grid-row: 3;
+    place-self: center;
+    grid-column: 1;
+  }
 `;
 
 const PokemonCard = () => {
@@ -107,7 +113,7 @@ const PokemonCard = () => {
   //Get data from firebase
   useEffect(() => {
     const writeDataInFirebase = () => {
-      const pokedexRef = firebase.database().ref("pokedex/" + uid);
+      const pokedexRef = firebase.database().ref("users/" + uid);
       pokedexRef.set({
         pokedexData,
       });
@@ -116,16 +122,15 @@ const PokemonCard = () => {
     const getDataFromFirebase = () => {
       const pokedexData = firebase
         .database()
-        .ref("pokedex/" + uid + "/pokedexData");
-      pokedexData.limitToFirst(150).on("value", (snapshot) => {
+        .ref("users/" + uid + "/pokedexData");
+      pokedexData.limitToFirst(897).on("value", (snapshot) => {
         setData(snapshot.val());
         setPokemon(snapshot.val());
-        console.log(snapshot.key);
       });
       setLoading(false);
     };
     if (loading && uid != null) {
-      const pokedexRef = firebase.database().ref("pokedex/" + uid);
+      const pokedexRef = firebase.database().ref("users/" + uid);
       pokedexRef.on("value", (snapshot) => {
         if (!snapshot.exists()) {
           writeDataInFirebase();
@@ -172,7 +177,7 @@ const PokemonCard = () => {
   const searchPokemon = () => {
     setData(
       (data = pokemon.filter(
-        (data) => data.french.toLowerCase() === searchValue.current.value
+        (pokemon) => pokemon.french.toLowerCase() === searchValue.current.value
       ))
     );
   };

@@ -73,7 +73,7 @@ const Navbar = () => {
           <PokeballLogo onClick={goToTop}></PokeballLogo>
           {user ? (
             <>
-              <Button onClick={LogOut}>Déconnexion</Button>
+              <Button onClick={LogOut}>Log out</Button>
             </>
           ) : (
             <>

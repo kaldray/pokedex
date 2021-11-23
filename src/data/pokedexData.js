@@ -7,7 +7,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/001.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/001.png",
     "type": {
-      "primary":"Plante",
+      "primary":"Grass",
      "secondary": "Poison"
     },
     "favorite":false
@@ -20,7 +20,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/002.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/002.png",
     "type": {
-      "primary":"Plante",
+      "primary":"Grass",
      "secondary": "Poison"
     },
     "favorite":false
@@ -33,7 +33,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/003.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/003.png",
     "type": {
-      "primary":"Plante",
+      "primary":"Grass",
      "secondary": "Poison"
     },
     "favorite":false
@@ -46,7 +46,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/004.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/004.png",
     "type": {
-     "primary": "Feu"
+     "primary": "Fire"
     },
     "favorite":false
   },
@@ -58,7 +58,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/005.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/005.png",
     "type": {
-     "primary": "Feu"
+     "primary": "Fire"
     },
     "favorite":false
   },
@@ -66,12 +66,12 @@ export const pokedexData =[
     "description": "Charizard flies around the sky in search of powerful opponents. It breathes fire of such great heat that it melts anything. However, it never turns its fiery breath on any opponent weaker than itself.",
     "hires": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/006.png",
     "id": 6,
-    "french": "Dracaufeu",
+    "french": "Dracaufire",
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/006.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/006.png",
     "type": {
-      "primary":"Feu",
-     "secondary": "Vol"
+      "primary":"Fire",
+     "secondary": "Flying"
     },
     "favorite":false
   },
@@ -83,7 +83,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/007.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/007.png",
     "type": {
-      "primary":"Eau"
+      "primary":"Water"
     },
     "favorite":false
   },
@@ -95,7 +95,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/008.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/008.png",
     "type": {
-      "primary":"Eau"
+      "primary":"Water"
     },
     "favorite":false
   },
@@ -107,7 +107,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/009.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/009.png",
     "type": {
-      "primary":"Eau"
+      "primary":"Water"
     },
     "favorite":false
   },
@@ -119,7 +119,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/010.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/010.png",
     "type": {
-    "primary":  "Insect"
+    "primary":  "Bug"
     },
     "favorite":false
   },
@@ -131,7 +131,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/011.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/011.png",
     "type": {
-    "primary":  "Insect"
+    "primary":  "Bug"
     },
     "favorite":false
   },
@@ -143,8 +143,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/012.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/012.png",
     "type": {
-     "primary": "Insect",
-     "secondary": "Vol"
+     "primary": "Bug",
+     "secondary": "Flying"
     },
     "favorite":false
   },
@@ -156,20 +156,20 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/013.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/013.png",
     "type": {
-     "primary": "Insect",
+     "primary": "Bug",
      "secondary": "Poison"
     },
     "favorite":false
   },
   {
-    "description": "Kakuna remains virtually immobile as it clings to a tree. However, on the inside, it is extremely busy as it prepares for its coming evolution. This is evident from how hot the shell becomes to the touch.",
+    "description": "Kakuna remains virtually immobile as it clings to a tree. However, on the inside, it is extremely busy as it prepares for its coming eFlyingution. This is evident from how hot the shell becomes to the touch.",
     "hires": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/014.png",
     "id": 14,
     "french": "Coconfort",
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/014.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/014.png",
     "type": {
-     "primary": "Insect",
+     "primary": "Bug",
      "secondary": "Poison"
     },
     "favorite":false
@@ -182,7 +182,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/015.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/015.png",
     "type": {
-     "primary": "Insect",
+     "primary": "Bug",
      "secondary": "Poison"
     },
     "favorite":false
@@ -196,7 +196,7 @@ export const pokedexData =[
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/016.png",
     "type": {
       "primary":"Normal",
-     "secondary": "Vol"
+     "secondary": "Flying"
     },
     "favorite":false
   },
@@ -209,12 +209,12 @@ export const pokedexData =[
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/017.png",
     "type": {
       "primary":"Normal",
-     "secondary": "Vol"
+     "secondary": "Flying"
     },
     "favorite":false
   },
   {
-    "description": "This Pokémon has a dazzling plumage of beautifully glossy feathers. Many Trainers are captivated by the striking beauty of the feathers on its head, compelling them to choose Pidgeot as their Pokémon.",
+    "description": "This Pokémon has a dazzling plumage of bWatertifully glossy feathers. Many Trainers are captivated by the striking bWaterty of the feathers on its head, compelling them to choose Pidgeot as their Pokémon.",
     "hires": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/018.png",
     "id": 18,
     "french": "Roucarnage",
@@ -222,7 +222,7 @@ export const pokedexData =[
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/018.png",
     "type": {
       "primary":"Normal",
-     "secondary": "Vol"
+     "secondary": "Flying"
     },
     "favorite":false
   },
@@ -259,7 +259,7 @@ export const pokedexData =[
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/021.png",
     "type": {
       "primary":"Normal",
-     "secondary": "Vol"
+     "secondary": "Flying"
     },
     "favorite":false
   },
@@ -272,7 +272,7 @@ export const pokedexData =[
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/022.png",
     "type": {
       "primary":"Normal",
-     "secondary": "Vol"
+     "secondary": "Flying"
     },
     "favorite":false
   },
@@ -308,7 +308,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/025.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/025.png",
     "type": {
-      "primary":"Electrique"
+      "primary":"Electric"
     },
     "favorite":false
   },
@@ -320,19 +320,19 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/026.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/026.png",
     "type": {
-      "primary":"Electrique"
+      "primary":"Electric"
     },
     "favorite":false
   },
   {
-    "description": "When its skin gets wrinkled from moisture, it heads for a volcano. It lies flat on a spot with a lot of geothermal heat and dries itself out.",
+    "description": "When its skin gets wrinkled from moisture, it heads for a Flyingcano. It lies flat on a spot with a lot of geothermal heat and dries itself out.",
     "hires": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/027.png",
     "id": 27,
     "french": "Sabelette",
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/027.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/027.png",
     "type": {
-      "primary":"Sol"
+      "primary":"Ground"
     },
     "favorite":false
   },
@@ -340,11 +340,11 @@ export const pokedexData =[
     "description": "Thanks to its thick claws, it’s good at climbing trees. There are plenty of Sandslash that park themselves in trees and go right to sleep.",
     "hires": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/028.png",
     "id": 28,
-    "french": "Sablaireau",
+    "french": "SablairWater",
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/028.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/028.png",
     "type": {
-      "primary":"Sol"
+      "primary":"Ground"
     },
     "favorite":false
   },
@@ -381,7 +381,7 @@ export const pokedexData =[
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/031.png",
     "type": {
       "primary":"Poison",
-     "secondary": "Sol"
+     "secondary": "Ground"
     },
     "favorite":false
   },
@@ -418,7 +418,7 @@ export const pokedexData =[
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/034.png",
     "type": {
       "primary":"Poison",
-     "secondary": "Sol"
+     "secondary": "Ground"
     },
     "favorite":false
   },
@@ -426,11 +426,11 @@ export const pokedexData =[
     "description": "Bathed in moonlight, its wings glow faintly. Without even flapping, Clefairy rises into the air, where it dances around.",
     "hires": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/035.png",
     "id": 35,
-    "french": "Mélofée",
+    "french": "Mélofairy",
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/035.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/035.png",
     "type": {
-      "primary":"Fée"
+      "primary":"Fairy"
     },
     "favorite":false
   },
@@ -442,7 +442,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/036.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/036.png",
     "type": {
-      "primary":"Fée"
+      "primary":"Fairy"
     },
     "favorite":false
   },
@@ -454,7 +454,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/037.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/037.png",
     "type": {
-     "primary": "Feu"
+     "primary": "Fire"
     },
     "favorite":false
   },
@@ -462,11 +462,11 @@ export const pokedexData =[
     "description": "The flickering flames it spews from its mouth leave its opponents hypnotized. Then, this extremely intelligent Pokémon attacks.",
     "hires": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/038.png",
     "id": 38,
-    "french": "Feunard",
+    "french": "Firenard",
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/038.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/038.png",
     "type": {
-     "primary": "Feu"
+     "primary": "Fire"
     },
     "favorite":false
   },
@@ -479,7 +479,7 @@ export const pokedexData =[
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/039.png",
     "type": {
       "primary":"Normal",
-     "secondary": "Fée"
+     "secondary": "Fairy"
     },
     "favorite":false
   },
@@ -492,7 +492,7 @@ export const pokedexData =[
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/040.png",
     "type": {
       "primary":"Normal",
-     "secondary": "Fée"
+     "secondary": "Fairy"
     },
     "favorite":false
   },
@@ -505,7 +505,7 @@ export const pokedexData =[
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/041.png",
     "type": {
       "primary":"Poison",
-     "secondary": "Vol"
+     "secondary": "Flying"
     },
     "favorite":false
   },
@@ -518,32 +518,32 @@ export const pokedexData =[
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/042.png",
     "type": {
       "primary":"Poison",
-     "secondary": "Vol"
+     "secondary": "Flying"
     },
     "favorite":false
   },
   {
-    "description": "Oddish searches for fertile, nutrient-rich soil, then plants itself. During the daytime, while it is planted, this Pokémon’s feet are thought to change shape and become similar to the roots of trees.",
+    "description": "Oddish searches for fertile, nutrient-rich soil, then plants itself. During the daytime, while it is Grassd, this Pokémon’s feet are thought to change shape and become similar to the roots of trees.",
     "hires": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/043.png",
     "id": 43,
     "french": "Mystherbe",
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/043.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/043.png",
     "type": {
-      "primary":"Plante",
+      "primary":"Grass",
      "secondary": "Poison"
     },
     "favorite":false
   },
   {
-    "description": "From its mouth Gloom drips honey that smells absolutely horrible. Apparently, it loves the horrid stench. It sniffs the noxious fumes and then drools even more of its honey.",
+    "description": "From its mouth Gloom drips honey that smells abGroundutely horrible. Apparently, it loves the horrid stench. It sniffs the noxious fumes and then drools even more of its honey.",
     "hires": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/044.png",
     "id": 44,
     "french": "Ortide",
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/044.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/044.png",
     "type": {
-      "primary":"Plante",
+      "primary":"Grass",
      "secondary": "Poison"
     },
     "favorite":false
@@ -556,7 +556,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/045.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/045.png",
     "type": {
-      "primary":"Plante",
+      "primary":"Grass",
      "secondary": "Poison"
     },
     "favorite":false
@@ -569,8 +569,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/046.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/046.png",
     "type": {
-     "primary": "Insect",
-     "secondary": "Plante"
+     "primary": "Bug",
+     "secondary": "Grass"
     },
     "favorite":false
   },
@@ -582,33 +582,33 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/047.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/047.png",
     "type": {
-     "primary": "Insect",
-     "secondary": "Plante"
+     "primary": "Bug",
+     "secondary": "Grass"
     },
     "favorite":false
   },
   {
-    "description": "Venonat is said to have evolved with a coat of thin, stiff hair that covers its entire body for protection. It possesses large eyes that never fail to spot even minuscule prey.",
+    "description": "Venonat is said to have eFlyingved with a coat of thin, stiff hair that covers its entire body for protection. It possesses large eyes that never fail to spot even minuscule prey.",
     "hires": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/048.png",
     "id": 48,
     "french": "Mimitoss",
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/048.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/048.png",
     "type": {
-     "primary": "Insect",
+     "primary": "Bug",
      "secondary": "Poison"
     },
     "favorite":false
   },
   {
-    "description": "Venomoth is nocturnal—it is a Pokémon that only becomes active at night. Its favorite prey are small insects that gather around streetlights, attracted by the light in the darkness.",
+    "description": "Venomoth is nocturnal—it is a Pokémon that only becomes active at night. Its favorite prey are small Bugs that gather around streetlights, attracted by the light in the darkness.",
     "hires": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/049.png",
     "id": 49,
     "french": "Aéromite",
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/049.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/049.png",
     "type": {
-     "primary": "Insect",
+     "primary": "Bug",
      "secondary": "Poison"
     },
     "favorite":false
@@ -621,7 +621,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/050.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/050.png",
     "type": {
-      "primary":"Sol"
+      "primary":"Ground"
     },
     "favorite":false
   },
@@ -633,7 +633,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/051.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/051.png",
     "type": {
-      "primary":"Sol"
+      "primary":"Ground"
     },
     "favorite":false
   },
@@ -662,14 +662,14 @@ export const pokedexData =[
     "favorite":false
   },
   {
-    "description": "It has been found that its brain cells are 10 times more active when Psyduck is experiencing a headache.",
+    "description": "It has been found that its brain cells are 10 times more active when Psychicduck is experiencing a headache.",
     "hires": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/054.png",
     "id": 54,
-    "french": "Psykokwak",
+    "french": "Psychickokwak",
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/054.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/054.png",
     "type": {
-      "primary":"Eau"
+      "primary":"Water"
     },
     "favorite":false
   },
@@ -681,7 +681,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/055.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/055.png",
     "type": {
-      "primary":"Eau"
+      "primary":"Water"
     },
     "favorite":false
   },
@@ -693,7 +693,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/056.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/056.png",
     "type": {
-      "primary":"Combat"
+      "primary":"Fighting"
     },
     "favorite":false
   },
@@ -705,7 +705,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/057.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/057.png",
     "type": {
-      "primary":"Combat"
+      "primary":"Fighting"
     },
     "favorite":false
   },
@@ -717,7 +717,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/058.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/058.png",
     "type": {
-     "primary": "Feu"
+     "primary": "Fire"
     },
     "favorite":false
   },
@@ -729,7 +729,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/059.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/059.png",
     "type": {
-     "primary": "Feu"
+     "primary": "Fire"
     },
     "favorite":false
   },
@@ -741,7 +741,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/060.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/060.png",
     "type": {
-      "primary":"Eau"
+      "primary":"Water"
     },
     "favorite":false
   },
@@ -753,7 +753,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/061.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/061.png",
     "type": {
-      "primary":"Eau"
+      "primary":"Water"
     },
     "favorite":false
   },
@@ -765,8 +765,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/062.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/062.png",
     "type": {
-      "primary":"Eau",
-     "secondary": "Combat"
+      "primary":"Water",
+     "secondary": "Fighting"
     },
     "favorite":false
   },
@@ -778,19 +778,19 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/063.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/063.png",
     "type": {
-      "primary":"Psy"
+      "primary":"Psychic"
     },
     "favorite":false
   },
   {
-    "description": "It possesses strong mental capabilities, but its psychic powers are halved when it’s not holding a silver spoon.",
+    "description": "It possesses strong mental capabilities, but its psychicchic powers are halved when it’s not holding a silver spoon.",
     "hires": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/064.png",
     "id": 64,
     "french": "Kadabra",
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/064.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/064.png",
     "type": {
-      "primary":"Psy"
+      "primary":"Psychic"
     },
     "favorite":false
   },
@@ -802,7 +802,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/065.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/065.png",
     "type": {
-      "primary":"Psy"
+      "primary":"Psychic"
     },
     "favorite":false
   },
@@ -814,7 +814,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/066.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/066.png",
     "type": {
-      "primary":"Combat"
+      "primary":"Fighting"
     },
     "favorite":false
   },
@@ -826,7 +826,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/067.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/067.png",
     "type": {
-      "primary":"Combat"
+      "primary":"Fighting"
     },
     "favorite":false
   },
@@ -838,7 +838,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/068.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/068.png",
     "type": {
-      "primary":"Combat"
+      "primary":"Fighting"
     },
     "favorite":false
   },
@@ -850,7 +850,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/069.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/069.png",
     "type": {
-      "primary":"Plante",
+      "primary":"Grass",
      "secondary": "Poison"
     },
     "favorite":false
@@ -863,7 +863,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/070.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/070.png",
     "type": {
-      "primary":"Plante",
+      "primary":"Grass",
      "secondary": "Poison"
     },
     "favorite":false
@@ -876,7 +876,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/071.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/071.png",
     "type": {
-      "primary":"Plante",
+      "primary":"Grass",
      "secondary": "Poison"
     },
     "favorite":false
@@ -889,7 +889,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/072.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/072.png",
     "type": {
-      "primary":"Eau",
+      "primary":"Water",
      "secondary": "Poison"
     },
     "favorite":false
@@ -902,7 +902,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/073.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/073.png",
     "type": {
-      "primary":"Eau",
+      "primary":"Water",
      "secondary": "Poison"
     },
     "favorite":false
@@ -915,8 +915,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/074.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/074.png",
     "type": {
-      "primary":"Roche",
-     "secondary": "Sol"
+      "primary":"Rock",
+     "secondary": "Ground"
     },
     "favorite":false
   },
@@ -928,8 +928,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/075.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/075.png",
     "type": {
-      "primary":"Roche",
-     "secondary": "Sol"
+      "primary":"Rock",
+     "secondary": "Ground"
     },
     "favorite":false
   },
@@ -941,8 +941,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/076.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/076.png",
     "type": {
-      "primary":"Roche",
-     "secondary": "Sol"
+      "primary":"Rock",
+     "secondary": "Ground"
     },
     "favorite":false
   },
@@ -954,7 +954,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/077.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/077.png",
     "type": {
-     "primary": "Feu"
+     "primary": "Fire"
     },
     "favorite":false
   },
@@ -966,7 +966,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/078.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/078.png",
     "type": {
-     "primary": "Feu"
+     "primary": "Fire"
     },
     "favorite":false
   },
@@ -978,8 +978,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/079.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/079.png",
     "type": {
-      "primary":"Eau",
-     "secondary": "Psy"
+      "primary":"Water",
+     "secondary": "Psychic"
     },
     "favorite":false
   },
@@ -991,8 +991,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/080.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/080.png",
     "type": {
-      "primary":"Eau",
-     "secondary": "Psy"
+      "primary":"Water",
+     "secondary": "Psychic"
     },
     "favorite":false
   },
@@ -1004,8 +1004,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/081.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/081.png",
     "type": {
-      "primary":"Electrique",
-     "secondary": "Acier"
+      "primary":"Electric",
+     "secondary": "Steel"
     },
     "favorite":false
   },
@@ -1017,8 +1017,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/082.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/082.png",
     "type": {
-      "primary":"Electrique",
-     "secondary": "Acier"
+      "primary":"Electric",
+     "secondary": "Steel"
     },
     "favorite":false
   },
@@ -1031,7 +1031,7 @@ export const pokedexData =[
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/083.png",
     "type": {
       "primary":"Normal",
-     "secondary": "Vol"
+     "secondary": "Flying"
     },
     "favorite":false
   },
@@ -1044,7 +1044,7 @@ export const pokedexData =[
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/084.png",
     "type": {
       "primary":"Normal",
-     "secondary": "Vol"
+     "secondary": "Flying"
     },
     "favorite":false
   },
@@ -1057,7 +1057,7 @@ export const pokedexData =[
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/085.png",
     "type": {
       "primary":"Normal",
-     "secondary": "Vol"
+     "secondary": "Flying"
     },
     "favorite":false
   },
@@ -1069,7 +1069,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/086.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/086.png",
     "type": {
-      "primary":"Eau"
+      "primary":"Water"
     },
     "favorite":false
   },
@@ -1081,8 +1081,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/087.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/087.png",
     "type": {
-      "primary":"Eau",
-     "secondary": "Glace"
+      "primary":"Water",
+     "secondary": "Ice"
     },
     "favorite":false
   },
@@ -1118,7 +1118,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/090.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/090.png",
     "type": {
-      "primary":"Eau"
+      "primary":"Water"
     },
     "favorite":false
   },
@@ -1130,8 +1130,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/091.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/091.png",
     "type": {
-      "primary":"Eau",
-     "secondary": "Glace"
+      "primary":"Water",
+     "secondary": "Ice"
     },
     "favorite":false
   },
@@ -1143,7 +1143,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/092.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/092.png",
     "type": {
-      "primary":"Spectre",
+      "primary":"Ghost",
      "secondary": "Poison"
     },
     "favorite":false
@@ -1156,7 +1156,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/093.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/093.png",
     "type": {
-      "primary":"Spectre",
+      "primary":"Ghost",
      "secondary": "Poison"
     },
     "favorite":false
@@ -1169,7 +1169,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/094.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/094.png",
     "type": {
-      "primary":"Spectre",
+      "primary":"Ghost",
      "secondary": "Poison"
     },
     "favorite":false
@@ -1182,8 +1182,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/095.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/095.png",
     "type": {
-      "primary":"Roche",
-     "secondary": "Sol"
+      "primary":"Rock",
+     "secondary": "Ground"
     },
     "favorite":false
   },
@@ -1195,7 +1195,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/096.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/096.png",
     "type": {
-      "primary":"Psy"
+      "primary":"Psychic"
     },
     "favorite":false
   },
@@ -1207,7 +1207,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/097.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/097.png",
     "type": {
-      "primary":"Psy"
+      "primary":"Psychic"
     },
     "favorite":false
   },
@@ -1219,7 +1219,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/098.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/098.png",
     "type": {
-      "primary":"Eau"
+      "primary":"Water"
     },
     "favorite":false
   },
@@ -1231,19 +1231,19 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/099.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/099.png",
     "type": {
-      "primary":"Eau"
+      "primary":"Water"
     },
     "favorite":false
   },
   {
-    "description": "Voltorb is extremely sensitive—it explodes at the slightest of shocks. It is rumored that it was first created when a Poké Ball was exposed to a powerful pulse of energy.",
+    "description": "Flyingtorb is extremely sensitive—it explodes at the slightest of shocks. It is rumored that it was first created when a Poké Ball was exposed to a powerful pulse of energy.",
     "hires": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/100.png",
     "id": 100,
-    "french": "Voltorbe",
+    "french": "Flyingtorbe",
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/100.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/100.png",
     "type": {
-      "primary":"Electrique"
+      "primary":"Electric"
     },
     "favorite":false
   },
@@ -1255,7 +1255,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/101.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/101.png",
     "type": {
-      "primary":"Electrique"
+      "primary":"Electric"
     },
     "favorite":false
   },
@@ -1267,8 +1267,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/102.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/102.png",
     "type": {
-      "primary":"Plante",
-     "secondary": "Psy"
+      "primary":"Grass",
+     "secondary": "Psychic"
     },
     "favorite":false
   },
@@ -1280,8 +1280,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/103.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/103.png",
     "type": {
-      "primary":"Plante",
-     "secondary": "Psy"
+      "primary":"Grass",
+     "secondary": "Psychic"
     },
     "favorite":false
   },
@@ -1293,7 +1293,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/104.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/104.png",
     "type": {
-      "primary":"Sol"
+      "primary":"Ground"
     },
     "favorite":false
   },
@@ -1305,7 +1305,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/105.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/105.png",
     "type": {
-      "primary":"Sol"
+      "primary":"Ground"
     },
     "favorite":false
   },
@@ -1317,7 +1317,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/106.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/106.png",
     "type": {
-      "primary":"Combat"
+      "primary":"Fighting"
     },
     "favorite":false
   },
@@ -1329,7 +1329,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/107.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/107.png",
     "type": {
-      "primary":"Combat"
+      "primary":"Fighting"
     },
     "favorite":false
   },
@@ -1377,8 +1377,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/111.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/111.png",
     "type": {
-      "primary":"Sol",
-     "secondary": "Roche"
+      "primary":"Ground",
+     "secondary": "Rock"
     },
     "favorite":false
   },
@@ -1390,8 +1390,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/112.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/112.png",
     "type": {
-      "primary":"Sol",
-     "secondary": "Roche"
+      "primary":"Ground",
+     "secondary": "Rock"
     },
     "favorite":false
   },
@@ -1415,7 +1415,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/114.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/114.png",
     "type": {
-      "primary":"Plante"
+      "primary":"Grass"
     },
     "favorite":false
   },
@@ -1439,7 +1439,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/116.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/116.png",
     "type": {
-      "primary":"Eau"
+      "primary":"Water"
     },
     "favorite":false
   },
@@ -1451,7 +1451,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/117.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/117.png",
     "type": {
-      "primary":"Eau"
+      "primary":"Water"
     },
     "favorite":false
   },
@@ -1463,7 +1463,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/118.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/118.png",
     "type": {
-      "primary":"Eau"
+      "primary":"Water"
     },
     "favorite":false
   },
@@ -1475,7 +1475,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/119.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/119.png",
     "type": {
-      "primary":"Eau"
+      "primary":"Water"
     },
     "favorite":false
   },
@@ -1487,7 +1487,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/120.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/120.png",
     "type": {
-      "primary":"Eau"
+      "primary":"Water"
     },
     "favorite":false
   },
@@ -1499,8 +1499,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/121.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/121.png",
     "type": {
-      "primary":"Eau",
-     "secondary": "Psy"
+      "primary":"Water",
+     "secondary": "Psychic"
     },
     "favorite":false
   },
@@ -1512,8 +1512,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/122.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/122.png",
     "type": {
-      "primary":"Psy",
-     "secondary": "Fée"
+      "primary":"Psychic",
+     "secondary": "Fairy"
     },
     "favorite":false
   },
@@ -1525,8 +1525,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/123.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/123.png",
     "type": {
-     "primary": "Insect",
-     "secondary": "Vol"
+     "primary": "Bug",
+     "secondary": "Flying"
     },
     "favorite":false
   },
@@ -1538,8 +1538,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/124.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/124.png",
     "type": {
-     "primary": "Glace",
-     "secondary": "Psy"
+     "primary": "Ice",
+     "secondary": "Psychic"
     },
     "favorite":false
   },
@@ -1551,7 +1551,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/125.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/125.png",
     "type": {
-      "primary":"Electrique"
+      "primary":"Electric"
     },
     "favorite":false
   },
@@ -1563,7 +1563,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/126.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/126.png",
     "type": {
-     "primary": "Feu"
+     "primary": "Fire"
     },
     "favorite":false
   },
@@ -1575,7 +1575,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/127.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/127.png",
     "type": {
-    "primary":  "Insect"
+    "primary":  "Bug"
     },
     "favorite":false
   },
@@ -1599,20 +1599,20 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/129.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/129.png",
     "type": {
-      "primary":"Eau"
+      "primary":"Water"
     },
     "favorite":false
   },
   {
-    "description": "The energy from evolution stimulated its brain cells strongly, causing it to become very ferocious.",
+    "description": "The energy from eFlyingution stimulated its brain cells strongly, causing it to become very ferocious.",
     "hires": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/130.png",
     "id": 130,
     "french": "Léviator",
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/130.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/130.png",
     "type": {
-      "primary":"Eau",
-     "secondary": "Vol"
+      "primary":"Water",
+     "secondary": "Flying"
     },
     "favorite":false
   },
@@ -1624,8 +1624,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/131.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/131.png",
     "type": {
-      "primary":"Eau",
-     "secondary": "Glace"
+      "primary":"Water",
+     "secondary": "Ice"
     },
     "favorite":false
   },
@@ -1645,7 +1645,7 @@ export const pokedexData =[
     "description": "Its genes are easily influenced by its surroundings. Even its face starts to look like that of its Trainer.",
     "hires": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/133.png",
     "id": 133,
-    "french": "Évoli",
+    "french": "ÉFlyingi",
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/133.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/133.png",
     "type": {
@@ -1661,19 +1661,19 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/134.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/134.png",
     "type": {
-      "primary":"Eau"
+      "primary":"Water"
     },
     "favorite":false
   },
   {
-    "description": "Its fur stands on end, becoming like needles it fires at enemies. Once they’re weakened, it finishes them off with a 10,000 volt shock.",
+    "description": "Its fur stands on end, becoming like needles it fires at enemies. Once they’re weakened, it finishes them off with a 10,000 Flyingt shock.",
     "hires": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/135.png",
     "id": 135,
-    "french": "Voltali",
+    "french": "Flyingtali",
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/135.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/135.png",
     "type": {
-      "primary":"Electrique"
+      "primary":"Electric"
     },
     "favorite":false
   },
@@ -1685,7 +1685,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/136.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/136.png",
     "type": {
-     "primary": "Feu"
+     "primary": "Fire"
     },
     "favorite":false
   },
@@ -1709,8 +1709,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/138.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/138.png",
     "type": {
-      "primary":"Roche",
-     "secondary": "Eau"
+      "primary":"Rock",
+     "secondary": "Water"
     },
     "favorite":false
   },
@@ -1722,8 +1722,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/139.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/139.png",
     "type": {
-      "primary":"Roche",
-     "secondary": "Eau"
+      "primary":"Rock",
+     "secondary": "Water"
     },
     "favorite":false
   },
@@ -1735,8 +1735,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/140.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/140.png",
     "type": {
-      "primary":"Roche",
-     "secondary": "Eau"
+      "primary":"Rock",
+     "secondary": "Water"
     },
     "favorite":false
   },
@@ -1748,8 +1748,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/141.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/141.png",
     "type": {
-      "primary":"Roche",
-     "secondary": "Eau"
+      "primary":"Rock",
+     "secondary": "Water"
     },
     "favorite":false
   },
@@ -1761,8 +1761,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/142.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/142.png",
     "type": {
-      "primary":"Roche",
-     "secondary": "Vol"
+      "primary":"Rock",
+     "secondary": "Flying"
     },
     "favorite":false
   },
@@ -1786,8 +1786,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/144.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/144.png",
     "type": {
-     "primary": "Glace",
-     "secondary": "Vol"
+     "primary": "Ice",
+     "secondary": "Flying"
     },
     "favorite":false
   },
@@ -1799,21 +1799,21 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/145.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/145.png",
     "type": {
-      "primary":"Electrique",
-     "secondary": "Vol"
+      "primary":"Electric",
+     "secondary": "Flying"
     },
     "favorite":false
   },
   {
-    "description": "Moltres is a legendary bird Pokémon that has the ability to control fire. If this Pokémon is injured, it is said to dip its body in the molten magma of a volcano to burn and heal itself.",
+    "description": "Moltres is a legendary bird Pokémon that has the ability to control fire. If this Pokémon is injured, it is said to dip its body in the molten magma of a Flyingcano to burn and heal itself.",
     "hires": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/146.png",
     "id": 146,
     "french": "Sulfura",
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/146.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/146.png",
     "type": {
-      "primary":"Feu",
-     "secondary": "Vol"
+      "primary":"Fire",
+     "secondary": "Flying"
     },
     "favorite":false
   },
@@ -1850,7 +1850,7 @@ export const pokedexData =[
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/149.png",
     "type": {
       "primary":"Dragon",
-     "secondary": "Vol"
+     "secondary": "Flying"
     },
     "favorite":false
   },
@@ -1862,7 +1862,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/150.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/150.png",
     "type": {
-      "primary":"Psy"
+      "primary":"Psychic"
     },
     "favorite":false
   },
@@ -1874,7 +1874,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/151.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/151.png",
     "type": {
-      "primary":"Psy"
+      "primary":"Psychic"
     },
     "favorite":false
   },
@@ -1886,7 +1886,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/152.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/152.png",
     "type": {
-      "primary":"Plante"
+      "primary":"Grass"
     },
     "favorite":false
   },
@@ -1898,7 +1898,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/153.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/153.png",
     "type": {
-      "primary":"Plante"
+      "primary":"Grass"
     },
     "favorite":false
   },
@@ -1910,7 +1910,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/154.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/154.png",
     "type": {
-      "primary":"Plante"
+      "primary":"Grass"
     },
     "favorite":false
   },
@@ -1922,7 +1922,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/155.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/155.png",
     "type": {
-     "primary": "Feu"
+     "primary": "Fire"
     },
     "favorite":false
   },
@@ -1930,11 +1930,11 @@ export const pokedexData =[
     "description": "Quilava keeps its foes at bay with the intensity of its flames and gusts of superheated air. This Pokémon applies its outstanding nimbleness to dodge attacks even while scorching the foe with flames.",
     "hires": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/156.png",
     "id": 156,
-    "french": "Feurisson",
+    "french": "Firerisson",
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/156.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/156.png",
     "type": {
-     "primary": "Feu"
+     "primary": "Fire"
     },
     "favorite":false
   },
@@ -1946,7 +1946,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/157.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/157.png",
     "type": {
-     "primary": "Feu"
+     "primary": "Fire"
     },
     "favorite":false
   },
@@ -1958,19 +1958,19 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/158.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/158.png",
     "type": {
-      "primary":"Eau"
+      "primary":"Water"
     },
     "favorite":false
   },
   {
-    "description": "Once Croconaw has clamped its jaws on its foe, it will absolutely not let go. Because the tips of its fangs are forked back like barbed fishhooks, they become impossible to remove when they have sunk in.",
+    "description": "Once Croconaw has clamped its jaws on its foe, it will abGroundutely not let go. Because the tips of its fangs are forked back like barbed fishhooks, they become impossible to remove when they have sunk in.",
     "hires": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/159.png",
     "id": 159,
     "french": "Crocrodil",
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/159.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/159.png",
     "type": {
-      "primary":"Eau"
+      "primary":"Water"
     },
     "favorite":false
   },
@@ -1982,7 +1982,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/160.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/160.png",
     "type": {
-      "primary":"Eau"
+      "primary":"Water"
     },
     "favorite":false
   },
@@ -2019,7 +2019,7 @@ export const pokedexData =[
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/163.png",
     "type": {
       "primary":"Normal",
-     "secondary": "Vol"
+     "secondary": "Flying"
     },
     "favorite":false
   },
@@ -2032,7 +2032,7 @@ export const pokedexData =[
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/164.png",
     "type": {
       "primary":"Normal",
-     "secondary": "Vol"
+     "secondary": "Flying"
     },
     "favorite":false
   },
@@ -2044,8 +2044,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/165.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/165.png",
     "type": {
-     "primary": "Insect",
-     "secondary": "Vol"
+     "primary": "Bug",
+     "secondary": "Flying"
     },
     "favorite":false
   },
@@ -2057,8 +2057,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/166.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/166.png",
     "type": {
-     "primary": "Insect",
-     "secondary": "Vol"
+     "primary": "Bug",
+     "secondary": "Flying"
     },
     "favorite":false
   },
@@ -2070,7 +2070,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/167.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/167.png",
     "type": {
-     "primary": "Insect",
+     "primary": "Bug",
      "secondary": "Poison"
     },
     "favorite":false
@@ -2083,7 +2083,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/168.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/168.png",
     "type": {
-     "primary": "Insect",
+     "primary": "Bug",
      "secondary": "Poison"
     },
     "favorite":false
@@ -2097,7 +2097,7 @@ export const pokedexData =[
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/169.png",
     "type": {
       "primary":"Poison",
-     "secondary": "Vol"
+     "secondary": "Flying"
     },
     "favorite":false
   },
@@ -2109,8 +2109,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/170.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/170.png",
     "type": {
-      "primary":"Eau",
-     "secondary": "Electrique"
+      "primary":"Water",
+     "secondary": "Electric"
     },
     "favorite":false
   },
@@ -2122,8 +2122,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/171.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/171.png",
     "type": {
-      "primary":"Eau",
-     "secondary": "Electrique"
+      "primary":"Water",
+     "secondary": "Electric"
     },
     "favorite":false
   },
@@ -2135,7 +2135,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/172.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/172.png",
     "type": {
-      "primary":"Electrique"
+      "primary":"Electric"
     },
     "favorite":false
   },
@@ -2147,7 +2147,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/173.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/173.png",
     "type": {
-      "primary":"Fée"
+      "primary":"Fairy"
     },
     "favorite":false
   },
@@ -2160,7 +2160,7 @@ export const pokedexData =[
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/174.png",
     "type": {
       "primary":"Normal",
-     "secondary": "Fée"
+     "secondary": "Fairy"
     },
     "favorite":false
   },
@@ -2172,7 +2172,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/175.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/175.png",
     "type": {
-      "primary":"Fée"
+      "primary":"Fairy"
     },
     "favorite":false
   },
@@ -2184,8 +2184,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/176.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/176.png",
     "type": {
-      "primary":"Fée",
-     "secondary": "Vol"
+      "primary":"Fairy",
+     "secondary": "Flying"
     },
     "favorite":false
   },
@@ -2197,8 +2197,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/177.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/177.png",
     "type": {
-      "primary":"Psy",
-     "secondary": "Vol"
+      "primary":"Psychic",
+     "secondary": "Flying"
     },
     "favorite":false
   },
@@ -2210,8 +2210,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/178.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/178.png",
     "type": {
-      "primary":"Psy",
-     "secondary": "Vol"
+      "primary":"Psychic",
+     "secondary": "Flying"
     },
     "favorite":false
   },
@@ -2223,7 +2223,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/179.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/179.png",
     "type": {
-      "primary":"Electrique"
+      "primary":"Electric"
     },
     "favorite":false
   },
@@ -2235,7 +2235,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/180.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/180.png",
     "type": {
-      "primary":"Electrique"
+      "primary":"Electric"
     },
     "favorite":false
   },
@@ -2247,19 +2247,19 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/181.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/181.png",
     "type": {
-      "primary":"Electrique"
+      "primary":"Electric"
     },
     "favorite":false
   },
   {
-    "description": "A Bellossom grows flowers more beautifully if it has evolved from a smelly Gloom—the more stinky the better. At night, this Pokémon closes its petals and goes to sleep.",
+    "description": "A Bellossom grows flowers more bWatertifully if it has eFlyingved from a smelly Gloom—the more stinky the better. At night, this Pokémon closes its petals and goes to sleep.",
     "hires": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/182.png",
     "id": 182,
     "french": "Joliflor",
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/182.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/182.png",
     "type": {
-      "primary":"Plante"
+      "primary":"Grass"
     },
     "favorite":false
   },
@@ -2271,8 +2271,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/183.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/183.png",
     "type": {
-      "primary":"Eau",
-     "secondary": "Fée"
+      "primary":"Water",
+     "secondary": "Fairy"
     },
     "favorite":false
   },
@@ -2284,8 +2284,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/184.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/184.png",
     "type": {
-      "primary":"Eau",
-     "secondary": "Fée"
+      "primary":"Water",
+     "secondary": "Fairy"
     },
     "favorite":false
   },
@@ -2297,7 +2297,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/185.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/185.png",
     "type": {
-     "primary": "Roche"
+     "primary": "Rock"
     },
     "favorite":false
   },
@@ -2309,7 +2309,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/186.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/186.png",
     "type": {
-      "primary":"Eau"
+      "primary":"Water"
     },
     "favorite":false
   },
@@ -2317,12 +2317,12 @@ export const pokedexData =[
     "description": "This Pokémon drifts and floats with the wind. If it senses the approach of strong winds, Hoppip links its leaves with other Hoppip to prepare against being blown away.",
     "hires": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/187.png",
     "id": 187,
-    "french": "Granivol",
+    "french": "GraniFlying",
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/187.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/187.png",
     "type": {
-      "primary":"Plante",
-     "secondary": "Vol"
+      "primary":"Grass",
+     "secondary": "Flying"
     },
     "favorite":false
   },
@@ -2330,12 +2330,12 @@ export const pokedexData =[
     "description": "Skiploom’s flower blossoms when the temperature rises above 64 degrees Fahrenheit. How much the flower opens depends on the temperature. For that reason, this Pokémon is sometimes used as a thermometer.",
     "hires": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/188.png",
     "id": 188,
-    "french": "Floravol",
+    "french": "FloraFlying",
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/188.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/188.png",
     "type": {
-      "primary":"Plante",
-     "secondary": "Vol"
+      "primary":"Grass",
+     "secondary": "Flying"
     },
     "favorite":false
   },
@@ -2343,12 +2343,12 @@ export const pokedexData =[
     "description": "Jumpluff rides warm southern winds to cross the sea and fly to foreign lands. The Pokémon descends to the ground when it encounters cold air while it is floating.",
     "hires": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/189.png",
     "id": 189,
-    "french": "Cotovol",
+    "french": "CotoFlying",
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/189.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/189.png",
     "type": {
-      "primary":"Plante",
-     "secondary": "Vol"
+      "primary":"Grass",
+     "secondary": "Flying"
     },
     "favorite":false
   },
@@ -2365,26 +2365,26 @@ export const pokedexData =[
     "favorite":false
   },
   {
-    "description": "Sunkern tries to move as little as it possibly can. It does so because it tries to conserve all the nutrients it has stored in its body for its evolution. It will not eat a thing, subsisting only on morning dew.",
+    "description": "Sunkern tries to move as little as it possibly can. It does so because it tries to conserve all the nutrients it has stored in its body for its eFlyingution. It will not eat a thing, subsisting only on morning dew.",
     "hires": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/191.png",
     "id": 191,
     "french": "Tournegrin",
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/191.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/191.png",
     "type": {
-      "primary":"Plante"
+      "primary":"Grass"
     },
     "favorite":false
   },
   {
-    "description": "Sunflora converts solar energy into nutrition. It moves around actively in the daytime when it is warm. It stops moving as soon as the sun goes down for the night.",
+    "description": "Sunflora converts Groundar energy into nutrition. It moves around actively in the daytime when it is warm. It stops moving as soon as the sun goes down for the night.",
     "hires": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/192.png",
     "id": 192,
     "french": "Héliatronc",
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/192.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/192.png",
     "type": {
-      "primary":"Plante"
+      "primary":"Grass"
     },
     "favorite":false
   },
@@ -2396,8 +2396,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/193.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/193.png",
     "type": {
-     "primary": "Insect",
-     "secondary": "Vol"
+     "primary": "Bug",
+     "secondary": "Flying"
     },
     "favorite":false
   },
@@ -2409,8 +2409,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/194.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/194.png",
     "type": {
-      "primary":"Eau",
-     "secondary": "Sol"
+      "primary":"Water",
+     "secondary": "Ground"
     },
     "favorite":false
   },
@@ -2422,20 +2422,20 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/195.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/195.png",
     "type": {
-      "primary":"Eau",
-     "secondary": "Sol"
+      "primary":"Water",
+     "secondary": "Ground"
     },
     "favorite":false
   },
   {
-    "description": "Psychic power builds up in the orb on its forehead as it bathes in the sunshine. Espeon is not good at battling at night.",
+    "description": "Psychicchic power builds up in the orb on its forehead as it bathes in the sunshine. Espeon is not good at battling at night.",
     "hires": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/196.png",
     "id": 196,
     "french": "Mentali",
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/196.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/196.png",
     "type": {
-      "primary":"Psy"
+      "primary":"Psychic"
     },
     "favorite":false
   },
@@ -2447,7 +2447,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/197.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/197.png",
     "type": {
-     "primary": "Té"
+     "primary": "Dark"
     },
     "favorite":false
   },
@@ -2459,8 +2459,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/198.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/198.png",
     "type": {
-      "primary":"Té",
-     "secondary": "Vol"
+      "primary":"Dark",
+     "secondary": "Flying"
     },
     "favorite":false
   },
@@ -2472,8 +2472,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/199.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/199.png",
     "type": {
-      "primary":"Eau",
-     "secondary": "Psy"
+      "primary":"Water",
+     "secondary": "Psychic"
     },
     "favorite":false
   },
@@ -2481,11 +2481,11 @@ export const pokedexData =[
     "description": "What makes it happy is imitating the voices of weeping people and scaring everyone. It doesn’t deal well with folks who aren’t easily frightened.",
     "hires": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/200.png",
     "id": 200,
-    "french": "Feuforêve",
+    "french": "Fireforêve",
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/200.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/200.png",
     "type": {
-      "primary":"Spectre"
+      "primary":"Ghost"
     },
     "favorite":false
   },
@@ -2497,7 +2497,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/201.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/201.png",
     "type": {
-      "primary":"Psy"
+      "primary":"Psychic"
     },
     "favorite":false
   },
@@ -2509,7 +2509,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/202.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/202.png",
     "type": {
-      "primary":"Psy"
+      "primary":"Psychic"
     },
     "favorite":false
   },
@@ -2522,7 +2522,7 @@ export const pokedexData =[
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/203.png",
     "type": {
       "primary":"Normal",
-     "secondary": "Psy"
+     "secondary": "Psychic"
     },
     "favorite":false
   },
@@ -2534,7 +2534,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/204.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/204.png",
     "type": {
-    "primary":  "Insect"
+    "primary":  "Bug"
     },
     "favorite":false
   },
@@ -2546,8 +2546,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/205.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/205.png",
     "type": {
-     "primary": "Insect",
-     "secondary": "Acier"
+     "primary": "Bug",
+     "secondary": "Steel"
     },
     "favorite":false
   },
@@ -2555,7 +2555,7 @@ export const pokedexData =[
     "description": "When it sees a person, it digs a hole with its tail to make its escape. If you happen to find one, consider yourself lucky.",
     "hires": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/206.png",
     "id": 206,
-    "french": "Insolourdo",
+    "french": "InGroundourdo",
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/206.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/206.png",
     "type": {
@@ -2571,8 +2571,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/207.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/207.png",
     "type": {
-      "primary":"Sol",
-     "secondary": "Vol"
+      "primary":"Ground",
+     "secondary": "Flying"
     },
     "favorite":false
   },
@@ -2584,8 +2584,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/208.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/208.png",
     "type": {
-      "primary":"Acier",
-     "secondary": "Sol"
+      "primary":"Steel",
+     "secondary": "Ground"
     },
     "favorite":false
   },
@@ -2597,7 +2597,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/209.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/209.png",
     "type": {
-      "primary":"Fée"
+      "primary":"Fairy"
     },
     "favorite":false
   },
@@ -2609,7 +2609,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/210.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/210.png",
     "type": {
-      "primary":"Fée"
+      "primary":"Fairy"
     },
     "favorite":false
   },
@@ -2621,7 +2621,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/211.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/211.png",
     "type": {
-      "primary":"Eau",
+      "primary":"Water",
      "secondary": "Poison"
     },
     "favorite":false
@@ -2634,8 +2634,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/212.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/212.png",
     "type": {
-     "primary": "Insect",
-     "secondary": "Acier"
+     "primary": "Bug",
+     "secondary": "Steel"
     },
     "favorite":false
   },
@@ -2647,8 +2647,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/213.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/213.png",
     "type": {
-     "primary": "Insect",
-     "secondary": "Roche"
+     "primary": "Bug",
+     "secondary": "Rock"
     },
     "favorite":false
   },
@@ -2660,8 +2660,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/214.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/214.png",
     "type": {
-     "primary": "Insect",
-     "secondary": "Combat"
+     "primary": "Bug",
+     "secondary": "Fighting"
     },
     "favorite":false
   },
@@ -2673,8 +2673,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/215.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/215.png",
     "type": {
-      "primary":"Té",
-     "secondary": "Glace"
+      "primary":"Dark",
+     "secondary": "Ice"
     },
     "favorite":false
   },
@@ -2710,7 +2710,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/218.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/218.png",
     "type": {
-     "primary": "Feu"
+     "primary": "Fire"
     },
     "favorite":false
   },
@@ -2718,25 +2718,25 @@ export const pokedexData =[
     "description": "Magcargo’s body temperature is approximately 18,000 degrees Fahrenheit. Water is vaporized on contact. If this Pokémon is caught in the rain, the raindrops instantly turn into steam, cloaking the area in a thick fog.",
     "hires": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/219.png",
     "id": 219,
-    "french": "Volcaropod",
+    "french": "Flyingcaropod",
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/219.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/219.png",
     "type": {
-      "primary":"Feu",
-     "secondary": "Roche"
+      "primary":"Fire",
+     "secondary": "Rock"
     },
     "favorite":false
   },
   {
-    "description": "Swinub roots for food by rubbing its snout against the ground. Its favorite food is a mushroom that grows under the cover of dead Plante. This Pokémon occasionally roots out hot springs.",
+    "description": "Swinub roots for food by rubbing its snout against the ground. Its favorite food is a mushroom that grows under the cover of dead Grass. This Pokémon occasionally roots out hot springs.",
     "hires": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/220.png",
     "id": 220,
     "french": "Marcacrin",
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/220.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/220.png",
     "type": {
-     "primary": "Glace",
-     "secondary": "Sol"
+     "primary": "Ice",
+     "secondary": "Ground"
     },
     "favorite":false
   },
@@ -2748,21 +2748,21 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/221.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/221.png",
     "type": {
-     "primary": "Glace",
-     "secondary": "Sol"
+     "primary": "Ice",
+     "secondary": "Ground"
     },
     "favorite":false
   },
   {
-    "description": "In Alola, where their natural enemies Mareanie are plentiful, many Corsola have stubby branches on their heads.",
+    "description": "In Alola, where their natural enemies Mareanie are plentiful, many CorGrounda have stubby branches on their heads.",
     "hires": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/222.png",
     "id": 222,
     "french": "Corayon",
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/222.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/222.png",
     "type": {
-      "primary":"Eau",
-     "secondary": "Roche"
+      "primary":"Water",
+     "secondary": "Rock"
     },
     "favorite":false
   },
@@ -2774,7 +2774,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/223.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/223.png",
     "type": {
-      "primary":"Eau"
+      "primary":"Water"
     },
     "favorite":false
   },
@@ -2786,7 +2786,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/224.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/224.png",
     "type": {
-      "primary":"Eau"
+      "primary":"Water"
     },
     "favorite":false
   },
@@ -2798,8 +2798,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/225.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/225.png",
     "type": {
-     "primary": "Glace",
-     "secondary": "Vol"
+     "primary": "Ice",
+     "secondary": "Flying"
     },
     "favorite":false
   },
@@ -2811,8 +2811,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/226.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/226.png",
     "type": {
-      "primary":"Eau",
-     "secondary": "Vol"
+      "primary":"Water",
+     "secondary": "Flying"
     },
     "favorite":false
   },
@@ -2824,8 +2824,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/227.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/227.png",
     "type": {
-      "primary":"Acier",
-     "secondary": "Vol"
+      "primary":"Steel",
+     "secondary": "Flying"
     },
     "favorite":false
   },
@@ -2837,8 +2837,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/228.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/228.png",
     "type": {
-      "primary":"Té",
-     "secondary": "Feu"
+      "primary":"Dark",
+     "secondary": "Fire"
     },
     "favorite":false
   },
@@ -2850,8 +2850,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/229.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/229.png",
     "type": {
-      "primary":"Té",
-     "secondary": "Feu"
+      "primary":"Dark",
+     "secondary": "Fire"
     },
     "favorite":false
   },
@@ -2863,7 +2863,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/230.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/230.png",
     "type": {
-      "primary":"Eau",
+      "primary":"Water",
      "secondary": "Dragon"
     },
     "favorite":false
@@ -2876,7 +2876,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/231.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/231.png",
     "type": {
-      "primary":"Sol"
+      "primary":"Ground"
     },
     "favorite":false
   },
@@ -2888,7 +2888,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/232.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/232.png",
     "type": {
-      "primary":"Sol"
+      "primary":"Ground"
     },
     "favorite":false
   },
@@ -2936,7 +2936,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/236.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/236.png",
     "type": {
-      "primary":"Combat"
+      "primary":"Fighting"
     },
     "favorite":false
   },
@@ -2948,7 +2948,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/237.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/237.png",
     "type": {
-      "primary":"Combat"
+      "primary":"Fighting"
     },
     "favorite":false
   },
@@ -2960,8 +2960,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/238.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/238.png",
     "type": {
-     "primary": "Glace",
-     "secondary": "Psy"
+     "primary": "Ice",
+     "secondary": "Psychic"
     },
     "favorite":false
   },
@@ -2973,7 +2973,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/239.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/239.png",
     "type": {
-      "primary":"Electrique"
+      "primary":"Electric"
     },
     "favorite":false
   },
@@ -2985,7 +2985,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/240.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/240.png",
     "type": {
-     "primary": "Feu"
+     "primary": "Fire"
     },
     "favorite":false
   },
@@ -3002,7 +3002,7 @@ export const pokedexData =[
     "favorite":false
   },
   {
-    "description": "This Pokémon is overflowing with love. Only Chansey that share a strong bond with their Trainer can evolve, so people say.",
+    "description": "This Pokémon is overflowing with love. Only Chansey that share a strong bond with their Trainer can eFlyingve, so people say.",
     "hires": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/242.png",
     "id": 242,
     "french": "Leuphorie",
@@ -3021,19 +3021,19 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/243.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/243.png",
     "type": {
-      "primary":"Electrique"
+      "primary":"Electric"
     },
     "favorite":false
   },
   {
-    "description": "Entei embodies the passion of magma. This Pokémon is thought to have been born in the eruption of a volcano. It sends up massive bursts of fire that utterly consume all that they touch.",
+    "description": "Entei embodies the passion of magma. This Pokémon is thought to have been born in the eruption of a Flyingcano. It sends up massive bursts of fire that utterly consume all that they touch.",
     "hires": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/244.png",
     "id": 244,
     "french": "Entei",
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/244.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/244.png",
     "type": {
-     "primary": "Feu"
+     "primary": "Fire"
     },
     "favorite":false
   },
@@ -3045,7 +3045,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/245.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/245.png",
     "type": {
-      "primary":"Eau"
+      "primary":"Water"
     },
     "favorite":false
   },
@@ -3057,8 +3057,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/246.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/246.png",
     "type": {
-      "primary":"Roche",
-     "secondary": "Sol"
+      "primary":"Rock",
+     "secondary": "Ground"
     },
     "favorite":false
   },
@@ -3070,8 +3070,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/247.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/247.png",
     "type": {
-      "primary":"Roche",
-     "secondary": "Sol"
+      "primary":"Rock",
+     "secondary": "Ground"
     },
     "favorite":false
   },
@@ -3083,8 +3083,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/248.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/248.png",
     "type": {
-      "primary":"Roche",
-     "secondary": "Té"
+      "primary":"Rock",
+     "secondary": "Dark"
     },
     "favorite":false
   },
@@ -3096,8 +3096,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/249.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/249.png",
     "type": {
-      "primary":"Psy",
-     "secondary": "Vol"
+      "primary":"Psychic",
+     "secondary": "Flying"
     },
     "favorite":false
   },
@@ -3109,8 +3109,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/250.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/250.png",
     "type": {
-      "primary":"Feu",
-     "secondary": "Vol"
+      "primary":"Fire",
+     "secondary": "Flying"
     },
     "favorite":false
   },
@@ -3122,8 +3122,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/251.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/251.png",
     "type": {
-      "primary":"Psy",
-     "secondary": "Plante"
+      "primary":"Psychic",
+     "secondary": "Grass"
     },
     "favorite":false
   },
@@ -3135,7 +3135,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/252.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/252.png",
     "type": {
-      "primary":"Plante"
+      "primary":"Grass"
     },
     "favorite":false
   },
@@ -3147,7 +3147,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/253.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/253.png",
     "type": {
-      "primary":"Plante"
+      "primary":"Grass"
     },
     "favorite":false
   },
@@ -3159,7 +3159,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/254.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/254.png",
     "type": {
-      "primary":"Plante"
+      "primary":"Grass"
     },
     "favorite":false
   },
@@ -3167,11 +3167,11 @@ export const pokedexData =[
     "description": "Torchic has a place inside its body where it keeps its flame. Give it a hug—it will be glowing with warmth. This Pokémon is covered all over by a fluffy coat of down.",
     "hires": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/255.png",
     "id": 255,
-    "french": "Poussifeu",
+    "french": "Poussifire",
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/255.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/255.png",
     "type": {
-     "primary": "Feu"
+     "primary": "Fire"
     },
     "favorite":false
   },
@@ -3179,12 +3179,12 @@ export const pokedexData =[
     "description": "Combusken battles with the intensely hot flames it spews from its beak and with outstandingly destructive kicks. This Pokémon’s cry is very loud and distracting.",
     "hires": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/256.png",
     "id": 256,
-    "french": "Galifeu",
+    "french": "Galifire",
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/256.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/256.png",
     "type": {
-      "primary":"Feu",
-     "secondary": "Combat"
+      "primary":"Fire",
+     "secondary": "Fighting"
     },
     "favorite":false
   },
@@ -3196,8 +3196,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/257.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/257.png",
     "type": {
-      "primary":"Feu",
-     "secondary": "Combat"
+      "primary":"Fire",
+     "secondary": "Fighting"
     },
     "favorite":false
   },
@@ -3209,7 +3209,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/258.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/258.png",
     "type": {
-      "primary":"Eau"
+      "primary":"Water"
     },
     "favorite":false
   },
@@ -3221,8 +3221,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/259.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/259.png",
     "type": {
-      "primary":"Eau",
-     "secondary": "Sol"
+      "primary":"Water",
+     "secondary": "Ground"
     },
     "favorite":false
   },
@@ -3234,8 +3234,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/260.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/260.png",
     "type": {
-      "primary":"Eau",
-     "secondary": "Sol"
+      "primary":"Water",
+     "secondary": "Ground"
     },
     "favorite":false
   },
@@ -3247,7 +3247,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/261.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/261.png",
     "type": {
-     "primary": "Té"
+     "primary": "Dark"
     },
     "favorite":false
   },
@@ -3259,7 +3259,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/262.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/262.png",
     "type": {
-     "primary": "Té"
+     "primary": "Dark"
     },
     "favorite":false
   },
@@ -3295,44 +3295,44 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/265.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/265.png",
     "type": {
-    "primary":  "Insect"
+    "primary":  "Bug"
     },
     "favorite":false
   },
   {
-    "description": "Silcoon was thought to endure hunger and not consume anything before its evolution. However, it is now thought that this Pokémon slakes its thirst by drinking rainwater that collects on its silk.",
+    "description": "Silcoon was thought to endure hunger and not consume anything before its eFlyingution. However, it is now thought that this Pokémon slakes its thirst by drinking rainwater that collects on its silk.",
     "hires": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/266.png",
     "id": 266,
     "french": "Armulys",
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/266.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/266.png",
     "type": {
-    "primary":  "Insect"
+    "primary":  "Bug"
     },
     "favorite":false
   },
   {
-    "description": "Beautifly has a long mouth like a coiled needle, which is very convenient for collecting pollen from flowers. This Pokémon rides the spring winds as it flits around gathering pollen.",
+    "description": "BWatertifly has a long mouth like a coiled needle, which is very convenient for collecting pollen from flowers. This Pokémon rides the spring winds as it flits around gathering pollen.",
     "hires": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/267.png",
     "id": 267,
     "french": "Charmillon",
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/267.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/267.png",
     "type": {
-     "primary": "Insect",
-     "secondary": "Vol"
+     "primary": "Bug",
+     "secondary": "Flying"
     },
     "favorite":false
   },
   {
-    "description": "If it is attacked, Cascoon remains motionless however badly it may be hurt. It does so because if it were to move, its body would be weak upon evolution. This Pokémon will also not forget the pain it endured.",
+    "description": "If it is attacked, Cascoon remains motionless however badly it may be hurt. It does so because if it were to move, its body would be weak upon eFlyingution. This Pokémon will also not forget the pain it endured.",
     "hires": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/268.png",
     "id": 268,
     "french": "Blindalys",
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/268.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/268.png",
     "type": {
-    "primary":  "Insect"
+    "primary":  "Bug"
     },
     "favorite":false
   },
@@ -3344,7 +3344,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/269.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/269.png",
     "type": {
-     "primary": "Insect",
+     "primary": "Bug",
      "secondary": "Poison"
     },
     "favorite":false
@@ -3357,8 +3357,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/270.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/270.png",
     "type": {
-      "primary":"Eau",
-     "secondary": "Plante"
+      "primary":"Water",
+     "secondary": "Grass"
     },
     "favorite":false
   },
@@ -3370,8 +3370,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/271.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/271.png",
     "type": {
-      "primary":"Eau",
-     "secondary": "Plante"
+      "primary":"Water",
+     "secondary": "Grass"
     },
     "favorite":false
   },
@@ -3383,8 +3383,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/272.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/272.png",
     "type": {
-      "primary":"Eau",
-     "secondary": "Plante"
+      "primary":"Water",
+     "secondary": "Grass"
     },
     "favorite":false
   },
@@ -3396,7 +3396,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/273.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/273.png",
     "type": {
-      "primary":"Plante"
+      "primary":"Grass"
     },
     "favorite":false
   },
@@ -3404,12 +3404,12 @@ export const pokedexData =[
     "description": "This Pokémon pulls out the leaf on its head and makes a flute with it. The sound of Nuzleaf’s flute strikes fear and uncertainty in the hearts of people lost in a forest.",
     "hires": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/274.png",
     "id": 274,
-    "french": "Pifeuil",
+    "french": "Pifireil",
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/274.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/274.png",
     "type": {
-      "primary":"Plante",
-     "secondary": "Té"
+      "primary":"Grass",
+     "secondary": "Dark"
     },
     "favorite":false
   },
@@ -3421,8 +3421,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/275.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/275.png",
     "type": {
-      "primary":"Plante",
-     "secondary": "Té"
+      "primary":"Grass",
+     "secondary": "Dark"
     },
     "favorite":false
   },
@@ -3435,7 +3435,7 @@ export const pokedexData =[
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/276.png",
     "type": {
       "primary":"Normal",
-     "secondary": "Vol"
+     "secondary": "Flying"
     },
     "favorite":false
   },
@@ -3448,7 +3448,7 @@ export const pokedexData =[
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/277.png",
     "type": {
       "primary":"Normal",
-     "secondary": "Vol"
+     "secondary": "Flying"
     },
     "favorite":false
   },
@@ -3460,8 +3460,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/278.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/278.png",
     "type": {
-      "primary":"Eau",
-     "secondary": "Vol"
+      "primary":"Water",
+     "secondary": "Flying"
     },
     "favorite":false
   },
@@ -3473,8 +3473,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/279.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/279.png",
     "type": {
-      "primary":"Eau",
-     "secondary": "Vol"
+      "primary":"Water",
+     "secondary": "Flying"
     },
     "favorite":false
   },
@@ -3486,34 +3486,34 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/280.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/280.png",
     "type": {
-      "primary":"Psy",
-     "secondary": "Fée"
+      "primary":"Psychic",
+     "secondary": "Fairy"
     },
     "favorite":false
   },
   {
-    "description": "Kirlia uses the horns on its head to amplify its psychokinetic power. When the Pokémon uses its power, the air around it becomes distorted, creating mirages of nonexistent scenery.",
+    "description": "Kirlia uses the horns on its head to amplify its psychicchokinetic power. When the Pokémon uses its power, the air around it becomes distorted, creating mirages of nonexistent scenery.",
     "hires": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/281.png",
     "id": 281,
     "french": "Kirlia",
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/281.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/281.png",
     "type": {
-      "primary":"Psy",
-     "secondary": "Fée"
+      "primary":"Psychic",
+     "secondary": "Fairy"
     },
     "favorite":false
   },
   {
-    "description": "Gardevoir has the psychokinetic power to distort the dimensions and create a small black hole. This Pokémon will try to protect its Trainer even at the risk of its own life.",
+    "description": "Gardevoir has the psychicchokinetic power to distort the dimensions and create a small black hole. This Pokémon will try to protect its Trainer even at the risk of its own life.",
     "hires": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/282.png",
     "id": 282,
     "french": "Gardevoir",
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/282.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/282.png",
     "type": {
-      "primary":"Psy",
-     "secondary": "Fée"
+      "primary":"Psychic",
+     "secondary": "Fairy"
     },
     "favorite":false
   },
@@ -3525,8 +3525,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/283.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/283.png",
     "type": {
-     "primary": "Insect",
-     "secondary": "Eau"
+     "primary": "Bug",
+     "secondary": "Water"
     },
     "favorite":false
   },
@@ -3538,8 +3538,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/284.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/284.png",
     "type": {
-     "primary": "Insect",
-     "secondary": "Vol"
+     "primary": "Bug",
+     "secondary": "Flying"
     },
     "favorite":false
   },
@@ -3551,7 +3551,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/285.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/285.png",
     "type": {
-      "primary":"Plante"
+      "primary":"Grass"
     },
     "favorite":false
   },
@@ -3563,8 +3563,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/286.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/286.png",
     "type": {
-      "primary":"Plante",
-     "secondary": "Combat"
+      "primary":"Grass",
+     "secondary": "Fighting"
     },
     "favorite":false
   },
@@ -3593,7 +3593,7 @@ export const pokedexData =[
     "favorite":false
   },
   {
-    "description": "Wherever Slaking live, rings of over a yard in diameter appear in Plantey fields. They are made by the Pokémon as it eats all the Plante within reach while lying prone on the ground.",
+    "description": "Wherever Slaking live, rings of over a yard in diameter appear in Grassy fields. They are made by the Pokémon as it eats all the Grass within reach while lying prone on the ground.",
     "hires": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/289.png",
     "id": 289,
     "french": "Monaflèmit",
@@ -3612,8 +3612,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/290.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/290.png",
     "type": {
-     "primary": "Insect",
-     "secondary": "Sol"
+     "primary": "Bug",
+     "secondary": "Ground"
     },
     "favorite":false
   },
@@ -3625,21 +3625,21 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/291.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/291.png",
     "type": {
-     "primary": "Insect",
-     "secondary": "Vol"
+     "primary": "Bug",
+     "secondary": "Flying"
     },
     "favorite":false
   },
   {
-    "description": "Shedinja is a peculiar Pokémon. It seems to appear unsought in a Poké Ball after a Nincada evolves. This bizarre Pokémon is entirely immobile—it doesn’t even breathe.",
+    "description": "Shedinja is a peculiar Pokémon. It seems to appear unsought in a Poké Ball after a Nincada eFlyingves. This bizarre Pokémon is entirely immobile—it doesn’t even breathe.",
     "hires": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/292.png",
     "id": 292,
     "french": "Munja",
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/292.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/292.png",
     "type": {
-     "primary": "Insect",
-     "secondary": "Spectre"
+     "primary": "Bug",
+     "secondary": "Ghost"
     },
     "favorite":false
   },
@@ -3687,7 +3687,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/296.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/296.png",
     "type": {
-      "primary":"Combat"
+      "primary":"Fighting"
     },
     "favorite":false
   },
@@ -3699,7 +3699,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/297.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/297.png",
     "type": {
-      "primary":"Combat"
+      "primary":"Fighting"
     },
     "favorite":false
   },
@@ -3712,7 +3712,7 @@ export const pokedexData =[
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/298.png",
     "type": {
       "primary":"Normal",
-     "secondary": "Fée"
+     "secondary": "Fairy"
     },
     "favorite":false
   },
@@ -3724,7 +3724,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/299.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/299.png",
     "type": {
-     "primary": "Roche"
+     "primary": "Rock"
     },
     "favorite":false
   },
@@ -3760,8 +3760,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/302.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/302.png",
     "type": {
-      "primary":"Té",
-     "secondary": "Spectre"
+      "primary":"Dark",
+     "secondary": "Ghost"
     },
     "favorite":false
   },
@@ -3773,8 +3773,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/303.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/303.png",
     "type": {
-      "primary":"Acier",
-     "secondary": "Fée"
+      "primary":"Steel",
+     "secondary": "Fairy"
     },
     "favorite":false
   },
@@ -3786,8 +3786,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/304.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/304.png",
     "type": {
-      "primary":"Acier",
-     "secondary": "Roche"
+      "primary":"Steel",
+     "secondary": "Rock"
     },
     "favorite":false
   },
@@ -3799,21 +3799,21 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/305.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/305.png",
     "type": {
-      "primary":"Acier",
-     "secondary": "Roche"
+      "primary":"Steel",
+     "secondary": "Rock"
     },
     "favorite":false
   },
   {
-    "description": "Aggron is protective of its environment. If its mountain is ravaged by a landslide or a fire, this Pokémon will haul topsoil to the area, plant trees, and beautifully restore its own territory.",
+    "description": "Aggron is protective of its environment. If its mountain is ravaged by a landslide or a fire, this Pokémon will haul topsoil to the area, plant trees, and bWatertifully restore its own territory.",
     "hires": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/306.png",
     "id": 306,
     "french": "Galeking",
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/306.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/306.png",
     "type": {
-      "primary":"Acier",
-     "secondary": "Roche"
+      "primary":"Steel",
+     "secondary": "Rock"
     },
     "favorite":false
   },
@@ -3825,21 +3825,21 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/307.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/307.png",
     "type": {
-      "primary":"Combat",
-     "secondary": "Psy"
+      "primary":"Fighting",
+     "secondary": "Psychic"
     },
     "favorite":false
   },
   {
-    "description": "Through the power of meditation, Medicham developed its sixth sense. It gained the ability to use psychokinetic powers. This Pokémon is known to meditate for a whole month without eating.",
+    "description": "Through the power of meditation, Medicham developed its sixth sense. It gained the ability to use psychicchokinetic powers. This Pokémon is known to meditate for a whole month without eating.",
     "hires": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/308.png",
     "id": 308,
     "french": "Charmina",
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/308.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/308.png",
     "type": {
-      "primary":"Combat",
-     "secondary": "Psy"
+      "primary":"Fighting",
+     "secondary": "Psychic"
     },
     "favorite":false
   },
@@ -3847,11 +3847,11 @@ export const pokedexData =[
     "description": "Static electricity builds up all over its body as strands of its long fur rub together. This Pokémon boasts incredible speed.",
     "hires": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/309.png",
     "id": 309,
-    "french": "Dynavolt",
+    "french": "DynaFlyingt",
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/309.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/309.png",
     "type": {
-      "primary":"Electrique"
+      "primary":"Electric"
     },
     "favorite":false
   },
@@ -3863,7 +3863,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/310.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/310.png",
     "type": {
-      "primary":"Electrique"
+      "primary":"Electric"
     },
     "favorite":false
   },
@@ -3875,7 +3875,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/311.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/311.png",
     "type": {
-      "primary":"Electrique"
+      "primary":"Electric"
     },
     "favorite":false
   },
@@ -3887,31 +3887,31 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/312.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/312.png",
     "type": {
-      "primary":"Electrique"
+      "primary":"Electric"
     },
     "favorite":false
   },
   {
-    "description": "Volbeat’s tail glows like a lightbulb. With other Volbeat, it uses its tail to draw geometric shapes in the night sky. This Pokémon loves the sweet aroma given off by Illumise.",
+    "description": "Flyingbeat’s tail glows like a lightbulb. With other Flyingbeat, it uses its tail to draw geometric shapes in the night sky. This Pokémon loves the sweet aroma given off by Illumise.",
     "hires": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/313.png",
     "id": 313,
     "french": "Muciole",
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/313.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/313.png",
     "type": {
-    "primary":  "Insect"
+    "primary":  "Bug"
     },
     "favorite":false
   },
   {
-    "description": "Illumise leads a flight of illuminated Volbeat to draw signs in the night sky. This Pokémon is said to earn greater respect from its peers by composing more complex designs in the sky.",
+    "description": "Illumise leads a flight of illuminated Flyingbeat to draw signs in the night sky. This Pokémon is said to earn greater respect from its peers by composing more complex designs in the sky.",
     "hires": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/314.png",
     "id": 314,
-    "french": "Lumivole",
+    "french": "LumiFlyinge",
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/314.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/314.png",
     "type": {
-    "primary":  "Insect"
+    "primary":  "Bug"
     },
     "favorite":false
   },
@@ -3923,13 +3923,13 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/315.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/315.png",
     "type": {
-      "primary":"Plante",
+      "primary":"Grass",
      "secondary": "Poison"
     },
     "favorite":false
   },
   {
-    "description": "Most of Gulpin’s body is made up of its stomach—its heart and brain are very small in comparison. This Pokémon’s stomach contains special enzymes that dissolve anything.",
+    "description": "Most of Gulpin’s body is made up of its stomach—its heart and brain are very small in comparison. This Pokémon’s stomach contains special enzymes that disGroundve anything.",
     "hires": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/316.png",
     "id": 316,
     "french": "Gloupti",
@@ -3960,8 +3960,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/318.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/318.png",
     "type": {
-      "primary":"Eau",
-     "secondary": "Té"
+      "primary":"Water",
+     "secondary": "Dark"
     },
     "favorite":false
   },
@@ -3973,8 +3973,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/319.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/319.png",
     "type": {
-      "primary":"Eau",
-     "secondary": "Té"
+      "primary":"Water",
+     "secondary": "Dark"
     },
     "favorite":false
   },
@@ -3986,7 +3986,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/320.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/320.png",
     "type": {
-      "primary":"Eau"
+      "primary":"Water"
     },
     "favorite":false
   },
@@ -3998,7 +3998,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/321.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/321.png",
     "type": {
-      "primary":"Eau"
+      "primary":"Water"
     },
     "favorite":false
   },
@@ -4010,8 +4010,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/322.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/322.png",
     "type": {
-      "primary":"Feu",
-     "secondary": "Sol"
+      "primary":"Fire",
+     "secondary": "Ground"
     },
     "favorite":false
   },
@@ -4023,8 +4023,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/323.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/323.png",
     "type": {
-      "primary":"Feu",
-     "secondary": "Sol"
+      "primary":"Fire",
+     "secondary": "Ground"
     },
     "favorite":false
   },
@@ -4036,19 +4036,19 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/324.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/324.png",
     "type": {
-     "primary": "Feu"
+     "primary": "Fire"
     },
     "favorite":false
   },
   {
-    "description": "Spoink keeps a pearl on top of its head. The pearl functions to amplify this Pokémon’s psychokinetic powers. It is therefore on a constant search for a bigger pearl.",
+    "description": "Spoink keeps a pearl on top of its head. The pearl functions to amplify this Pokémon’s psychicchokinetic powers. It is therefore on a constant search for a bigger pearl.",
     "hires": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/325.png",
     "id": 325,
     "french": "Spoink",
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/325.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/325.png",
     "type": {
-      "primary":"Psy"
+      "primary":"Psychic"
     },
     "favorite":false
   },
@@ -4060,7 +4060,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/326.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/326.png",
     "type": {
-      "primary":"Psy"
+      "primary":"Psychic"
     },
     "favorite":false
   },
@@ -4084,7 +4084,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/328.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/328.png",
     "type": {
-      "primary":"Sol"
+      "primary":"Ground"
     },
     "favorite":false
   },
@@ -4096,7 +4096,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/329.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/329.png",
     "type": {
-      "primary":"Sol",
+      "primary":"Ground",
      "secondary": "Dragon"
     },
     "favorite":false
@@ -4109,7 +4109,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/330.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/330.png",
     "type": {
-      "primary":"Sol",
+      "primary":"Ground",
      "secondary": "Dragon"
     },
     "favorite":false
@@ -4122,7 +4122,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/331.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/331.png",
     "type": {
-      "primary":"Plante"
+      "primary":"Grass"
     },
     "favorite":false
   },
@@ -4134,8 +4134,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/332.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/332.png",
     "type": {
-      "primary":"Plante",
-     "secondary": "Té"
+      "primary":"Grass",
+     "secondary": "Dark"
     },
     "favorite":false
   },
@@ -4148,7 +4148,7 @@ export const pokedexData =[
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/333.png",
     "type": {
       "primary":"Normal",
-     "secondary": "Vol"
+     "secondary": "Flying"
     },
     "favorite":false
   },
@@ -4161,7 +4161,7 @@ export const pokedexData =[
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/334.png",
     "type": {
       "primary":"Dragon",
-     "secondary": "Vol"
+     "secondary": "Flying"
     },
     "favorite":false
   },
@@ -4178,7 +4178,7 @@ export const pokedexData =[
     "favorite":false
   },
   {
-    "description": "Seviper’s swordlike tail serves two purposes—it slashes foes and douses them with secreted poison. This Pokémon will not give up its long-running blood feud with Zangoose.",
+    "description": "Seviper’s swordlike tail serves two purposes—it slashes foes and douses them with secreted poison. This Pokémon will not give up its long-running blood fired with Zangoose.",
     "hires": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/336.png",
     "id": 336,
     "french": "Séviper",
@@ -4197,21 +4197,21 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/337.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/337.png",
     "type": {
-      "primary":"Roche",
-     "secondary": "Psy"
+      "primary":"Rock",
+     "secondary": "Psychic"
     },
     "favorite":false
   },
   {
-    "description": "Sunlight is the source of Solrock’s power. It is said to possess the ability to read the emotions of others. This Pokémon gives off intense heat while rotating its body.",
+    "description": "Sunlight is the source of Groundrock’s power. It is said to possess the ability to read the emotions of others. This Pokémon gives off intense heat while rotating its body.",
     "hires": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/338.png",
     "id": 338,
-    "french": "Solaroc",
+    "french": "Groundaroc",
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/338.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/338.png",
     "type": {
-      "primary":"Roche",
-     "secondary": "Psy"
+      "primary":"Rock",
+     "secondary": "Psychic"
     },
     "favorite":false
   },
@@ -4223,8 +4223,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/339.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/339.png",
     "type": {
-      "primary":"Eau",
-     "secondary": "Sol"
+      "primary":"Water",
+     "secondary": "Ground"
     },
     "favorite":false
   },
@@ -4236,8 +4236,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/340.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/340.png",
     "type": {
-      "primary":"Eau",
-     "secondary": "Sol"
+      "primary":"Water",
+     "secondary": "Ground"
     },
     "favorite":false
   },
@@ -4249,7 +4249,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/341.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/341.png",
     "type": {
-      "primary":"Eau"
+      "primary":"Water"
     },
     "favorite":false
   },
@@ -4261,8 +4261,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/342.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/342.png",
     "type": {
-      "primary":"Eau",
-     "secondary": "Té"
+      "primary":"Water",
+     "secondary": "Dark"
     },
     "favorite":false
   },
@@ -4274,8 +4274,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/343.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/343.png",
     "type": {
-      "primary":"Sol",
-     "secondary": "Psy"
+      "primary":"Ground",
+     "secondary": "Psychic"
     },
     "favorite":false
   },
@@ -4287,8 +4287,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/344.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/344.png",
     "type": {
-      "primary":"Sol",
-     "secondary": "Psy"
+      "primary":"Ground",
+     "secondary": "Psychic"
     },
     "favorite":false
   },
@@ -4300,21 +4300,21 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/345.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/345.png",
     "type": {
-      "primary":"Roche",
-     "secondary": "Plante"
+      "primary":"Rock",
+     "secondary": "Grass"
     },
     "favorite":false
   },
   {
-    "description": "This carnivorous Pokémon lived in primordial seas. It catches prey in its eight tentacles and dissolves them with digestive fluid as it eats.",
+    "description": "This carnivorous Pokémon lived in primordial seas. It catches prey in its eight tentacles and disGroundves them with digestive fluid as it eats.",
     "hires": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/346.png",
     "id": 346,
     "french": "Vacilys",
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/346.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/346.png",
     "type": {
-      "primary":"Roche",
-     "secondary": "Plante"
+      "primary":"Rock",
+     "secondary": "Grass"
     },
     "favorite":false
   },
@@ -4326,8 +4326,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/347.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/347.png",
     "type": {
-      "primary":"Roche",
-     "secondary": "Insect"
+      "primary":"Rock",
+     "secondary": "Bug"
     },
     "favorite":false
   },
@@ -4339,8 +4339,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/348.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/348.png",
     "type": {
-      "primary":"Roche",
-     "secondary": "Insect"
+      "primary":"Rock",
+     "secondary": "Bug"
     },
     "favorite":false
   },
@@ -4352,7 +4352,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/349.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/349.png",
     "type": {
-      "primary":"Eau"
+      "primary":"Water"
     },
     "favorite":false
   },
@@ -4364,7 +4364,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/350.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/350.png",
     "type": {
-      "primary":"Eau"
+      "primary":"Water"
     },
     "favorite":false
   },
@@ -4400,7 +4400,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/353.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/353.png",
     "type": {
-      "primary":"Spectre"
+      "primary":"Ghost"
     },
     "favorite":false
   },
@@ -4412,7 +4412,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/354.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/354.png",
     "type": {
-      "primary":"Spectre"
+      "primary":"Ghost"
     },
     "favorite":false
   },
@@ -4424,7 +4424,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/355.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/355.png",
     "type": {
-      "primary":"Spectre"
+      "primary":"Ghost"
     },
     "favorite":false
   },
@@ -4436,7 +4436,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/356.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/356.png",
     "type": {
-      "primary":"Spectre"
+      "primary":"Ghost"
     },
     "favorite":false
   },
@@ -4448,8 +4448,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/357.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/357.png",
     "type": {
-      "primary":"Plante",
-     "secondary": "Vol"
+      "primary":"Grass",
+     "secondary": "Flying"
     },
     "favorite":false
   },
@@ -4461,7 +4461,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/358.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/358.png",
     "type": {
-      "primary":"Psy"
+      "primary":"Psychic"
     },
     "favorite":false
   },
@@ -4469,11 +4469,11 @@ export const pokedexData =[
     "description": "The elderly call it the disaster Pokémon and detest it, but interest in its power to predict disasters is on the rise.",
     "hires": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/359.png",
     "id": 359,
-    "french": "Absol",
+    "french": "AbGround",
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/359.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/359.png",
     "type": {
-     "primary": "Té"
+     "primary": "Dark"
     },
     "favorite":false
   },
@@ -4485,7 +4485,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/360.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/360.png",
     "type": {
-      "primary":"Psy"
+      "primary":"Psychic"
     },
     "favorite":false
   },
@@ -4497,7 +4497,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/361.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/361.png",
     "type": {
-    "primary":  "Glace"
+    "primary":  "Ice"
     },
     "favorite":false
   },
@@ -4509,7 +4509,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/362.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/362.png",
     "type": {
-    "primary":  "Glace"
+    "primary":  "Ice"
     },
     "favorite":false
   },
@@ -4521,8 +4521,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/363.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/363.png",
     "type": {
-     "primary": "Glace",
-     "secondary": "Eau"
+     "primary": "Ice",
+     "secondary": "Water"
     },
     "favorite":false
   },
@@ -4534,8 +4534,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/364.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/364.png",
     "type": {
-     "primary": "Glace",
-     "secondary": "Eau"
+     "primary": "Ice",
+     "secondary": "Water"
     },
     "favorite":false
   },
@@ -4547,8 +4547,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/365.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/365.png",
     "type": {
-     "primary": "Glace",
-     "secondary": "Eau"
+     "primary": "Ice",
+     "secondary": "Water"
     },
     "favorite":false
   },
@@ -4560,7 +4560,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/366.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/366.png",
     "type": {
-      "primary":"Eau"
+      "primary":"Water"
     },
     "favorite":false
   },
@@ -4572,7 +4572,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/367.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/367.png",
     "type": {
-      "primary":"Eau"
+      "primary":"Water"
     },
     "favorite":false
   },
@@ -4584,7 +4584,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/368.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/368.png",
     "type": {
-      "primary":"Eau"
+      "primary":"Water"
     },
     "favorite":false
   },
@@ -4596,25 +4596,25 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/369.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/369.png",
     "type": {
-      "primary":"Eau",
-     "secondary": "Roche"
+      "primary":"Water",
+     "secondary": "Rock"
     },
     "favorite":false
   },
   {
-    "description": "Luvdisc makes its home in coral reefs in warm seas. It especially likes sleeping in the space between Corsola’s branches.",
+    "description": "Luvdisc makes its home in coral reefs in warm seas. It especially likes sleeping in the space between CorGrounda’s branches.",
     "hires": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/370.png",
     "id": 370,
     "french": "Lovdisc",
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/370.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/370.png",
     "type": {
-      "primary":"Eau"
+      "primary":"Water"
     },
     "favorite":false
   },
   {
-    "description": "Some theories suggest that its behavior of forcefully bashing its head into things stimulates cells that affect its evolution.",
+    "description": "Some theories suggest that its behavior of forcefully bashing its head into things stimulates cells that affect its eFlyingution.",
     "hires": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/371.png",
     "id": 371,
     "french": "Draby",
@@ -4646,7 +4646,7 @@ export const pokedexData =[
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/373.png",
     "type": {
       "primary":"Dragon",
-     "secondary": "Vol"
+     "secondary": "Flying"
     },
     "favorite":false
   },
@@ -4658,8 +4658,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/374.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/374.png",
     "type": {
-      "primary":"Acier",
-     "secondary": "Psy"
+      "primary":"Steel",
+     "secondary": "Psychic"
     },
     "favorite":false
   },
@@ -4671,8 +4671,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/375.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/375.png",
     "type": {
-      "primary":"Acier",
-     "secondary": "Psy"
+      "primary":"Steel",
+     "secondary": "Psychic"
     },
     "favorite":false
   },
@@ -4684,8 +4684,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/376.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/376.png",
     "type": {
-      "primary":"Acier",
-     "secondary": "Psy"
+      "primary":"Steel",
+     "secondary": "Psychic"
     },
     "favorite":false
   },
@@ -4697,19 +4697,19 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/377.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/377.png",
     "type": {
-     "primary": "Roche"
+     "primary": "Rock"
     },
     "favorite":false
   },
   {
-    "description": "Regice cloaks itself with frigid air of -328 degrees Fahrenheit. Things will freeze solid just by going near this Pokémon. Its icy body is so cold, it will not melt even if it is immersed in magma.",
+    "description": "Regice cloaks itself with frigid air of -328 degrees Fahrenheit. Things will freeze Groundid just by going near this Pokémon. Its icy body is so cold, it will not melt even if it is immersed in magma.",
     "hires": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/378.png",
     "id": 378,
     "french": "Regice",
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/378.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/378.png",
     "type": {
-    "primary":  "Glace"
+    "primary":  "Ice"
     },
     "favorite":false
   },
@@ -4721,7 +4721,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/379.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/379.png",
     "type": {
-      "primary":"Acier"
+      "primary":"Steel"
     },
     "favorite":false
   },
@@ -4734,7 +4734,7 @@ export const pokedexData =[
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/380.png",
     "type": {
       "primary":"Dragon",
-     "secondary": "Psy"
+     "secondary": "Psychic"
     },
     "favorite":false
   },
@@ -4747,7 +4747,7 @@ export const pokedexData =[
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/381.png",
     "type": {
       "primary":"Dragon",
-     "secondary": "Psy"
+     "secondary": "Psychic"
     },
     "favorite":false
   },
@@ -4759,7 +4759,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/382.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/382.png",
     "type": {
-      "primary":"Eau"
+      "primary":"Water"
     },
     "favorite":false
   },
@@ -4771,12 +4771,12 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/383.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/383.png",
     "type": {
-      "primary":"Sol"
+      "primary":"Ground"
     },
     "favorite":false
   },
   {
-    "description": "It flies forever through the ozone layer, consuming meteoroids for sustenance. The many meteoroids in its body provide the energy it needs to Mega Evolve.",
+    "description": "It flies forever through the ozone layer, consuming meteoroids for sustenance. The many meteoroids in its body provide the energy it needs to Mega EFlyingve.",
     "hires": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/384.png",
     "id": 384,
     "french": "Rayquaza",
@@ -4784,7 +4784,7 @@ export const pokedexData =[
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/384.png",
     "type": {
       "primary":"Dragon",
-     "secondary": "Vol"
+     "secondary": "Flying"
     },
     "favorite":false
   },
@@ -4796,20 +4796,20 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/385.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/385.png",
     "type": {
-      "primary":"Acier",
-     "secondary": "Psy"
+      "primary":"Steel",
+     "secondary": "Psychic"
     },
     "favorite":false
   },
   {
-    "description": "Deoxys emerged from a virus that came from space. It is highly intelligent and wields psychokinetic powers. This Pokémon shoots lasers from the crystalline organ on its chest.",
+    "description": "Deoxys emerged from a virus that came from space. It is highly intelligent and wields psychicchokinetic powers. This Pokémon shoots lasers from the crystalline organ on its chest.",
     "hires": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/386.png",
     "id": 386,
     "french": "Deoxys",
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/386.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/386.png",
     "type": {
-      "primary":"Psy"
+      "primary":"Psychic"
     },
     "favorite":false
   },
@@ -4821,7 +4821,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/387.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/387.png",
     "type": {
-      "primary":"Plante"
+      "primary":"Grass"
     },
     "favorite":false
   },
@@ -4833,7 +4833,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/388.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/388.png",
     "type": {
-      "primary":"Plante"
+      "primary":"Grass"
     },
     "favorite":false
   },
@@ -4845,8 +4845,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/389.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/389.png",
     "type": {
-      "primary":"Plante",
-     "secondary": "Sol"
+      "primary":"Grass",
+     "secondary": "Ground"
     },
     "favorite":false
   },
@@ -4858,7 +4858,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/390.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/390.png",
     "type": {
-     "primary": "Feu"
+     "primary": "Fire"
     },
     "favorite":false
   },
@@ -4866,12 +4866,12 @@ export const pokedexData =[
     "description": "It uses ceilings and walls to launch aerial attacks. Its fiery tail is but one weapon.",
     "hires": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/391.png",
     "id": 391,
-    "french": "Chimpenfeu",
+    "french": "Chimpenfire",
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/391.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/391.png",
     "type": {
-      "primary":"Feu",
-     "secondary": "Combat"
+      "primary":"Fire",
+     "secondary": "Fighting"
     },
     "favorite":false
   },
@@ -4883,8 +4883,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/392.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/392.png",
     "type": {
-      "primary":"Feu",
-     "secondary": "Combat"
+      "primary":"Fire",
+     "secondary": "Fighting"
     },
     "favorite":false
   },
@@ -4896,19 +4896,19 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/393.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/393.png",
     "type": {
-      "primary":"Eau"
+      "primary":"Water"
     },
     "favorite":false
   },
   {
-    "description": "It lives a solitary life. Its wings deliver wicked blows that can snap even the thickest of trees.",
+    "description": "It lives a Grounditary life. Its wings deliver wicked blows that can snap even the thickest of trees.",
     "hires": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/394.png",
     "id": 394,
     "french": "Prinplouf",
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/394.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/394.png",
     "type": {
-      "primary":"Eau"
+      "primary":"Water"
     },
     "favorite":false
   },
@@ -4920,8 +4920,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/395.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/395.png",
     "type": {
-      "primary":"Eau",
-     "secondary": "Acier"
+      "primary":"Water",
+     "secondary": "Steel"
     },
     "favorite":false
   },
@@ -4934,7 +4934,7 @@ export const pokedexData =[
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/396.png",
     "type": {
       "primary":"Normal",
-     "secondary": "Vol"
+     "secondary": "Flying"
     },
     "favorite":false
   },
@@ -4942,17 +4942,17 @@ export const pokedexData =[
     "description": "It lives in forests and fields. Squabbles over territory occur when flocks collide.",
     "hires": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/397.png",
     "id": 397,
-    "french": "Étourvol",
+    "french": "ÉtourFlying",
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/397.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/397.png",
     "type": {
       "primary":"Normal",
-     "secondary": "Vol"
+     "secondary": "Flying"
     },
     "favorite":false
   },
   {
-    "description": "When Staravia evolve into Staraptor, they leave the flock to live alone. They have sturdy wings.",
+    "description": "When Staravia eFlyingve into Staraptor, they leave the flock to live alone. They have sturdy wings.",
     "hires": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/398.png",
     "id": 398,
     "french": "Étouraptor",
@@ -4960,7 +4960,7 @@ export const pokedexData =[
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/398.png",
     "type": {
       "primary":"Normal",
-     "secondary": "Vol"
+     "secondary": "Flying"
     },
     "favorite":false
   },
@@ -4985,7 +4985,7 @@ export const pokedexData =[
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/400.png",
     "type": {
       "primary":"Normal",
-     "secondary": "Eau"
+     "secondary": "Water"
     },
     "favorite":false
   },
@@ -4997,7 +4997,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/401.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/401.png",
     "type": {
-    "primary":  "Insect"
+    "primary":  "Bug"
     },
     "favorite":false
   },
@@ -5009,7 +5009,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/402.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/402.png",
     "type": {
-    "primary":  "Insect"
+    "primary":  "Bug"
     },
     "favorite":false
   },
@@ -5021,7 +5021,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/403.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/403.png",
     "type": {
-      "primary":"Electrique"
+      "primary":"Electric"
     },
     "favorite":false
   },
@@ -5033,7 +5033,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/404.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/404.png",
     "type": {
-      "primary":"Electrique"
+      "primary":"Electric"
     },
     "favorite":false
   },
@@ -5045,7 +5045,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/405.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/405.png",
     "type": {
-      "primary":"Electrique"
+      "primary":"Electric"
     },
     "favorite":false
   },
@@ -5057,7 +5057,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/406.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/406.png",
     "type": {
-      "primary":"Plante",
+      "primary":"Grass",
      "secondary": "Poison"
     },
     "favorite":false
@@ -5070,7 +5070,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/407.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/407.png",
     "type": {
-      "primary":"Plante",
+      "primary":"Grass",
      "secondary": "Poison"
     },
     "favorite":false
@@ -5083,7 +5083,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/408.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/408.png",
     "type": {
-     "primary": "Roche"
+     "primary": "Rock"
     },
     "favorite":false
   },
@@ -5095,7 +5095,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/409.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/409.png",
     "type": {
-     "primary": "Roche"
+     "primary": "Rock"
     },
     "favorite":false
   },
@@ -5107,8 +5107,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/410.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/410.png",
     "type": {
-      "primary":"Roche",
-     "secondary": "Acier"
+      "primary":"Rock",
+     "secondary": "Steel"
     },
     "favorite":false
   },
@@ -5120,8 +5120,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/411.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/411.png",
     "type": {
-      "primary":"Roche",
-     "secondary": "Acier"
+      "primary":"Rock",
+     "secondary": "Steel"
     },
     "favorite":false
   },
@@ -5133,20 +5133,20 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/412.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/412.png",
     "type": {
-    "primary":  "Insect"
+    "primary":  "Bug"
     },
     "favorite":false
   },
   {
-    "description": "When Burmy evolved, its cloak became a part of this Pokémon’s body. The cloak is never shed.",
+    "description": "When Burmy eFlyingved, its cloak became a part of this Pokémon’s body. The cloak is never shed.",
     "hires": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/413.png",
     "id": 413,
     "french": "Cheniselle",
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/413.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/413.png",
     "type": {
-     "primary": "Insect",
-     "secondary": "Plante"
+     "primary": "Bug",
+     "secondary": "Grass"
     },
     "favorite":false
   },
@@ -5158,8 +5158,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/414.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/414.png",
     "type": {
-     "primary": "Insect",
-     "secondary": "Vol"
+     "primary": "Bug",
+     "secondary": "Flying"
     },
     "favorite":false
   },
@@ -5171,8 +5171,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/415.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/415.png",
     "type": {
-     "primary": "Insect",
-     "secondary": "Vol"
+     "primary": "Bug",
+     "secondary": "Flying"
     },
     "favorite":false
   },
@@ -5184,8 +5184,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/416.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/416.png",
     "type": {
-     "primary": "Insect",
-     "secondary": "Vol"
+     "primary": "Bug",
+     "secondary": "Flying"
     },
     "favorite":false
   },
@@ -5197,7 +5197,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/417.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/417.png",
     "type": {
-      "primary":"Electrique"
+      "primary":"Electric"
     },
     "favorite":false
   },
@@ -5209,7 +5209,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/418.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/418.png",
     "type": {
-      "primary":"Eau"
+      "primary":"Water"
     },
     "favorite":false
   },
@@ -5221,19 +5221,19 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/419.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/419.png",
     "type": {
-      "primary":"Eau"
+      "primary":"Water"
     },
     "favorite":false
   },
   {
-    "description": "It evolves by sucking the energy out of the small ball where it had been storing nutrients.",
+    "description": "It eFlyingves by sucking the energy out of the small ball where it had been storing nutrients.",
     "hires": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/420.png",
     "id": 420,
     "french": "Ceribou",
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/420.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/420.png",
     "type": {
-      "primary":"Plante"
+      "primary":"Grass"
     },
     "favorite":false
   },
@@ -5245,7 +5245,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/421.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/421.png",
     "type": {
-      "primary":"Plante"
+      "primary":"Grass"
     },
     "favorite":false
   },
@@ -5257,7 +5257,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/422.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/422.png",
     "type": {
-      "primary":"Eau"
+      "primary":"Water"
     },
     "favorite":false
   },
@@ -5269,8 +5269,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/423.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/423.png",
     "type": {
-      "primary":"Eau",
-     "secondary": "Sol"
+      "primary":"Water",
+     "secondary": "Ground"
     },
     "favorite":false
   },
@@ -5294,8 +5294,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/425.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/425.png",
     "type": {
-      "primary":"Spectre",
-     "secondary": "Vol"
+      "primary":"Ghost",
+     "secondary": "Flying"
     },
     "favorite":false
   },
@@ -5307,8 +5307,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/426.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/426.png",
     "type": {
-      "primary":"Spectre",
-     "secondary": "Vol"
+      "primary":"Ghost",
+     "secondary": "Flying"
     },
     "favorite":false
   },
@@ -5344,7 +5344,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/429.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/429.png",
     "type": {
-      "primary":"Spectre"
+      "primary":"Ghost"
     },
     "favorite":false
   },
@@ -5356,13 +5356,13 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/430.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/430.png",
     "type": {
-      "primary":"Té",
-     "secondary": "Vol"
+      "primary":"Dark",
+     "secondary": "Flying"
     },
     "favorite":false
   },
   {
-    "description": "When it’s happy, Glameow demonstrates beautiful movements of its tail, like a dancing ribbon.",
+    "description": "When it’s happy, Glameow demonstrates bWatertiful movements of its tail, like a dancing ribbon.",
     "hires": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/431.png",
     "id": 431,
     "french": "Chaglam",
@@ -5393,7 +5393,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/433.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/433.png",
     "type": {
-      "primary":"Psy"
+      "primary":"Psychic"
     },
     "favorite":false
   },
@@ -5406,7 +5406,7 @@ export const pokedexData =[
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/434.png",
     "type": {
       "primary":"Poison",
-     "secondary": "Té"
+     "secondary": "Dark"
     },
     "favorite":false
   },
@@ -5419,7 +5419,7 @@ export const pokedexData =[
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/435.png",
     "type": {
       "primary":"Poison",
-     "secondary": "Té"
+     "secondary": "Dark"
     },
     "favorite":false
   },
@@ -5431,8 +5431,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/436.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/436.png",
     "type": {
-      "primary":"Acier",
-     "secondary": "Psy"
+      "primary":"Steel",
+     "secondary": "Psychic"
     },
     "favorite":false
   },
@@ -5444,8 +5444,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/437.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/437.png",
     "type": {
-      "primary":"Acier",
-     "secondary": "Psy"
+      "primary":"Steel",
+     "secondary": "Psychic"
     },
     "favorite":false
   },
@@ -5457,7 +5457,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/438.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/438.png",
     "type": {
-     "primary": "Roche"
+     "primary": "Rock"
     },
     "favorite":false
   },
@@ -5469,8 +5469,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/439.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/439.png",
     "type": {
-      "primary":"Psy",
-     "secondary": "Fée"
+      "primary":"Psychic",
+     "secondary": "Fairy"
     },
     "favorite":false
   },
@@ -5495,7 +5495,7 @@ export const pokedexData =[
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/441.png",
     "type": {
       "primary":"Normal",
-     "secondary": "Vol"
+     "secondary": "Flying"
     },
     "favorite":false
   },
@@ -5507,8 +5507,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/442.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/442.png",
     "type": {
-      "primary":"Spectre",
-     "secondary": "Té"
+      "primary":"Ghost",
+     "secondary": "Dark"
     },
     "favorite":false
   },
@@ -5521,7 +5521,7 @@ export const pokedexData =[
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/443.png",
     "type": {
       "primary":"Dragon",
-     "secondary": "Sol"
+     "secondary": "Ground"
     },
     "favorite":false
   },
@@ -5534,7 +5534,7 @@ export const pokedexData =[
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/444.png",
     "type": {
       "primary":"Dragon",
-     "secondary": "Sol"
+     "secondary": "Ground"
     },
     "favorite":false
   },
@@ -5547,7 +5547,7 @@ export const pokedexData =[
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/445.png",
     "type": {
       "primary":"Dragon",
-     "secondary": "Sol"
+     "secondary": "Ground"
     },
     "favorite":false
   },
@@ -5571,7 +5571,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/447.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/447.png",
     "type": {
-      "primary":"Combat"
+      "primary":"Fighting"
     },
     "favorite":false
   },
@@ -5583,8 +5583,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/448.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/448.png",
     "type": {
-      "primary":"Combat",
-     "secondary": "Acier"
+      "primary":"Fighting",
+     "secondary": "Steel"
     },
     "favorite":false
   },
@@ -5596,7 +5596,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/449.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/449.png",
     "type": {
-      "primary":"Sol"
+      "primary":"Ground"
     },
     "favorite":false
   },
@@ -5608,7 +5608,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/450.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/450.png",
     "type": {
-      "primary":"Sol"
+      "primary":"Ground"
     },
     "favorite":false
   },
@@ -5621,7 +5621,7 @@ export const pokedexData =[
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/451.png",
     "type": {
       "primary":"Poison",
-     "secondary": "Insect"
+     "secondary": "Bug"
     },
     "favorite":false
   },
@@ -5634,7 +5634,7 @@ export const pokedexData =[
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/452.png",
     "type": {
       "primary":"Poison",
-     "secondary": "Té"
+     "secondary": "Dark"
     },
     "favorite":false
   },
@@ -5647,7 +5647,7 @@ export const pokedexData =[
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/453.png",
     "type": {
       "primary":"Poison",
-     "secondary": "Combat"
+     "secondary": "Fighting"
     },
     "favorite":false
   },
@@ -5660,7 +5660,7 @@ export const pokedexData =[
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/454.png",
     "type": {
       "primary":"Poison",
-     "secondary": "Combat"
+     "secondary": "Fighting"
     },
     "favorite":false
   },
@@ -5672,7 +5672,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/455.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/455.png",
     "type": {
-      "primary":"Plante"
+      "primary":"Grass"
     },
     "favorite":false
   },
@@ -5684,7 +5684,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/456.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/456.png",
     "type": {
-      "primary":"Eau"
+      "primary":"Water"
     },
     "favorite":false
   },
@@ -5696,7 +5696,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/457.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/457.png",
     "type": {
-      "primary":"Eau"
+      "primary":"Water"
     },
     "favorite":false
   },
@@ -5708,8 +5708,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/458.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/458.png",
     "type": {
-      "primary":"Eau",
-     "secondary": "Vol"
+      "primary":"Water",
+     "secondary": "Flying"
     },
     "favorite":false
   },
@@ -5721,8 +5721,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/459.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/459.png",
     "type": {
-      "primary":"Plante",
-     "secondary": "Glace"
+      "primary":"Grass",
+     "secondary": "Ice"
     },
     "favorite":false
   },
@@ -5734,8 +5734,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/460.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/460.png",
     "type": {
-      "primary":"Plante",
-     "secondary": "Glace"
+      "primary":"Grass",
+     "secondary": "Ice"
     },
     "favorite":false
   },
@@ -5747,8 +5747,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/461.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/461.png",
     "type": {
-      "primary":"Té",
-     "secondary": "Glace"
+      "primary":"Dark",
+     "secondary": "Ice"
     },
     "favorite":false
   },
@@ -5760,8 +5760,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/462.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/462.png",
     "type": {
-      "primary":"Electrique",
-     "secondary": "Acier"
+      "primary":"Electric",
+     "secondary": "Steel"
     },
     "favorite":false
   },
@@ -5785,8 +5785,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/464.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/464.png",
     "type": {
-      "primary":"Sol",
-     "secondary": "Roche"
+      "primary":"Ground",
+     "secondary": "Rock"
     },
     "favorite":false
   },
@@ -5798,7 +5798,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/465.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/465.png",
     "type": {
-      "primary":"Plante"
+      "primary":"Grass"
     },
     "favorite":false
   },
@@ -5810,7 +5810,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/466.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/466.png",
     "type": {
-      "primary":"Electrique"
+      "primary":"Electric"
     },
     "favorite":false
   },
@@ -5822,7 +5822,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/467.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/467.png",
     "type": {
-     "primary": "Feu"
+     "primary": "Fire"
     },
     "favorite":false
   },
@@ -5834,8 +5834,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/468.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/468.png",
     "type": {
-      "primary":"Fée",
-     "secondary": "Vol"
+      "primary":"Fairy",
+     "secondary": "Flying"
     },
     "favorite":false
   },
@@ -5847,8 +5847,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/469.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/469.png",
     "type": {
-     "primary": "Insect",
-     "secondary": "Vol"
+     "primary": "Bug",
+     "secondary": "Flying"
     },
     "favorite":false
   },
@@ -5860,7 +5860,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/470.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/470.png",
     "type": {
-      "primary":"Plante"
+      "primary":"Grass"
     },
     "favorite":false
   },
@@ -5872,7 +5872,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/471.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/471.png",
     "type": {
-    "primary":  "Glace"
+    "primary":  "Ice"
     },
     "favorite":false
   },
@@ -5880,12 +5880,12 @@ export const pokedexData =[
     "description": "Its flight is soundless. It uses its lengthy tail to carry off its prey... Then its elongated fangs do the rest.",
     "hires": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/472.png",
     "id": 472,
-    "french": "Scorvol",
+    "french": "ScorFlying",
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/472.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/472.png",
     "type": {
-      "primary":"Sol",
-     "secondary": "Vol"
+      "primary":"Ground",
+     "secondary": "Flying"
     },
     "favorite":false
   },
@@ -5897,8 +5897,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/473.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/473.png",
     "type": {
-     "primary": "Glace",
-     "secondary": "Sol"
+     "primary": "Ice",
+     "secondary": "Ground"
     },
     "favorite":false
   },
@@ -5922,8 +5922,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/475.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/475.png",
     "type": {
-      "primary":"Psy",
-     "secondary": "Combat"
+      "primary":"Psychic",
+     "secondary": "Fighting"
     },
     "favorite":false
   },
@@ -5935,8 +5935,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/476.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/476.png",
     "type": {
-      "primary":"Roche",
-     "secondary": "Acier"
+      "primary":"Rock",
+     "secondary": "Steel"
     },
     "favorite":false
   },
@@ -5948,7 +5948,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/477.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/477.png",
     "type": {
-      "primary":"Spectre"
+      "primary":"Ghost"
     },
     "favorite":false
   },
@@ -5960,8 +5960,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/478.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/478.png",
     "type": {
-     "primary": "Glace",
-     "secondary": "Spectre"
+     "primary": "Ice",
+     "secondary": "Ghost"
     },
     "favorite":false
   },
@@ -5973,8 +5973,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/479.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/479.png",
     "type": {
-      "primary":"Electrique",
-     "secondary": "Spectre"
+      "primary":"Electric",
+     "secondary": "Ghost"
     },
     "favorite":false
   },
@@ -5986,7 +5986,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/480.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/480.png",
     "type": {
-      "primary":"Psy"
+      "primary":"Psychic"
     },
     "favorite":false
   },
@@ -5998,7 +5998,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/481.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/481.png",
     "type": {
-      "primary":"Psy"
+      "primary":"Psychic"
     },
     "favorite":false
   },
@@ -6010,7 +6010,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/482.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/482.png",
     "type": {
-      "primary":"Psy"
+      "primary":"Psychic"
     },
     "favorite":false
   },
@@ -6022,7 +6022,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/483.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/483.png",
     "type": {
-      "primary":"Acier",
+      "primary":"Steel",
      "secondary": "Dragon"
     },
     "favorite":false
@@ -6035,21 +6035,21 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/484.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/484.png",
     "type": {
-      "primary":"Eau",
+      "primary":"Water",
      "secondary": "Dragon"
     },
     "favorite":false
   },
   {
-    "description": "Boiling blood, like magma, circulates through its body. It makes its dwelling place in volcanic caves.",
+    "description": "Boiling blood, like magma, circulates through its body. It makes its dwelling place in Flyingcanic caves.",
     "hires": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/485.png",
     "id": 485,
     "french": "Heatran",
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/485.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/485.png",
     "type": {
-      "primary":"Feu",
-     "secondary": "Acier"
+      "primary":"Fire",
+     "secondary": "Steel"
     },
     "favorite":false
   },
@@ -6073,7 +6073,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/487.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/487.png",
     "type": {
-      "primary":"Spectre",
+      "primary":"Ghost",
      "secondary": "Dragon"
     },
     "favorite":false
@@ -6086,7 +6086,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/488.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/488.png",
     "type": {
-      "primary":"Psy"
+      "primary":"Psychic"
     },
     "favorite":false
   },
@@ -6098,7 +6098,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/489.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/489.png",
     "type": {
-      "primary":"Eau"
+      "primary":"Water"
     },
     "favorite":false
   },
@@ -6110,7 +6110,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/490.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/490.png",
     "type": {
-      "primary":"Eau"
+      "primary":"Water"
     },
     "favorite":false
   },
@@ -6122,7 +6122,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/491.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/491.png",
     "type": {
-     "primary": "Té"
+     "primary": "Dark"
     },
     "favorite":false
   },
@@ -6134,7 +6134,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/492.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/492.png",
     "type": {
-      "primary":"Plante"
+      "primary":"Grass"
     },
     "favorite":false
   },
@@ -6158,8 +6158,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/494.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/494.png",
     "type": {
-      "primary":"Psy",
-     "secondary": "Feu"
+      "primary":"Psychic",
+     "secondary": "Fire"
     },
     "favorite":false
   },
@@ -6171,7 +6171,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/495.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/495.png",
     "type": {
-      "primary":"Plante"
+      "primary":"Grass"
     },
     "favorite":false
   },
@@ -6183,19 +6183,19 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/496.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/496.png",
     "type": {
-      "primary":"Plante"
+      "primary":"Grass"
     },
     "favorite":false
   },
   {
-    "description": "It can stop its opponents’ movements with just a glare. It takes in solar energy and boosts it internally.",
+    "description": "It can stop its opponents’ movements with just a glare. It takes in Groundar energy and boosts it internally.",
     "hires": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/497.png",
     "id": 497,
     "french": "Majaspic",
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/497.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/497.png",
     "type": {
-      "primary":"Plante"
+      "primary":"Grass"
     },
     "favorite":false
   },
@@ -6207,7 +6207,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/498.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/498.png",
     "type": {
-     "primary": "Feu"
+     "primary": "Fire"
     },
     "favorite":false
   },
@@ -6219,8 +6219,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/499.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/499.png",
     "type": {
-      "primary":"Feu",
-     "secondary": "Combat"
+      "primary":"Fire",
+     "secondary": "Fighting"
     },
     "favorite":false
   },
@@ -6232,8 +6232,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/500.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/500.png",
     "type": {
-      "primary":"Feu",
-     "secondary": "Combat"
+      "primary":"Fire",
+     "secondary": "Fighting"
     },
     "favorite":false
   },
@@ -6245,7 +6245,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/501.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/501.png",
     "type": {
-      "primary":"Eau"
+      "primary":"Water"
     },
     "favorite":false
   },
@@ -6257,7 +6257,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/502.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/502.png",
     "type": {
-      "primary":"Eau"
+      "primary":"Water"
     },
     "favorite":false
   },
@@ -6269,7 +6269,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/503.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/503.png",
     "type": {
-      "primary":"Eau"
+      "primary":"Water"
     },
     "favorite":false
   },
@@ -6341,7 +6341,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/509.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/509.png",
     "type": {
-     "primary": "Té"
+     "primary": "Dark"
     },
     "favorite":false
   },
@@ -6353,7 +6353,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/510.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/510.png",
     "type": {
-     "primary": "Té"
+     "primary": "Dark"
     },
     "favorite":false
   },
@@ -6361,11 +6361,11 @@ export const pokedexData =[
     "description": "It’s good at finding berries and gathers them from all over. It’s kind enough to share them with friends.",
     "hires": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/511.png",
     "id": 511,
-    "french": "Feuillajou",
+    "french": "Fireillajou",
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/511.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/511.png",
     "type": {
-      "primary":"Plante"
+      "primary":"Grass"
     },
     "favorite":false
   },
@@ -6373,23 +6373,23 @@ export const pokedexData =[
     "description": "Ill tempered, it fights by swinging its barbed tail around wildly. The leaf growing on its head is very bitter.",
     "hires": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/512.png",
     "id": 512,
-    "french": "Feuiloutan",
+    "french": "Fireiloutan",
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/512.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/512.png",
     "type": {
-      "primary":"Plante"
+      "primary":"Grass"
     },
     "favorite":false
   },
   {
-    "description": "This Pokémon lives in caves in volcanoes. The fire within the tuft on its head can reach 600 degrees Fahrenheit.",
+    "description": "This Pokémon lives in caves in Flyingcanoes. The fire within the tuft on its head can reach 600 degrees Fahrenheit.",
     "hires": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/513.png",
     "id": 513,
     "french": "Flamajou",
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/513.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/513.png",
     "type": {
-     "primary": "Feu"
+     "primary": "Fire"
     },
     "favorite":false
   },
@@ -6401,7 +6401,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/514.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/514.png",
     "type": {
-     "primary": "Feu"
+     "primary": "Fire"
     },
     "favorite":false
   },
@@ -6413,7 +6413,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/515.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/515.png",
     "type": {
-      "primary":"Eau"
+      "primary":"Water"
     },
     "favorite":false
   },
@@ -6425,7 +6425,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/516.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/516.png",
     "type": {
-      "primary":"Eau"
+      "primary":"Water"
     },
     "favorite":false
   },
@@ -6437,7 +6437,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/517.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/517.png",
     "type": {
-      "primary":"Psy"
+      "primary":"Psychic"
     },
     "favorite":false
   },
@@ -6449,7 +6449,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/518.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/518.png",
     "type": {
-      "primary":"Psy"
+      "primary":"Psychic"
     },
     "favorite":false
   },
@@ -6462,7 +6462,7 @@ export const pokedexData =[
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/519.png",
     "type": {
       "primary":"Normal",
-     "secondary": "Vol"
+     "secondary": "Flying"
     },
     "favorite":false
   },
@@ -6470,12 +6470,12 @@ export const pokedexData =[
     "description": "No matter where in the world it goes, it knows where its nest is, so it never gets separated from its Trainer.",
     "hires": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/520.png",
     "id": 520,
-    "french": "Colombeau",
+    "french": "ColombWater",
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/520.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/520.png",
     "type": {
       "primary":"Normal",
-     "secondary": "Vol"
+     "secondary": "Flying"
     },
     "favorite":false
   },
@@ -6488,7 +6488,7 @@ export const pokedexData =[
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/521.png",
     "type": {
       "primary":"Normal",
-     "secondary": "Vol"
+     "secondary": "Flying"
     },
     "favorite":false
   },
@@ -6500,7 +6500,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/522.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/522.png",
     "type": {
-      "primary":"Electrique"
+      "primary":"Electric"
     },
     "favorite":false
   },
@@ -6512,7 +6512,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/523.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/523.png",
     "type": {
-      "primary":"Electrique"
+      "primary":"Electric"
     },
     "favorite":false
   },
@@ -6524,7 +6524,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/524.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/524.png",
     "type": {
-     "primary": "Roche"
+     "primary": "Rock"
     },
     "favorite":false
   },
@@ -6536,7 +6536,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/525.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/525.png",
     "type": {
-     "primary": "Roche"
+     "primary": "Rock"
     },
     "favorite":false
   },
@@ -6548,7 +6548,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/526.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/526.png",
     "type": {
-     "primary": "Roche"
+     "primary": "Rock"
     },
     "favorite":false
   },
@@ -6560,8 +6560,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/527.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/527.png",
     "type": {
-      "primary":"Psy",
-     "secondary": "Vol"
+      "primary":"Psychic",
+     "secondary": "Flying"
     },
     "favorite":false
   },
@@ -6573,8 +6573,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/528.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/528.png",
     "type": {
-      "primary":"Psy",
-     "secondary": "Vol"
+      "primary":"Psychic",
+     "secondary": "Flying"
     },
     "favorite":false
   },
@@ -6586,7 +6586,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/529.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/529.png",
     "type": {
-      "primary":"Sol"
+      "primary":"Ground"
     },
     "favorite":false
   },
@@ -6598,8 +6598,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/530.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/530.png",
     "type": {
-      "primary":"Sol",
-     "secondary": "Acier"
+      "primary":"Ground",
+     "secondary": "Steel"
     },
     "favorite":false
   },
@@ -6623,7 +6623,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/532.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/532.png",
     "type": {
-      "primary":"Combat"
+      "primary":"Fighting"
     },
     "favorite":false
   },
@@ -6635,7 +6635,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/533.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/533.png",
     "type": {
-      "primary":"Combat"
+      "primary":"Fighting"
     },
     "favorite":false
   },
@@ -6647,7 +6647,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/534.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/534.png",
     "type": {
-      "primary":"Combat"
+      "primary":"Fighting"
     },
     "favorite":false
   },
@@ -6659,7 +6659,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/535.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/535.png",
     "type": {
-      "primary":"Eau"
+      "primary":"Water"
     },
     "favorite":false
   },
@@ -6671,8 +6671,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/536.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/536.png",
     "type": {
-      "primary":"Eau",
-     "secondary": "Sol"
+      "primary":"Water",
+     "secondary": "Ground"
     },
     "favorite":false
   },
@@ -6684,8 +6684,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/537.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/537.png",
     "type": {
-      "primary":"Eau",
-     "secondary": "Sol"
+      "primary":"Water",
+     "secondary": "Ground"
     },
     "favorite":false
   },
@@ -6697,7 +6697,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/538.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/538.png",
     "type": {
-      "primary":"Combat"
+      "primary":"Fighting"
     },
     "favorite":false
   },
@@ -6709,7 +6709,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/539.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/539.png",
     "type": {
-      "primary":"Combat"
+      "primary":"Fighting"
     },
     "favorite":false
   },
@@ -6721,8 +6721,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/540.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/540.png",
     "type": {
-     "primary": "Insect",
-     "secondary": "Plante"
+     "primary": "Bug",
+     "secondary": "Grass"
     },
     "favorite":false
   },
@@ -6734,8 +6734,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/541.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/541.png",
     "type": {
-     "primary": "Insect",
-     "secondary": "Plante"
+     "primary": "Bug",
+     "secondary": "Grass"
     },
     "favorite":false
   },
@@ -6747,8 +6747,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/542.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/542.png",
     "type": {
-     "primary": "Insect",
-     "secondary": "Plante"
+     "primary": "Bug",
+     "secondary": "Grass"
     },
     "favorite":false
   },
@@ -6760,7 +6760,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/543.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/543.png",
     "type": {
-     "primary": "Insect",
+     "primary": "Bug",
      "secondary": "Poison"
     },
     "favorite":false
@@ -6773,7 +6773,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/544.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/544.png",
     "type": {
-     "primary": "Insect",
+     "primary": "Bug",
      "secondary": "Poison"
     },
     "favorite":false
@@ -6786,7 +6786,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/545.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/545.png",
     "type": {
-     "primary": "Insect",
+     "primary": "Bug",
      "secondary": "Poison"
     },
     "favorite":false
@@ -6799,8 +6799,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/546.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/546.png",
     "type": {
-      "primary":"Plante",
-     "secondary": "Fée"
+      "primary":"Grass",
+     "secondary": "Fairy"
     },
     "favorite":false
   },
@@ -6812,8 +6812,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/547.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/547.png",
     "type": {
-      "primary":"Plante",
-     "secondary": "Fée"
+      "primary":"Grass",
+     "secondary": "Fairy"
     },
     "favorite":false
   },
@@ -6825,19 +6825,19 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/548.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/548.png",
     "type": {
-      "primary":"Plante"
+      "primary":"Grass"
     },
     "favorite":false
   },
   {
-    "description": "It’s well liked by other Pokémon because of its beauty. The flower on its head needs constant care, or it will soon wither and rot.",
+    "description": "It’s well liked by other Pokémon because of its bWaterty. The flower on its head needs constant care, or it will soon wither and rot.",
     "hires": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/549.png",
     "id": 549,
     "french": "Fragilady",
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/549.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/549.png",
     "type": {
-      "primary":"Plante"
+      "primary":"Grass"
     },
     "favorite":false
   },
@@ -6849,7 +6849,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/550.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/550.png",
     "type": {
-      "primary":"Eau"
+      "primary":"Water"
     },
     "favorite":false
   },
@@ -6861,8 +6861,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/551.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/551.png",
     "type": {
-      "primary":"Sol",
-     "secondary": "Té"
+      "primary":"Ground",
+     "secondary": "Dark"
     },
     "favorite":false
   },
@@ -6874,8 +6874,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/552.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/552.png",
     "type": {
-      "primary":"Sol",
-     "secondary": "Té"
+      "primary":"Ground",
+     "secondary": "Dark"
     },
     "favorite":false
   },
@@ -6887,8 +6887,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/553.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/553.png",
     "type": {
-      "primary":"Sol",
-     "secondary": "Té"
+      "primary":"Ground",
+     "secondary": "Dark"
     },
     "favorite":false
   },
@@ -6900,7 +6900,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/554.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/554.png",
     "type": {
-     "primary": "Feu"
+     "primary": "Fire"
     },
     "favorite":false
   },
@@ -6912,7 +6912,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/555.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/555.png",
     "type": {
-     "primary": "Feu"
+     "primary": "Fire"
     },
     "favorite":false
   },
@@ -6924,7 +6924,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/556.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/556.png",
     "type": {
-      "primary":"Plante"
+      "primary":"Grass"
     },
     "favorite":false
   },
@@ -6936,8 +6936,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/557.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/557.png",
     "type": {
-     "primary": "Insect",
-     "secondary": "Roche"
+     "primary": "Bug",
+     "secondary": "Rock"
     },
     "favorite":false
   },
@@ -6949,8 +6949,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/558.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/558.png",
     "type": {
-     "primary": "Insect",
-     "secondary": "Roche"
+     "primary": "Bug",
+     "secondary": "Rock"
     },
     "favorite":false
   },
@@ -6962,8 +6962,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/559.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/559.png",
     "type": {
-      "primary":"Té",
-     "secondary": "Combat"
+      "primary":"Dark",
+     "secondary": "Fighting"
     },
     "favorite":false
   },
@@ -6975,8 +6975,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/560.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/560.png",
     "type": {
-      "primary":"Té",
-     "secondary": "Combat"
+      "primary":"Dark",
+     "secondary": "Fighting"
     },
     "favorite":false
   },
@@ -6988,8 +6988,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/561.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/561.png",
     "type": {
-      "primary":"Psy",
-     "secondary": "Vol"
+      "primary":"Psychic",
+     "secondary": "Flying"
     },
     "favorite":false
   },
@@ -7001,7 +7001,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/562.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/562.png",
     "type": {
-      "primary":"Spectre"
+      "primary":"Ghost"
     },
     "favorite":false
   },
@@ -7013,7 +7013,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/563.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/563.png",
     "type": {
-      "primary":"Spectre"
+      "primary":"Ghost"
     },
     "favorite":false
   },
@@ -7025,8 +7025,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/564.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/564.png",
     "type": {
-      "primary":"Eau",
-     "secondary": "Roche"
+      "primary":"Water",
+     "secondary": "Rock"
     },
     "favorite":false
   },
@@ -7038,8 +7038,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/565.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/565.png",
     "type": {
-      "primary":"Eau",
-     "secondary": "Roche"
+      "primary":"Water",
+     "secondary": "Rock"
     },
     "favorite":false
   },
@@ -7051,8 +7051,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/566.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/566.png",
     "type": {
-      "primary":"Roche",
-     "secondary": "Vol"
+      "primary":"Rock",
+     "secondary": "Flying"
     },
     "favorite":false
   },
@@ -7064,8 +7064,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/567.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/567.png",
     "type": {
-      "primary":"Roche",
-     "secondary": "Vol"
+      "primary":"Rock",
+     "secondary": "Flying"
     },
     "favorite":false
   },
@@ -7101,7 +7101,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/570.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/570.png",
     "type": {
-     "primary": "Té"
+     "primary": "Dark"
     },
     "favorite":false
   },
@@ -7113,7 +7113,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/571.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/571.png",
     "type": {
-     "primary": "Té"
+     "primary": "Dark"
     },
     "favorite":false
   },
@@ -7149,7 +7149,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/574.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/574.png",
     "type": {
-      "primary":"Psy"
+      "primary":"Psychic"
     },
     "favorite":false
   },
@@ -7161,7 +7161,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/575.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/575.png",
     "type": {
-      "primary":"Psy"
+      "primary":"Psychic"
     },
     "favorite":false
   },
@@ -7173,43 +7173,43 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/576.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/576.png",
     "type": {
-      "primary":"Psy"
+      "primary":"Psychic"
     },
     "favorite":false
   },
   {
-    "description": "They drive away attackers by unleashing psychic power. They can use telepathy to talk with others.",
+    "description": "They drive away attackers by unleashing psychicchic power. They can use telepathy to talk with others.",
     "hires": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/577.png",
     "id": 577,
     "french": "Nucléos",
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/577.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/577.png",
     "type": {
-      "primary":"Psy"
+      "primary":"Psychic"
     },
     "favorite":false
   },
   {
-    "description": "When their two divided brains think the same thoughts, their psychic power is maximized.",
+    "description": "When their two divided brains think the same thoughts, their psychicchic power is maximized.",
     "hires": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/578.png",
     "id": 578,
     "french": "Méios",
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/578.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/578.png",
     "type": {
-      "primary":"Psy"
+      "primary":"Psychic"
     },
     "favorite":false
   },
   {
-    "description": "When Reuniclus shake hands, a network forms between their brains, increasing their psychic power.",
+    "description": "When Reuniclus shake hands, a network forms between their brains, increasing their psychicchic power.",
     "hires": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/579.png",
     "id": 579,
     "french": "Symbios",
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/579.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/579.png",
     "type": {
-      "primary":"Psy"
+      "primary":"Psychic"
     },
     "favorite":false
   },
@@ -7221,8 +7221,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/580.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/580.png",
     "type": {
-      "primary":"Eau",
-     "secondary": "Vol"
+      "primary":"Water",
+     "secondary": "Flying"
     },
     "favorite":false
   },
@@ -7234,8 +7234,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/581.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/581.png",
     "type": {
-      "primary":"Eau",
-     "secondary": "Vol"
+      "primary":"Water",
+     "secondary": "Flying"
     },
     "favorite":false
   },
@@ -7247,7 +7247,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/582.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/582.png",
     "type": {
-    "primary":  "Glace"
+    "primary":  "Ice"
     },
     "favorite":false
   },
@@ -7259,7 +7259,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/583.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/583.png",
     "type": {
-    "primary":  "Glace"
+    "primary":  "Ice"
     },
     "favorite":false
   },
@@ -7271,7 +7271,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/584.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/584.png",
     "type": {
-    "primary":  "Glace"
+    "primary":  "Ice"
     },
     "favorite":false
   },
@@ -7284,7 +7284,7 @@ export const pokedexData =[
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/585.png",
     "type": {
       "primary":"Normal",
-     "secondary": "Plante"
+     "secondary": "Grass"
     },
     "favorite":false
   },
@@ -7297,7 +7297,7 @@ export const pokedexData =[
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/586.png",
     "type": {
       "primary":"Normal",
-     "secondary": "Plante"
+     "secondary": "Grass"
     },
     "favorite":false
   },
@@ -7309,33 +7309,33 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/587.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/587.png",
     "type": {
-      "primary":"Electrique",
-     "secondary": "Vol"
+      "primary":"Electric",
+     "secondary": "Flying"
     },
     "favorite":false
   },
   {
-    "description": "For some reason they evolve when they receive electrical energy while they are attacking Shelmet.",
+    "description": "For some reason they eFlyingve when they receive electrical energy while they are attacking Shelmet.",
     "hires": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/588.png",
     "id": 588,
     "french": "Carabing",
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/588.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/588.png",
     "type": {
-    "primary":  "Insect"
+    "primary":  "Bug"
     },
     "favorite":false
   },
   {
-    "description": "These Pokémon evolve by wearing the shell covering of a Shelmet. The steel armor protects their whole body.",
+    "description": "These Pokémon eFlyingve by wearing the shell covering of a Shelmet. The steel armor protects their whole body.",
     "hires": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/589.png",
     "id": 589,
     "french": "Lançargot",
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/589.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/589.png",
     "type": {
-     "primary": "Insect",
-     "secondary": "Acier"
+     "primary": "Bug",
+     "secondary": "Steel"
     },
     "favorite":false
   },
@@ -7347,7 +7347,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/590.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/590.png",
     "type": {
-      "primary":"Plante",
+      "primary":"Grass",
      "secondary": "Poison"
     },
     "favorite":false
@@ -7360,7 +7360,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/591.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/591.png",
     "type": {
-      "primary":"Plante",
+      "primary":"Grass",
      "secondary": "Poison"
     },
     "favorite":false
@@ -7373,8 +7373,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/592.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/592.png",
     "type": {
-      "primary":"Eau",
-     "secondary": "Spectre"
+      "primary":"Water",
+     "secondary": "Ghost"
     },
     "favorite":false
   },
@@ -7386,8 +7386,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/593.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/593.png",
     "type": {
-      "primary":"Eau",
-     "secondary": "Spectre"
+      "primary":"Water",
+     "secondary": "Ghost"
     },
     "favorite":false
   },
@@ -7399,7 +7399,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/594.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/594.png",
     "type": {
-      "primary":"Eau"
+      "primary":"Water"
     },
     "favorite":false
   },
@@ -7411,8 +7411,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/595.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/595.png",
     "type": {
-     "primary": "Insect",
-     "secondary": "Electrique"
+     "primary": "Bug",
+     "secondary": "Electric"
     },
     "favorite":false
   },
@@ -7420,12 +7420,12 @@ export const pokedexData =[
     "description": "When attacked, they create an electric barrier by spitting out many electrically charged threads.",
     "hires": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/596.png",
     "id": 596,
-    "french": "Mygavolt",
+    "french": "MygaFlyingt",
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/596.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/596.png",
     "type": {
-     "primary": "Insect",
-     "secondary": "Electrique"
+     "primary": "Bug",
+     "secondary": "Electric"
     },
     "favorite":false
   },
@@ -7437,8 +7437,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/597.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/597.png",
     "type": {
-      "primary":"Plante",
-     "secondary": "Acier"
+      "primary":"Grass",
+     "secondary": "Steel"
     },
     "favorite":false
   },
@@ -7450,8 +7450,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/598.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/598.png",
     "type": {
-      "primary":"Plante",
-     "secondary": "Acier"
+      "primary":"Grass",
+     "secondary": "Steel"
     },
     "favorite":false
   },
@@ -7463,7 +7463,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/599.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/599.png",
     "type": {
-      "primary":"Acier"
+      "primary":"Steel"
     },
     "favorite":false
   },
@@ -7475,7 +7475,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/600.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/600.png",
     "type": {
-      "primary":"Acier"
+      "primary":"Steel"
     },
     "favorite":false
   },
@@ -7487,7 +7487,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/601.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/601.png",
     "type": {
-      "primary":"Acier"
+      "primary":"Steel"
     },
     "favorite":false
   },
@@ -7499,7 +7499,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/602.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/602.png",
     "type": {
-      "primary":"Electrique"
+      "primary":"Electric"
     },
     "favorite":false
   },
@@ -7511,7 +7511,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/603.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/603.png",
     "type": {
-      "primary":"Electrique"
+      "primary":"Electric"
     },
     "favorite":false
   },
@@ -7523,7 +7523,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/604.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/604.png",
     "type": {
-      "primary":"Electrique"
+      "primary":"Electric"
     },
     "favorite":false
   },
@@ -7535,19 +7535,19 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/605.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/605.png",
     "type": {
-      "primary":"Psy"
+      "primary":"Psychic"
     },
     "favorite":false
   },
   {
-    "description": "It has strong psychic powers. Using its fingers that flash three different colors, it controls its opponents and rewrites their memories.",
+    "description": "It has strong psychicchic powers. Using its fingers that flash three different colors, it controls its opponents and rewrites their memories.",
     "hires": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/606.png",
     "id": 606,
     "french": "Neitram",
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/606.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/606.png",
     "type": {
-      "primary":"Psy"
+      "primary":"Psychic"
     },
     "favorite":false
   },
@@ -7559,8 +7559,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/607.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/607.png",
     "type": {
-      "primary":"Spectre",
-     "secondary": "Feu"
+      "primary":"Ghost",
+     "secondary": "Fire"
     },
     "favorite":false
   },
@@ -7572,8 +7572,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/608.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/608.png",
     "type": {
-      "primary":"Spectre",
-     "secondary": "Feu"
+      "primary":"Ghost",
+     "secondary": "Fire"
     },
     "favorite":false
   },
@@ -7585,8 +7585,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/609.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/609.png",
     "type": {
-      "primary":"Spectre",
-     "secondary": "Feu"
+      "primary":"Ghost",
+     "secondary": "Fire"
     },
     "favorite":false
   },
@@ -7634,7 +7634,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/613.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/613.png",
     "type": {
-    "primary":  "Glace"
+    "primary":  "Ice"
     },
     "favorite":false
   },
@@ -7646,7 +7646,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/614.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/614.png",
     "type": {
-    "primary":  "Glace"
+    "primary":  "Ice"
     },
     "favorite":false
   },
@@ -7658,19 +7658,19 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/615.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/615.png",
     "type": {
-    "primary":  "Glace"
+    "primary":  "Ice"
     },
     "favorite":false
   },
   {
-    "description": "It evolves when bathed in an electric-like energy along with Karrablast. The reason is still unknown.",
+    "description": "It eFlyingves when bathed in an electric-like energy along with Karrablast. The reason is still unknown.",
     "hires": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/616.png",
     "id": 616,
     "french": "Escargaume",
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/616.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/616.png",
     "type": {
-    "primary":  "Insect"
+    "primary":  "Bug"
     },
     "favorite":false
   },
@@ -7682,7 +7682,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/617.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/617.png",
     "type": {
-    "primary":  "Insect"
+    "primary":  "Bug"
     },
     "favorite":false
   },
@@ -7694,8 +7694,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/618.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/618.png",
     "type": {
-      "primary":"Sol",
-     "secondary": "Electrique"
+      "primary":"Ground",
+     "secondary": "Electric"
     },
     "favorite":false
   },
@@ -7707,7 +7707,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/619.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/619.png",
     "type": {
-      "primary":"Combat"
+      "primary":"Fighting"
     },
     "favorite":false
   },
@@ -7719,7 +7719,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/620.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/620.png",
     "type": {
-      "primary":"Combat"
+      "primary":"Fighting"
     },
     "favorite":false
   },
@@ -7743,8 +7743,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/622.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/622.png",
     "type": {
-      "primary":"Sol",
-     "secondary": "Spectre"
+      "primary":"Ground",
+     "secondary": "Ghost"
     },
     "favorite":false
   },
@@ -7756,8 +7756,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/623.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/623.png",
     "type": {
-      "primary":"Sol",
-     "secondary": "Spectre"
+      "primary":"Ground",
+     "secondary": "Ghost"
     },
     "favorite":false
   },
@@ -7769,8 +7769,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/624.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/624.png",
     "type": {
-      "primary":"Té",
-     "secondary": "Acier"
+      "primary":"Dark",
+     "secondary": "Steel"
     },
     "favorite":false
   },
@@ -7782,8 +7782,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/625.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/625.png",
     "type": {
-      "primary":"Té",
-     "secondary": "Acier"
+      "primary":"Dark",
+     "secondary": "Steel"
     },
     "favorite":false
   },
@@ -7808,7 +7808,7 @@ export const pokedexData =[
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/627.png",
     "type": {
       "primary":"Normal",
-     "secondary": "Vol"
+     "secondary": "Flying"
     },
     "favorite":false
   },
@@ -7821,7 +7821,7 @@ export const pokedexData =[
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/628.png",
     "type": {
       "primary":"Normal",
-     "secondary": "Vol"
+     "secondary": "Flying"
     },
     "favorite":false
   },
@@ -7833,8 +7833,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/629.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/629.png",
     "type": {
-      "primary":"Té",
-     "secondary": "Vol"
+      "primary":"Dark",
+     "secondary": "Flying"
     },
     "favorite":false
   },
@@ -7846,8 +7846,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/630.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/630.png",
     "type": {
-      "primary":"Té",
-     "secondary": "Vol"
+      "primary":"Dark",
+     "secondary": "Flying"
     },
     "favorite":false
   },
@@ -7859,7 +7859,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/631.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/631.png",
     "type": {
-     "primary": "Feu"
+     "primary": "Fire"
     },
     "favorite":false
   },
@@ -7871,8 +7871,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/632.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/632.png",
     "type": {
-     "primary": "Insect",
-     "secondary": "Acier"
+     "primary": "Bug",
+     "secondary": "Steel"
     },
     "favorite":false
   },
@@ -7880,11 +7880,11 @@ export const pokedexData =[
     "description": "Lacking sight, it’s unaware of its surroundings, so it bumps into things and eats anything that moves.",
     "hires": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/633.png",
     "id": 633,
-    "french": "Solochi",
+    "french": "Groundochi",
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/633.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/633.png",
     "type": {
-      "primary":"Té",
+      "primary":"Dark",
      "secondary": "Dragon"
     },
     "favorite":false
@@ -7897,7 +7897,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/634.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/634.png",
     "type": {
-      "primary":"Té",
+      "primary":"Dark",
      "secondary": "Dragon"
     },
     "favorite":false
@@ -7910,7 +7910,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/635.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/635.png",
     "type": {
-      "primary":"Té",
+      "primary":"Dark",
      "secondary": "Dragon"
     },
     "favorite":false
@@ -7923,8 +7923,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/636.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/636.png",
     "type": {
-     "primary": "Insect",
-     "secondary": "Feu"
+     "primary": "Bug",
+     "secondary": "Fire"
     },
     "favorite":false
   },
@@ -7936,8 +7936,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/637.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/637.png",
     "type": {
-     "primary": "Insect",
-     "secondary": "Feu"
+     "primary": "Bug",
+     "secondary": "Fire"
     },
     "favorite":false
   },
@@ -7949,8 +7949,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/638.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/638.png",
     "type": {
-      "primary":"Acier",
-     "secondary": "Combat"
+      "primary":"Steel",
+     "secondary": "Fighting"
     },
     "favorite":false
   },
@@ -7962,8 +7962,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/639.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/639.png",
     "type": {
-      "primary":"Roche",
-     "secondary": "Combat"
+      "primary":"Rock",
+     "secondary": "Fighting"
     },
     "favorite":false
   },
@@ -7975,8 +7975,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/640.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/640.png",
     "type": {
-      "primary":"Plante",
-     "secondary": "Combat"
+      "primary":"Grass",
+     "secondary": "Fighting"
     },
     "favorite":false
   },
@@ -7988,7 +7988,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/641.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/641.png",
     "type": {
-      "primary":"Vol"
+      "primary":"Flying"
     },
     "favorite":false
   },
@@ -8000,8 +8000,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/642.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/642.png",
     "type": {
-      "primary":"Electrique",
-     "secondary": "Vol"
+      "primary":"Electric",
+     "secondary": "Flying"
     },
     "favorite":false
   },
@@ -8014,7 +8014,7 @@ export const pokedexData =[
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/643.png",
     "type": {
       "primary":"Dragon",
-     "secondary": "Feu"
+     "secondary": "Fire"
     },
     "favorite":false
   },
@@ -8027,7 +8027,7 @@ export const pokedexData =[
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/644.png",
     "type": {
       "primary":"Dragon",
-     "secondary": "Electrique"
+     "secondary": "Electric"
     },
     "favorite":false
   },
@@ -8039,8 +8039,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/645.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/645.png",
     "type": {
-      "primary":"Sol",
-     "secondary": "Vol"
+      "primary":"Ground",
+     "secondary": "Flying"
     },
     "favorite":false
   },
@@ -8053,20 +8053,20 @@ export const pokedexData =[
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/646.png",
     "type": {
       "primary":"Dragon",
-     "secondary": "Glace"
+     "secondary": "Ice"
     },
     "favorite":false
   },
   {
-    "description": "When it is resolute, its body fills with power and it becomes swifter. Its jumps are then too fast to follow.",
+    "description": "When it is reGroundute, its body fills with power and it becomes swifter. Its jumps are then too fast to follow.",
     "hires": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/647.png",
     "id": 647,
     "french": "Keldeo",
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/647.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/647.png",
     "type": {
-      "primary":"Eau",
-     "secondary": "Combat"
+      "primary":"Water",
+     "secondary": "Fighting"
     },
     "favorite":false
   },
@@ -8079,7 +8079,7 @@ export const pokedexData =[
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/648.png",
     "type": {
       "primary":"Normal",
-     "secondary": "Psy"
+     "secondary": "Psychic"
     },
     "favorite":false
   },
@@ -8091,8 +8091,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/649.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/649.png",
     "type": {
-     "primary": "Insect",
-     "secondary": "Acier"
+     "primary": "Bug",
+     "secondary": "Steel"
     },
     "favorite":false
   },
@@ -8104,7 +8104,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/650.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/650.png",
     "type": {
-      "primary":"Plante"
+      "primary":"Grass"
     },
     "favorite":false
   },
@@ -8116,7 +8116,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/651.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/651.png",
     "type": {
-      "primary":"Plante"
+      "primary":"Grass"
     },
     "favorite":false
   },
@@ -8128,8 +8128,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/652.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/652.png",
     "type": {
-      "primary":"Plante",
-     "secondary": "Combat"
+      "primary":"Grass",
+     "secondary": "Fighting"
     },
     "favorite":false
   },
@@ -8137,11 +8137,11 @@ export const pokedexData =[
     "description": "As it walks, it munches on a twig in place of a snack. It intimidates opponents by puffing hot air out of its ears.",
     "hires": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/653.png",
     "id": 653,
-    "french": "Feunnec",
+    "french": "Firennec",
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/653.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/653.png",
     "type": {
-     "primary": "Feu"
+     "primary": "Fire"
     },
     "favorite":false
   },
@@ -8153,20 +8153,20 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/654.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/654.png",
     "type": {
-     "primary": "Feu"
+     "primary": "Fire"
     },
     "favorite":false
   },
   {
-    "description": "Using psychic power, it generates a fiery vortex of 5,400 degrees Fahrenheit, incinerating foes swept into this whirl of flame.",
+    "description": "Using psychicchic power, it generates a fiery vortex of 5,400 degrees Fahrenheit, incinerating foes swept into this whirl of flame.",
     "hires": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/655.png",
     "id": 655,
     "french": "Goupelin",
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/655.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/655.png",
     "type": {
-      "primary":"Feu",
-     "secondary": "Psy"
+      "primary":"Fire",
+     "secondary": "Psychic"
     },
     "favorite":false
   },
@@ -8178,7 +8178,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/656.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/656.png",
     "type": {
-      "primary":"Eau"
+      "primary":"Water"
     },
     "favorite":false
   },
@@ -8190,7 +8190,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/657.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/657.png",
     "type": {
-      "primary":"Eau"
+      "primary":"Water"
     },
     "favorite":false
   },
@@ -8202,8 +8202,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/658.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/658.png",
     "type": {
-      "primary":"Eau",
-     "secondary": "Té"
+      "primary":"Water",
+     "secondary": "Dark"
     },
     "favorite":false
   },
@@ -8211,7 +8211,7 @@ export const pokedexData =[
     "description": "It has ears like shovels. Digging holes strengthens its ears so much that they can sever thick roots effortlessly.",
     "hires": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/659.png",
     "id": 659,
-    "french": "Sapereau",
+    "french": "SaperWater",
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/659.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/659.png",
     "type": {
@@ -8228,7 +8228,7 @@ export const pokedexData =[
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/660.png",
     "type": {
       "primary":"Normal",
-     "secondary": "Sol"
+     "secondary": "Ground"
     },
     "favorite":false
   },
@@ -8241,7 +8241,7 @@ export const pokedexData =[
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/661.png",
     "type": {
       "primary":"Normal",
-     "secondary": "Vol"
+     "secondary": "Flying"
     },
     "favorite":false
   },
@@ -8253,8 +8253,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/662.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/662.png",
     "type": {
-      "primary":"Feu",
-     "secondary": "Vol"
+      "primary":"Fire",
+     "secondary": "Flying"
     },
     "favorite":false
   },
@@ -8266,8 +8266,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/663.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/663.png",
     "type": {
-      "primary":"Feu",
-     "secondary": "Vol"
+      "primary":"Fire",
+     "secondary": "Flying"
     },
     "favorite":false
   },
@@ -8279,7 +8279,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/664.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/664.png",
     "type": {
-    "primary":  "Insect"
+    "primary":  "Bug"
     },
     "favorite":false
   },
@@ -8291,7 +8291,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/665.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/665.png",
     "type": {
-    "primary":  "Insect"
+    "primary":  "Bug"
     },
     "favorite":false
   },
@@ -8303,8 +8303,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/666.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/666.png",
     "type": {
-     "primary": "Insect",
-     "secondary": "Vol"
+     "primary": "Bug",
+     "secondary": "Flying"
     },
     "favorite":false
   },
@@ -8312,11 +8312,11 @@ export const pokedexData =[
     "description": "This hot-blooded Pokémon is filled with curiosity. When it gets angry or starts fighting, its short mane gets hot.",
     "hires": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/667.png",
     "id": 667,
-    "french": "Hélionceau",
+    "french": "HélioncWater",
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/667.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/667.png",
     "type": {
-      "primary":"Feu",
+      "primary":"Fire",
      "secondary": "Normal"
     },
     "favorite":false
@@ -8329,7 +8329,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/668.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/668.png",
     "type": {
-      "primary":"Feu",
+      "primary":"Fire",
      "secondary": "Normal"
     },
     "favorite":false
@@ -8342,7 +8342,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/669.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/669.png",
     "type": {
-      "primary":"Fée"
+      "primary":"Fairy"
     },
     "favorite":false
   },
@@ -8354,7 +8354,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/670.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/670.png",
     "type": {
-      "primary":"Fée"
+      "primary":"Fairy"
     },
     "favorite":false
   },
@@ -8366,7 +8366,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/671.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/671.png",
     "type": {
-      "primary":"Fée"
+      "primary":"Fairy"
     },
     "favorite":false
   },
@@ -8378,7 +8378,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/672.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/672.png",
     "type": {
-      "primary":"Plante"
+      "primary":"Grass"
     },
     "favorite":false
   },
@@ -8390,7 +8390,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/673.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/673.png",
     "type": {
-      "primary":"Plante"
+      "primary":"Grass"
     },
     "favorite":false
   },
@@ -8402,7 +8402,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/674.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/674.png",
     "type": {
-      "primary":"Combat"
+      "primary":"Fighting"
     },
     "favorite":false
   },
@@ -8414,8 +8414,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/675.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/675.png",
     "type": {
-      "primary":"Combat",
-     "secondary": "Té"
+      "primary":"Fighting",
+     "secondary": "Dark"
     },
     "favorite":false
   },
@@ -8432,26 +8432,26 @@ export const pokedexData =[
     "favorite":false
   },
   {
-    "description": "It has enough psychic energy to blast everything within 300 feet of itself, but it has no control over its power.",
+    "description": "It has enough psychicchic energy to blast everything within 300 feet of itself, but it has no control over its power.",
     "hires": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/677.png",
     "id": 677,
-    "french": "Psystigri",
+    "french": "Psychicstigri",
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/677.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/677.png",
     "type": {
-      "primary":"Psy"
+      "primary":"Psychic"
     },
     "favorite":false
   },
   {
-    "description": "The eyeball patterns on the interior of its ears emit psychic energy. It keeps the patterns tightly covered because that power is too immense.",
+    "description": "The eyeball patterns on the interior of its ears emit psychicchic energy. It keeps the patterns tightly covered because that power is too immense.",
     "hires": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/678.png",
     "id": 678,
     "french": "Mistigrix",
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/678.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/678.png",
     "type": {
-      "primary":"Psy"
+      "primary":"Psychic"
     },
     "favorite":false
   },
@@ -8463,8 +8463,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/679.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/679.png",
     "type": {
-      "primary":"Acier",
-     "secondary": "Spectre"
+      "primary":"Steel",
+     "secondary": "Ghost"
     },
     "favorite":false
   },
@@ -8476,8 +8476,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/680.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/680.png",
     "type": {
-      "primary":"Acier",
-     "secondary": "Spectre"
+      "primary":"Steel",
+     "secondary": "Ghost"
     },
     "favorite":false
   },
@@ -8489,8 +8489,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/681.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/681.png",
     "type": {
-      "primary":"Acier",
-     "secondary": "Spectre"
+      "primary":"Steel",
+     "secondary": "Ghost"
     },
     "favorite":false
   },
@@ -8502,7 +8502,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/682.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/682.png",
     "type": {
-      "primary":"Fée"
+      "primary":"Fairy"
     },
     "favorite":false
   },
@@ -8514,7 +8514,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/683.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/683.png",
     "type": {
-      "primary":"Fée"
+      "primary":"Fairy"
     },
     "favorite":false
   },
@@ -8526,7 +8526,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/684.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/684.png",
     "type": {
-      "primary":"Fée"
+      "primary":"Fairy"
     },
     "favorite":false
   },
@@ -8538,7 +8538,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/685.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/685.png",
     "type": {
-      "primary":"Fée"
+      "primary":"Fairy"
     },
     "favorite":false
   },
@@ -8550,8 +8550,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/686.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/686.png",
     "type": {
-      "primary":"Té",
-     "secondary": "Psy"
+      "primary":"Dark",
+     "secondary": "Psychic"
     },
     "favorite":false
   },
@@ -8563,8 +8563,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/687.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/687.png",
     "type": {
-      "primary":"Té",
-     "secondary": "Psy"
+      "primary":"Dark",
+     "secondary": "Psychic"
     },
     "favorite":false
   },
@@ -8576,8 +8576,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/688.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/688.png",
     "type": {
-      "primary":"Roche",
-     "secondary": "Eau"
+      "primary":"Rock",
+     "secondary": "Water"
     },
     "favorite":false
   },
@@ -8589,8 +8589,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/689.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/689.png",
     "type": {
-      "primary":"Roche",
-     "secondary": "Eau"
+      "primary":"Rock",
+     "secondary": "Water"
     },
     "favorite":false
   },
@@ -8603,7 +8603,7 @@ export const pokedexData =[
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/690.png",
     "type": {
       "primary":"Poison",
-     "secondary": "Eau"
+     "secondary": "Water"
     },
     "favorite":false
   },
@@ -8628,7 +8628,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/692.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/692.png",
     "type": {
-      "primary":"Eau"
+      "primary":"Water"
     },
     "favorite":false
   },
@@ -8640,7 +8640,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/693.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/693.png",
     "type": {
-      "primary":"Eau"
+      "primary":"Water"
     },
     "favorite":false
   },
@@ -8652,7 +8652,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/694.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/694.png",
     "type": {
-      "primary":"Electrique",
+      "primary":"Electric",
      "secondary": "Normal"
     },
     "favorite":false
@@ -8665,7 +8665,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/695.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/695.png",
     "type": {
-      "primary":"Electrique",
+      "primary":"Electric",
      "secondary": "Normal"
     },
     "favorite":false
@@ -8678,7 +8678,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/696.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/696.png",
     "type": {
-      "primary":"Roche",
+      "primary":"Rock",
      "secondary": "Dragon"
     },
     "favorite":false
@@ -8691,7 +8691,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/697.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/697.png",
     "type": {
-      "primary":"Roche",
+      "primary":"Rock",
      "secondary": "Dragon"
     },
     "favorite":false
@@ -8704,8 +8704,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/698.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/698.png",
     "type": {
-      "primary":"Roche",
-     "secondary": "Glace"
+      "primary":"Rock",
+     "secondary": "Ice"
     },
     "favorite":false
   },
@@ -8717,8 +8717,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/699.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/699.png",
     "type": {
-      "primary":"Roche",
-     "secondary": "Glace"
+      "primary":"Rock",
+     "secondary": "Ice"
     },
     "favorite":false
   },
@@ -8730,7 +8730,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/700.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/700.png",
     "type": {
-      "primary":"Fée"
+      "primary":"Fairy"
     },
     "favorite":false
   },
@@ -8742,8 +8742,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/701.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/701.png",
     "type": {
-      "primary":"Combat",
-     "secondary": "Vol"
+      "primary":"Fighting",
+     "secondary": "Flying"
     },
     "favorite":false
   },
@@ -8755,8 +8755,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/702.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/702.png",
     "type": {
-      "primary":"Electrique",
-     "secondary": "Fée"
+      "primary":"Electric",
+     "secondary": "Fairy"
     },
     "favorite":false
   },
@@ -8768,8 +8768,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/703.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/703.png",
     "type": {
-      "primary":"Roche",
-     "secondary": "Fée"
+      "primary":"Rock",
+     "secondary": "Fairy"
     },
     "favorite":false
   },
@@ -8786,7 +8786,7 @@ export const pokedexData =[
     "favorite":false
   },
   {
-    "description": "Its entire body is covered with gooey mucus that can dissolve anything. Be sure to put gloves on if you’re going to touch it.",
+    "description": "Its entire body is covered with gooey mucus that can disGroundve anything. Be sure to put gloves on if you’re going to touch it.",
     "hires": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/705.png",
     "id": 705,
     "french": "Colimucus",
@@ -8817,8 +8817,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/707.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/707.png",
     "type": {
-      "primary":"Acier",
-     "secondary": "Fée"
+      "primary":"Steel",
+     "secondary": "Fairy"
     },
     "favorite":false
   },
@@ -8830,8 +8830,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/708.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/708.png",
     "type": {
-      "primary":"Spectre",
-     "secondary": "Plante"
+      "primary":"Ghost",
+     "secondary": "Grass"
     },
     "favorite":false
   },
@@ -8843,8 +8843,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/709.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/709.png",
     "type": {
-      "primary":"Spectre",
-     "secondary": "Plante"
+      "primary":"Ghost",
+     "secondary": "Grass"
     },
     "favorite":false
   },
@@ -8856,8 +8856,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/710.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/710.png",
     "type": {
-      "primary":"Spectre",
-     "secondary": "Plante"
+      "primary":"Ghost",
+     "secondary": "Grass"
     },
     "favorite":false
   },
@@ -8869,20 +8869,20 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/711.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/711.png",
     "type": {
-      "primary":"Spectre",
-     "secondary": "Plante"
+      "primary":"Ghost",
+     "secondary": "Grass"
     },
     "favorite":false
   },
   {
-    "description": "Using air of -150 degrees Fahrenheit, they freeze opponents solid. They live in herds above the snow line on mountains.",
+    "description": "Using air of -150 degrees Fahrenheit, they freeze opponents Groundid. They live in herds above the snow line on mountains.",
     "hires": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/712.png",
     "id": 712,
     "french": "Grelaçon",
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/712.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/712.png",
     "type": {
-    "primary":  "Glace"
+    "primary":  "Ice"
     },
     "favorite":false
   },
@@ -8894,7 +8894,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/713.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/713.png",
     "type": {
-    "primary":  "Glace"
+    "primary":  "Ice"
     },
     "favorite":false
   },
@@ -8906,7 +8906,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/714.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/714.png",
     "type": {
-      "primary":"Vol",
+      "primary":"Flying",
      "secondary": "Dragon"
     },
     "favorite":false
@@ -8919,7 +8919,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/715.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/715.png",
     "type": {
-      "primary":"Vol",
+      "primary":"Flying",
      "secondary": "Dragon"
     },
     "favorite":false
@@ -8932,7 +8932,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/716.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/716.png",
     "type": {
-      "primary":"Fée"
+      "primary":"Fairy"
     },
     "favorite":false
   },
@@ -8944,8 +8944,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/717.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/717.png",
     "type": {
-      "primary":"Té",
-     "secondary": "Vol"
+      "primary":"Dark",
+     "secondary": "Flying"
     },
     "favorite":false
   },
@@ -8958,7 +8958,7 @@ export const pokedexData =[
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/718.png",
     "type": {
       "primary":"Dragon",
-     "secondary": "Sol"
+     "secondary": "Ground"
     },
     "favorite":false
   },
@@ -8970,8 +8970,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/719.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/719.png",
     "type": {
-      "primary":"Roche",
-     "secondary": "Fée"
+      "primary":"Rock",
+     "secondary": "Fairy"
     },
     "favorite":false
   },
@@ -8983,8 +8983,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/720.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/720.png",
     "type": {
-      "primary":"Psy",
-     "secondary": "Spectre"
+      "primary":"Psychic",
+     "secondary": "Ghost"
     },
     "favorite":false
   },
@@ -8992,12 +8992,12 @@ export const pokedexData =[
     "description": "It expels its internal steam from the arms on its back. It has enough power to blow away a mountain.",
     "hires": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/721.png",
     "id": 721,
-    "french": "Volcanion",
+    "french": "Flyingcanion",
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/721.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/721.png",
     "type": {
-      "primary":"Feu",
-     "secondary": "Eau"
+      "primary":"Fire",
+     "secondary": "Water"
     },
     "favorite":false
   },
@@ -9009,8 +9009,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/722.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/722.png",
     "type": {
-      "primary":"Plante",
-     "secondary": "Vol"
+      "primary":"Grass",
+     "secondary": "Flying"
     },
     "favorite":false
   },
@@ -9022,8 +9022,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/723.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/723.png",
     "type": {
-      "primary":"Plante",
-     "secondary": "Vol"
+      "primary":"Grass",
+     "secondary": "Flying"
     },
     "favorite":false
   },
@@ -9035,8 +9035,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/724.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/724.png",
     "type": {
-      "primary":"Plante",
-     "secondary": "Spectre"
+      "primary":"Grass",
+     "secondary": "Ghost"
     },
     "favorite":false
   },
@@ -9048,7 +9048,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/725.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/725.png",
     "type": {
-     "primary": "Feu"
+     "primary": "Fire"
     },
     "favorite":false
   },
@@ -9056,11 +9056,11 @@ export const pokedexData =[
     "description": "When its mane is standing on end, you can tell it’s feeling good. When it isn’t feeling well, its fur will lie down flat.",
     "hires": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/726.png",
     "id": 726,
-    "french": "Matoufeu",
+    "french": "Matoufire",
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/726.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/726.png",
     "type": {
-     "primary": "Feu"
+     "primary": "Fire"
     },
     "favorite":false
   },
@@ -9072,8 +9072,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/727.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/727.png",
     "type": {
-      "primary":"Feu",
-     "secondary": "Té"
+      "primary":"Fire",
+     "secondary": "Dark"
     },
     "favorite":false
   },
@@ -9085,7 +9085,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/728.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/728.png",
     "type": {
-      "primary":"Eau"
+      "primary":"Water"
     },
     "favorite":false
   },
@@ -9097,7 +9097,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/729.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/729.png",
     "type": {
-      "primary":"Eau"
+      "primary":"Water"
     },
     "favorite":false
   },
@@ -9109,8 +9109,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/730.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/730.png",
     "type": {
-      "primary":"Eau",
-     "secondary": "Fée"
+      "primary":"Water",
+     "secondary": "Fairy"
     },
     "favorite":false
   },
@@ -9123,7 +9123,7 @@ export const pokedexData =[
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/731.png",
     "type": {
       "primary":"Normal",
-     "secondary": "Vol"
+     "secondary": "Flying"
     },
     "favorite":false
   },
@@ -9136,7 +9136,7 @@ export const pokedexData =[
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/732.png",
     "type": {
       "primary":"Normal",
-     "secondary": "Vol"
+     "secondary": "Flying"
     },
     "favorite":false
   },
@@ -9149,7 +9149,7 @@ export const pokedexData =[
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/733.png",
     "type": {
       "primary":"Normal",
-     "secondary": "Vol"
+     "secondary": "Flying"
     },
     "favorite":false
   },
@@ -9185,7 +9185,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/736.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/736.png",
     "type": {
-    "primary":  "Insect"
+    "primary":  "Bug"
     },
     "favorite":false
   },
@@ -9197,21 +9197,21 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/737.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/737.png",
     "type": {
-     "primary": "Insect",
-     "secondary": "Electrique"
+     "primary": "Bug",
+     "secondary": "Electric"
     },
     "favorite":false
   },
   {
-    "description": "Vikavolt flusters opponents with acrobatic flying maneuvers. This creates an opening for it to deliver an electric beam attack.",
+    "description": "VikaFlyingt flusters opponents with acrobatic flying maneuvers. This creates an opening for it to deliver an electric beam attack.",
     "hires": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/738.png",
     "id": 738,
     "french": "Lucanon",
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/738.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/738.png",
     "type": {
-     "primary": "Insect",
-     "secondary": "Electrique"
+     "primary": "Bug",
+     "secondary": "Electric"
     },
     "favorite":false
   },
@@ -9223,7 +9223,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/739.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/739.png",
     "type": {
-      "primary":"Combat"
+      "primary":"Fighting"
     },
     "favorite":false
   },
@@ -9235,8 +9235,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/740.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/740.png",
     "type": {
-      "primary":"Combat",
-     "secondary": "Glace"
+      "primary":"Fighting",
+     "secondary": "Ice"
     },
     "favorite":false
   },
@@ -9248,8 +9248,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/741.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/741.png",
     "type": {
-      "primary":"Feu",
-     "secondary": "Vol"
+      "primary":"Fire",
+     "secondary": "Flying"
     },
     "favorite":false
   },
@@ -9261,8 +9261,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/742.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/742.png",
     "type": {
-     "primary": "Insect",
-     "secondary": "Fée"
+     "primary": "Bug",
+     "secondary": "Fairy"
     },
     "favorite":false
   },
@@ -9274,8 +9274,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/743.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/743.png",
     "type": {
-     "primary": "Insect",
-     "secondary": "Fée"
+     "primary": "Bug",
+     "secondary": "Fairy"
     },
     "favorite":false
   },
@@ -9287,7 +9287,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/744.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/744.png",
     "type": {
-     "primary": "Roche"
+     "primary": "Rock"
     },
     "favorite":false
   },
@@ -9299,7 +9299,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/745.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/745.png",
     "type": {
-     "primary": "Roche"
+     "primary": "Rock"
     },
     "favorite":false
   },
@@ -9311,7 +9311,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/746.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/746.png",
     "type": {
-      "primary":"Eau"
+      "primary":"Water"
     },
     "favorite":false
   },
@@ -9324,7 +9324,7 @@ export const pokedexData =[
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/747.png",
     "type": {
       "primary":"Poison",
-     "secondary": "Eau"
+     "secondary": "Water"
     },
     "favorite":false
   },
@@ -9337,7 +9337,7 @@ export const pokedexData =[
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/748.png",
     "type": {
       "primary":"Poison",
-     "secondary": "Eau"
+     "secondary": "Water"
     },
     "favorite":false
   },
@@ -9349,7 +9349,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/749.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/749.png",
     "type": {
-      "primary":"Sol"
+      "primary":"Ground"
     },
     "favorite":false
   },
@@ -9361,20 +9361,20 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/750.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/750.png",
     "type": {
-      "primary":"Sol"
+      "primary":"Ground"
     },
     "favorite":false
   },
   {
-    "description": "It can only breathe oxygen that has dissolved in water, so it wears a water bubble on its head when it walks around on land.",
+    "description": "It can only breathe oxygen that has disGroundved in water, so it wears a water bubble on its head when it walks around on land.",
     "hires": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/751.png",
     "id": 751,
     "french": "Araqua",
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/751.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/751.png",
     "type": {
-      "primary":"Eau",
-     "secondary": "Insect"
+      "primary":"Water",
+     "secondary": "Bug"
     },
     "favorite":false
   },
@@ -9386,8 +9386,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/752.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/752.png",
     "type": {
-      "primary":"Eau",
-     "secondary": "Insect"
+      "primary":"Water",
+     "secondary": "Bug"
     },
     "favorite":false
   },
@@ -9399,19 +9399,19 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/753.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/753.png",
     "type": {
-      "primary":"Plante"
+      "primary":"Grass"
     },
     "favorite":false
   },
   {
-    "description": "As it slashes into its enemies, it looks like it’s dancing. Its elegant appearance has led some to call it the most glamorous Plante Pokémon.",
+    "description": "As it slashes into its enemies, it looks like it’s dancing. Its elegant appearance has led some to call it the most glamorous Grass Pokémon.",
     "hires": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/754.png",
     "id": 754,
     "french": "Floramantis",
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/754.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/754.png",
     "type": {
-      "primary":"Plante"
+      "primary":"Grass"
     },
     "favorite":false
   },
@@ -9423,8 +9423,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/755.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/755.png",
     "type": {
-      "primary":"Plante",
-     "secondary": "Fée"
+      "primary":"Grass",
+     "secondary": "Fairy"
     },
     "favorite":false
   },
@@ -9436,8 +9436,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/756.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/756.png",
     "type": {
-      "primary":"Plante",
-     "secondary": "Fée"
+      "primary":"Grass",
+     "secondary": "Fairy"
     },
     "favorite":false
   },
@@ -9450,7 +9450,7 @@ export const pokedexData =[
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/757.png",
     "type": {
       "primary":"Poison",
-     "secondary": "Feu"
+     "secondary": "Fire"
     },
     "favorite":false
   },
@@ -9463,7 +9463,7 @@ export const pokedexData =[
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/758.png",
     "type": {
       "primary":"Poison",
-     "secondary": "Feu"
+     "secondary": "Fire"
     },
     "favorite":false
   },
@@ -9476,7 +9476,7 @@ export const pokedexData =[
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/759.png",
     "type": {
       "primary":"Normal",
-     "secondary": "Combat"
+     "secondary": "Fighting"
     },
     "favorite":false
   },
@@ -9489,7 +9489,7 @@ export const pokedexData =[
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/760.png",
     "type": {
       "primary":"Normal",
-     "secondary": "Combat"
+     "secondary": "Fighting"
     },
     "favorite":false
   },
@@ -9501,7 +9501,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/761.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/761.png",
     "type": {
-      "primary":"Plante"
+      "primary":"Grass"
     },
     "favorite":false
   },
@@ -9513,7 +9513,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/762.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/762.png",
     "type": {
-      "primary":"Plante"
+      "primary":"Grass"
     },
     "favorite":false
   },
@@ -9525,7 +9525,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/763.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/763.png",
     "type": {
-      "primary":"Plante"
+      "primary":"Grass"
     },
     "favorite":false
   },
@@ -9537,7 +9537,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/764.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/764.png",
     "type": {
-      "primary":"Fée"
+      "primary":"Fairy"
     },
     "favorite":false
   },
@@ -9550,7 +9550,7 @@ export const pokedexData =[
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/765.png",
     "type": {
       "primary":"Normal",
-     "secondary": "Psy"
+     "secondary": "Psychic"
     },
     "favorite":false
   },
@@ -9562,7 +9562,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/766.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/766.png",
     "type": {
-      "primary":"Combat"
+      "primary":"Fighting"
     },
     "favorite":false
   },
@@ -9574,8 +9574,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/767.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/767.png",
     "type": {
-     "primary": "Insect",
-     "secondary": "Eau"
+     "primary": "Bug",
+     "secondary": "Water"
     },
     "favorite":false
   },
@@ -9587,8 +9587,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/768.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/768.png",
     "type": {
-     "primary": "Insect",
-     "secondary": "Eau"
+     "primary": "Bug",
+     "secondary": "Water"
     },
     "favorite":false
   },
@@ -9600,8 +9600,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/769.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/769.png",
     "type": {
-      "primary":"Spectre",
-     "secondary": "Sol"
+      "primary":"Ghost",
+     "secondary": "Ground"
     },
     "favorite":false
   },
@@ -9613,8 +9613,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/770.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/770.png",
     "type": {
-      "primary":"Spectre",
-     "secondary": "Sol"
+      "primary":"Ghost",
+     "secondary": "Ground"
     },
     "favorite":false
   },
@@ -9626,7 +9626,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/771.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/771.png",
     "type": {
-      "primary":"Eau"
+      "primary":"Water"
     },
     "favorite":false
   },
@@ -9662,8 +9662,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/774.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/774.png",
     "type": {
-      "primary":"Roche",
-     "secondary": "Vol"
+      "primary":"Rock",
+     "secondary": "Flying"
     },
     "favorite":false
   },
@@ -9687,7 +9687,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/776.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/776.png",
     "type": {
-      "primary":"Feu",
+      "primary":"Fire",
      "secondary": "Dragon"
     },
     "favorite":false
@@ -9700,8 +9700,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/777.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/777.png",
     "type": {
-      "primary":"Electrique",
-     "secondary": "Acier"
+      "primary":"Electric",
+     "secondary": "Steel"
     },
     "favorite":false
   },
@@ -9713,8 +9713,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/778.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/778.png",
     "type": {
-      "primary":"Spectre",
-     "secondary": "Fée"
+      "primary":"Ghost",
+     "secondary": "Fairy"
     },
     "favorite":false
   },
@@ -9726,8 +9726,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/779.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/779.png",
     "type": {
-      "primary":"Eau",
-     "secondary": "Psy"
+      "primary":"Water",
+     "secondary": "Psychic"
     },
     "favorite":false
   },
@@ -9752,8 +9752,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/781.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/781.png",
     "type": {
-      "primary":"Spectre",
-     "secondary": "Plante"
+      "primary":"Ghost",
+     "secondary": "Grass"
     },
     "favorite":false
   },
@@ -9778,7 +9778,7 @@ export const pokedexData =[
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/783.png",
     "type": {
       "primary":"Dragon",
-     "secondary": "Combat"
+     "secondary": "Fighting"
     },
     "favorite":false
   },
@@ -9791,7 +9791,7 @@ export const pokedexData =[
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/784.png",
     "type": {
       "primary":"Dragon",
-     "secondary": "Combat"
+     "secondary": "Fighting"
     },
     "favorite":false
   },
@@ -9803,8 +9803,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/785.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/785.png",
     "type": {
-      "primary":"Electrique",
-     "secondary": "Fée"
+      "primary":"Electric",
+     "secondary": "Fairy"
     },
     "favorite":false
   },
@@ -9816,8 +9816,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/786.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/786.png",
     "type": {
-      "primary":"Psy",
-     "secondary": "Fée"
+      "primary":"Psychic",
+     "secondary": "Fairy"
     },
     "favorite":false
   },
@@ -9829,8 +9829,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/787.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/787.png",
     "type": {
-      "primary":"Plante",
-     "secondary": "Fée"
+      "primary":"Grass",
+     "secondary": "Fairy"
     },
     "favorite":false
   },
@@ -9842,8 +9842,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/788.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/788.png",
     "type": {
-      "primary":"Eau",
-     "secondary": "Fée"
+      "primary":"Water",
+     "secondary": "Fairy"
     },
     "favorite":false
   },
@@ -9855,19 +9855,19 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/789.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/789.png",
     "type": {
-      "primary":"Psy"
+      "primary":"Psychic"
     },
     "favorite":false
   },
   {
-    "description": "As it absorbs light, Cosmoem continues to grow. Its golden shell is surprisingly solid.",
+    "description": "As it absorbs light, Cosmoem continues to grow. Its golden shell is surprisingly Groundid.",
     "hires": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/790.png",
     "id": 790,
     "french": "Cosmovum",
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/790.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/790.png",
     "type": {
-      "primary":"Psy"
+      "primary":"Psychic"
     },
     "favorite":false
   },
@@ -9875,12 +9875,12 @@ export const pokedexData =[
     "description": "In writings from the distant past, it’s called by the name “the beast that devours the sun.”",
     "hires": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/791.png",
     "id": 791,
-    "french": "Solgaleo",
+    "french": "Groundgaleo",
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/791.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/791.png",
     "type": {
-      "primary":"Psy",
-     "secondary": "Acier"
+      "primary":"Psychic",
+     "secondary": "Steel"
     },
     "favorite":false
   },
@@ -9892,8 +9892,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/792.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/792.png",
     "type": {
-      "primary":"Psy",
-     "secondary": "Spectre"
+      "primary":"Psychic",
+     "secondary": "Ghost"
     },
     "favorite":false
   },
@@ -9905,7 +9905,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/793.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/793.png",
     "type": {
-      "primary":"Roche",
+      "primary":"Rock",
      "secondary": "Poison"
     },
     "favorite":false
@@ -9918,8 +9918,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/794.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/794.png",
     "type": {
-     "primary": "Insect",
-     "secondary": "Combat"
+     "primary": "Bug",
+     "secondary": "Fighting"
     },
     "favorite":false
   },
@@ -9931,8 +9931,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/795.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/795.png",
     "type": {
-     "primary": "Insect",
-     "secondary": "Combat"
+     "primary": "Bug",
+     "secondary": "Fighting"
     },
     "favorite":false
   },
@@ -9944,7 +9944,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/796.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/796.png",
     "type": {
-      "primary":"Electrique"
+      "primary":"Electric"
     },
     "favorite":false
   },
@@ -9956,8 +9956,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/797.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/797.png",
     "type": {
-      "primary":"Acier",
-     "secondary": "Vol"
+      "primary":"Steel",
+     "secondary": "Flying"
     },
     "favorite":false
   },
@@ -9969,8 +9969,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/798.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/798.png",
     "type": {
-      "primary":"Plante",
-     "secondary": "Acier"
+      "primary":"Grass",
+     "secondary": "Steel"
     },
     "favorite":false
   },
@@ -9982,7 +9982,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/799.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/799.png",
     "type": {
-      "primary":"Té",
+      "primary":"Dark",
      "secondary": "Dragon"
     },
     "favorite":false
@@ -9995,7 +9995,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/800.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/800.png",
     "type": {
-      "primary":"Psy"
+      "primary":"Psychic"
     },
     "favorite":false
   },
@@ -10007,8 +10007,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/801.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/801.png",
     "type": {
-      "primary":"Acier",
-     "secondary": "Fée"
+      "primary":"Steel",
+     "secondary": "Fairy"
     },
     "favorite":false
   },
@@ -10020,8 +10020,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/802.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/802.png",
     "type": {
-      "primary":"Combat",
-     "secondary": "Spectre"
+      "primary":"Fighting",
+     "secondary": "Ghost"
     },
     "favorite":false
   },
@@ -10058,8 +10058,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/805.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/805.png",
     "type": {
-      "primary":"Roche",
-     "secondary": "Acier"
+      "primary":"Rock",
+     "secondary": "Steel"
     },
     "favorite":false
   },
@@ -10071,8 +10071,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/806.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/806.png",
     "type": {
-      "primary":"Feu",
-     "secondary": "Spectre"
+      "primary":"Fire",
+     "secondary": "Ghost"
     },
     "favorite":false
   },
@@ -10084,19 +10084,19 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/807.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/807.png",
     "type": {
-      "primary":"Electrique"
+      "primary":"Electric"
     },
     "favorite":false
   },
   {
-    "description": "They live as a group, but when the time comes, one strong Meltan will absorb all the others and evolve.",
+    "description": "They live as a group, but when the time comes, one strong Meltan will absorb all the others and eFlyingve.",
     "hires": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/808.png",
     "id": 808,
     "french": "Meltan",
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/808.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/808.png",
     "type": {
-      "primary":"Acier"
+      "primary":"Steel"
     },
     "favorite":false
   },
@@ -10108,7 +10108,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/809.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/809.png",
     "type": {
-      "primary":"Acier"
+      "primary":"Steel"
     },
     "favorite":false
   },
@@ -10120,7 +10120,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/810.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/810.png",
     "type": {
-      "primary":"Plante"
+      "primary":"Grass"
     },
     "favorite":false
   },
@@ -10132,7 +10132,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/811.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/811.png",
     "type": {
-      "primary":"Plante"
+      "primary":"Grass"
     },
     "favorite":false
   },
@@ -10144,7 +10144,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/812.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/812.png",
     "type": {
-      "primary":"Plante"
+      "primary":"Grass"
     },
     "favorite":false
   },
@@ -10156,7 +10156,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/813.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/813.png",
     "type": {
-     "primary": "Feu"
+     "primary": "Fire"
     },
     "favorite":false
   },
@@ -10168,7 +10168,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/814.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/814.png",
     "type": {
-     "primary": "Feu"
+     "primary": "Fire"
     },
     "favorite":false
   },
@@ -10180,7 +10180,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/815.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/815.png",
     "type": {
-     "primary": "Feu"
+     "primary": "Fire"
     },
     "favorite":false
   },
@@ -10192,7 +10192,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/816.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/816.png",
     "type": {
-      "primary":"Eau"
+      "primary":"Water"
     },
     "favorite":false
   },
@@ -10204,7 +10204,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/817.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/817.png",
     "type": {
-      "primary":"Eau"
+      "primary":"Water"
     },
     "favorite":false
   },
@@ -10216,7 +10216,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/818.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/818.png",
     "type": {
-      "primary":"Eau"
+      "primary":"Water"
     },
     "favorite":false
   },
@@ -10252,7 +10252,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/821.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/821.png",
     "type": {
-      "primary":"Vol"
+      "primary":"Flying"
     },
     "favorite":false
   },
@@ -10264,7 +10264,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/822.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/822.png",
     "type": {
-      "primary":"Vol"
+      "primary":"Flying"
     },
     "favorite":false
   },
@@ -10276,8 +10276,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/823.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/823.png",
     "type": {
-      "primary":"Vol",
-     "secondary": "Acier"
+      "primary":"Flying",
+     "secondary": "Steel"
     },
     "favorite":false
   },
@@ -10289,33 +10289,33 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/824.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/824.png",
     "type": {
-    "primary":  "Insect"
+    "primary":  "Bug"
     },
     "favorite":false
   },
   {
-    "description": "As it grows inside its shell, it uses its psychic abilities to monitor the outside world and prepare for evolution.",
+    "description": "As it grows inside its shell, it uses its psychicchic abilities to monitor the outside world and prepare for eFlyingution.",
     "hires": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/825.png",
     "id": 825,
     "french": "Coléodôme",
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/825.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/825.png",
     "type": {
-     "primary": "Insect",
-     "secondary": "Psy"
+     "primary": "Bug",
+     "secondary": "Psychic"
     },
     "favorite":false
   },
   {
-    "description": "It emits psychic energy to observe and study what’s around it—and what’s around it can include things over six miles away.",
+    "description": "It emits psychicchic energy to observe and study what’s around it—and what’s around it can include things over six miles away.",
     "hires": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/826.png",
     "id": 826,
     "french": "Astronelle",
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/826.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/826.png",
     "type": {
-     "primary": "Insect",
-     "secondary": "Psy"
+     "primary": "Bug",
+     "secondary": "Psychic"
     },
     "favorite":false
   },
@@ -10327,7 +10327,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/827.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/827.png",
     "type": {
-     "primary": "Té"
+     "primary": "Dark"
     },
     "favorite":false
   },
@@ -10339,7 +10339,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/828.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/828.png",
     "type": {
-     "primary": "Té"
+     "primary": "Dark"
     },
     "favorite":false
   },
@@ -10351,7 +10351,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/829.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/829.png",
     "type": {
-      "primary":"Plante"
+      "primary":"Grass"
     },
     "favorite":false
   },
@@ -10363,7 +10363,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/830.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/830.png",
     "type": {
-      "primary":"Plante"
+      "primary":"Grass"
     },
     "favorite":false
   },
@@ -10399,7 +10399,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/833.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/833.png",
     "type": {
-      "primary":"Eau"
+      "primary":"Water"
     },
     "favorite":false
   },
@@ -10411,8 +10411,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/834.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/834.png",
     "type": {
-      "primary":"Eau",
-     "secondary": "Roche"
+      "primary":"Water",
+     "secondary": "Rock"
     },
     "favorite":false
   },
@@ -10420,11 +10420,11 @@ export const pokedexData =[
     "description": "This gluttonous Pokémon only assists people with their work because it wants treats. As it runs, it crackles with electricity.",
     "hires": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/835.png",
     "id": 835,
-    "french": "Voltoutou",
+    "french": "Flyingtoutou",
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/835.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/835.png",
     "type": {
-      "primary":"Electrique"
+      "primary":"Electric"
     },
     "favorite":false
   },
@@ -10436,7 +10436,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/836.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/836.png",
     "type": {
-      "primary":"Electrique"
+      "primary":"Electric"
     },
     "favorite":false
   },
@@ -10448,7 +10448,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/837.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/837.png",
     "type": {
-     "primary": "Roche"
+     "primary": "Rock"
     },
     "favorite":false
   },
@@ -10460,8 +10460,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/838.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/838.png",
     "type": {
-      "primary":"Roche",
-     "secondary": "Feu"
+      "primary":"Rock",
+     "secondary": "Fire"
     },
     "favorite":false
   },
@@ -10473,20 +10473,20 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/839.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/839.png",
     "type": {
-      "primary":"Roche",
-     "secondary": "Feu"
+      "primary":"Rock",
+     "secondary": "Fire"
     },
     "favorite":false
   },
   {
-    "description": "As soon as it’s born, it burrows into an apple. Not only does the apple serve as its food source, but the flavor of the fruit determines its evolution.",
+    "description": "As soon as it’s born, it burrows into an apple. Not only does the apple serve as its food source, but the flavor of the fruit determines its eFlyingution.",
     "hires": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/840.png",
     "id": 840,
     "french": "Verpom",
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/840.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/840.png",
     "type": {
-      "primary":"Plante",
+      "primary":"Grass",
      "secondary": "Dragon"
     },
     "favorite":false
@@ -10499,7 +10499,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/841.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/841.png",
     "type": {
-      "primary":"Plante",
+      "primary":"Grass",
      "secondary": "Dragon"
     },
     "favorite":false
@@ -10512,7 +10512,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/842.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/842.png",
     "type": {
-      "primary":"Plante",
+      "primary":"Grass",
      "secondary": "Dragon"
     },
     "favorite":false
@@ -10525,7 +10525,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/843.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/843.png",
     "type": {
-      "primary":"Sol"
+      "primary":"Ground"
     },
     "favorite":false
   },
@@ -10537,7 +10537,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/844.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/844.png",
     "type": {
-      "primary":"Sol"
+      "primary":"Ground"
     },
     "favorite":false
   },
@@ -10549,8 +10549,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/845.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/845.png",
     "type": {
-      "primary":"Vol",
-     "secondary": "Eau"
+      "primary":"Flying",
+     "secondary": "Water"
     },
     "favorite":false
   },
@@ -10562,7 +10562,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/846.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/846.png",
     "type": {
-      "primary":"Eau"
+      "primary":"Water"
     },
     "favorite":false
   },
@@ -10574,19 +10574,19 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/847.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/847.png",
     "type": {
-      "primary":"Eau"
+      "primary":"Water"
     },
     "favorite":false
   },
   {
-    "description": "It manipulates the chemical makeup of its poison to produce electricity. The voltage is weak, but it can cause a tingling paralysis.",
+    "description": "It manipulates the chemical makeup of its poison to produce electricity. The Flyingtage is weak, but it can cause a tingling paralysis.",
     "hires": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/848.png",
     "id": 848,
     "french": "Toxizap",
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/848.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/848.png",
     "type": {
-      "primary":"Electrique",
+      "primary":"Electric",
      "secondary": "Poison"
     },
     "favorite":false
@@ -10599,7 +10599,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/849.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/849.png",
     "type": {
-      "primary":"Electrique",
+      "primary":"Electric",
      "secondary": "Poison"
     },
     "favorite":false
@@ -10612,8 +10612,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/850.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/850.png",
     "type": {
-      "primary":"Feu",
-     "secondary": "Insect"
+      "primary":"Fire",
+     "secondary": "Bug"
     },
     "favorite":false
   },
@@ -10625,8 +10625,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/851.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/851.png",
     "type": {
-      "primary":"Feu",
-     "secondary": "Insect"
+      "primary":"Fire",
+     "secondary": "Bug"
     },
     "favorite":false
   },
@@ -10638,7 +10638,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/852.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/852.png",
     "type": {
-      "primary":"Combat"
+      "primary":"Fighting"
     },
     "favorite":false
   },
@@ -10650,7 +10650,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/853.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/853.png",
     "type": {
-      "primary":"Combat"
+      "primary":"Fighting"
     },
     "favorite":false
   },
@@ -10662,7 +10662,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/854.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/854.png",
     "type": {
-      "primary":"Spectre"
+      "primary":"Ghost"
     },
     "favorite":false
   },
@@ -10674,7 +10674,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/855.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/855.png",
     "type": {
-      "primary":"Spectre"
+      "primary":"Ghost"
     },
     "favorite":false
   },
@@ -10686,7 +10686,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/856.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/856.png",
     "type": {
-      "primary":"Psy"
+      "primary":"Psychic"
     },
     "favorite":false
   },
@@ -10698,7 +10698,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/857.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/857.png",
     "type": {
-      "primary":"Psy"
+      "primary":"Psychic"
     },
     "favorite":false
   },
@@ -10710,8 +10710,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/858.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/858.png",
     "type": {
-      "primary":"Psy",
-     "secondary": "Fée"
+      "primary":"Psychic",
+     "secondary": "Fairy"
     },
     "favorite":false
   },
@@ -10723,8 +10723,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/859.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/859.png",
     "type": {
-      "primary":"Té",
-     "secondary": "Fée"
+      "primary":"Dark",
+     "secondary": "Fairy"
     },
     "favorite":false
   },
@@ -10736,8 +10736,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/860.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/860.png",
     "type": {
-      "primary":"Té",
-     "secondary": "Fée"
+      "primary":"Dark",
+     "secondary": "Fairy"
     },
     "favorite":false
   },
@@ -10749,33 +10749,33 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/861.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/861.png",
     "type": {
-      "primary":"Té",
-     "secondary": "Fée"
+      "primary":"Dark",
+     "secondary": "Fairy"
     },
     "favorite":false
   },
   {
-    "description": "It evolved after experiencing numerous fights. While crossing its arms, it lets out a shout that would make any opponent flinch.",
+    "description": "It eFlyingved after experiencing numerous fights. While crossing its arms, it lets out a shout that would make any opponent flinch.",
     "hires": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/862.png",
     "id": 862,
     "french": "Ixon",
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/862.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/862.png",
     "type": {
-      "primary":"Té",
+      "primary":"Dark",
      "secondary": "Normal"
     },
     "favorite":false
   },
   {
-    "description": "After many battles, it evolved dangerous claws that come together to form daggers when extended.",
+    "description": "After many battles, it eFlyingved dangerous claws that come together to form daggers when extended.",
     "hires": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/863.png",
     "id": 863,
     "french": "Berserkatt",
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/863.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/863.png",
     "type": {
-      "primary":"Acier"
+      "primary":"Steel"
     },
     "favorite":false
   },
@@ -10787,7 +10787,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/864.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/864.png",
     "type": {
-      "primary":"Spectre"
+      "primary":"Ghost"
     },
     "favorite":false
   },
@@ -10799,20 +10799,20 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/865.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/865.png",
     "type": {
-      "primary":"Combat"
+      "primary":"Fighting"
     },
     "favorite":false
   },
   {
-    "description": "Its amusing movements make it very popular. It releases its psychic power from the pattern on its belly.",
+    "description": "Its amusing movements make it very popular. It releases its psychicchic power from the pattern on its belly.",
     "hires": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/866.png",
     "id": 866,
     "french": "M. Glaquette",
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/866.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/866.png",
     "type": {
-     "primary": "Glace",
-     "secondary": "Psy"
+     "primary": "Ice",
+     "secondary": "Psychic"
     },
     "favorite":false
   },
@@ -10824,8 +10824,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/867.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/867.png",
     "type": {
-      "primary":"Sol",
-     "secondary": "Spectre"
+      "primary":"Ground",
+     "secondary": "Ghost"
     },
     "favorite":false
   },
@@ -10837,7 +10837,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/868.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/868.png",
     "type": {
-      "primary":"Fée"
+      "primary":"Fairy"
     },
     "favorite":false
   },
@@ -10849,7 +10849,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/869.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/869.png",
     "type": {
-      "primary":"Fée"
+      "primary":"Fairy"
     },
     "favorite":false
   },
@@ -10861,7 +10861,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/870.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/870.png",
     "type": {
-      "primary":"Combat"
+      "primary":"Fighting"
     },
     "favorite":false
   },
@@ -10873,7 +10873,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/871.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/871.png",
     "type": {
-      "primary":"Electrique"
+      "primary":"Electric"
     },
     "favorite":false
   },
@@ -10885,8 +10885,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/872.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/872.png",
     "type": {
-     "primary": "Glace",
-     "secondary": "Insect"
+     "primary": "Ice",
+     "secondary": "Bug"
     },
     "favorite":false
   },
@@ -10898,8 +10898,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/873.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/873.png",
     "type": {
-     "primary": "Glace",
-     "secondary": "Insect"
+     "primary": "Ice",
+     "secondary": "Bug"
     },
     "favorite":false
   },
@@ -10911,7 +10911,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/874.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/874.png",
     "type": {
-     "primary": "Roche"
+     "primary": "Rock"
     },
     "favorite":false
   },
@@ -10923,7 +10923,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/875.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/875.png",
     "type": {
-    "primary":  "Glace"
+    "primary":  "Ice"
     },
     "favorite":false
   },
@@ -10935,7 +10935,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/876.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/876.png",
     "type": {
-      "primary":"Psy",
+      "primary":"Psychic",
      "secondary": "Normal"
     },
     "favorite":false
@@ -10948,8 +10948,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/877.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/877.png",
     "type": {
-      "primary":"Electrique",
-     "secondary": "Té"
+      "primary":"Electric",
+     "secondary": "Dark"
     },
     "favorite":false
   },
@@ -10961,7 +10961,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/878.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/878.png",
     "type": {
-      "primary":"Acier"
+      "primary":"Steel"
     },
     "favorite":false
   },
@@ -10973,7 +10973,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/879.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/879.png",
     "type": {
-      "primary":"Acier"
+      "primary":"Steel"
     },
     "favorite":false
   },
@@ -10985,7 +10985,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/880.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/880.png",
     "type": {
-      "primary":"Electrique",
+      "primary":"Electric",
      "secondary": "Dragon"
     },
     "favorite":false
@@ -10998,8 +10998,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/881.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/881.png",
     "type": {
-      "primary":"Electrique",
-     "secondary": "Glace"
+      "primary":"Electric",
+     "secondary": "Ice"
     },
     "favorite":false
   },
@@ -11011,7 +11011,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/882.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/882.png",
     "type": {
-      "primary":"Eau",
+      "primary":"Water",
      "secondary": "Dragon"
     },
     "favorite":false
@@ -11024,8 +11024,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/883.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/883.png",
     "type": {
-      "primary":"Eau",
-     "secondary": "Glace"
+      "primary":"Water",
+     "secondary": "Ice"
     },
     "favorite":false
   },
@@ -11037,13 +11037,13 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/884.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/884.png",
     "type": {
-      "primary":"Acier",
+      "primary":"Steel",
      "secondary": "Dragon"
     },
     "favorite":false
   },
   {
-    "description": "If this weak Pokémon is by itself, a mere child could defeat it. But if Dreepy has friends to help it train, it can evolve and become much stronger.",
+    "description": "If this weak Pokémon is by itself, a mere child could defeat it. But if Dreepy has friends to help it train, it can eFlyingve and become much stronger.",
     "hires": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/885.png",
     "id": 885,
     "french": "Fantyrm",
@@ -11051,7 +11051,7 @@ export const pokedexData =[
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/885.png",
     "type": {
       "primary":"Dragon",
-     "secondary": "Spectre"
+     "secondary": "Ghost"
     },
     "favorite":false
   },
@@ -11064,7 +11064,7 @@ export const pokedexData =[
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/886.png",
     "type": {
       "primary":"Dragon",
-     "secondary": "Spectre"
+     "secondary": "Ghost"
     },
     "favorite":false
   },
@@ -11077,7 +11077,7 @@ export const pokedexData =[
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/887.png",
     "type": {
       "primary":"Dragon",
-     "secondary": "Spectre"
+     "secondary": "Ghost"
     },
     "favorite":false
   },
@@ -11089,7 +11089,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/888.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/888.png",
     "type": {
-      "primary":"Fée"
+      "primary":"Fairy"
     },
     "favorite":false
   },
@@ -11101,7 +11101,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/889.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/889.png",
     "type": {
-      "primary":"Combat"
+      "primary":"Fighting"
     },
     "favorite":false
   },
@@ -11126,7 +11126,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/891.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/891.png",
     "type": {
-      "primary":"Combat"
+      "primary":"Fighting"
     },
     "favorite":false
   },
@@ -11138,8 +11138,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/892.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/892.png",
     "type": {
-      "primary":"Combat",
-     "secondary": "Té"
+      "primary":"Fighting",
+     "secondary": "Dark"
     },
     "favorite":false
   },
@@ -11151,8 +11151,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/893.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/893.png",
     "type": {
-      "primary":"Té",
-     "secondary": "Plante"
+      "primary":"Dark",
+     "secondary": "Grass"
     },
     "favorite":false
   },
@@ -11164,7 +11164,7 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/894.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/894.png",
     "type": {
-      "primary":"Electrique"
+      "primary":"Electric"
     },
     "favorite":false
   },
@@ -11188,19 +11188,19 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/896.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/896.png",
     "type": {
-    "primary":  "Glace"
+    "primary":  "Ice"
     },
     "favorite":false
   },
   {
-    "description": "As it dashes through the night, Spectrier absorbs the life-force of sleeping creatures. It craves silence and solitude.",
+    "description": "As it dashes through the night, Spectrier absorbs the life-force of sleeping creatures. It craves silence and Grounditude.",
     "hires": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/hires/897.png",
     "id": 897,
     "french": "Spectreval",
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/897.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/897.png",
     "type": {
-      "primary":"Spectre"
+      "primary":"Ghost"
     },
     "favorite":false
   },
@@ -11212,8 +11212,8 @@ export const pokedexData =[
     "sprite": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/sprites/898.png",
     "thumbnail": "https://raw.githubusercontent.com/Purukitto/pokemon-data.json/master/images/pokedex/thumbnails/898.png",
     "type": {
-      "primary":"Psy",
-     "secondary": "Plante"
+      "primary":"Psychic",
+     "secondary": "Grass"
     },
     "favorite": false
   }
