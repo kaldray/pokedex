@@ -78,7 +78,6 @@ const Signin = () => {
     firebase
       .auth()
       .signInWithPopup(provider)
-      .then((result) => {})
       .catch((error) => {
         if (error) {
           throw new Error("error");
@@ -94,7 +93,6 @@ const Signin = () => {
         </Section>
         <SignButton onClick={AuthWithGoogle}>
           <span className="label">Log in with :</span>
-
           <div id="customBtn" className="customGPlusSignIn">
             <span className="icon">
               <GoogleLogo></GoogleLogo>

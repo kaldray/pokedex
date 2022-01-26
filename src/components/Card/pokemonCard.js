@@ -2,8 +2,7 @@ import { useEffect, useState, useRef, useContext } from "react";
 import CardData from "./CardData";
 import firebase from "firebase";
 import "firebase/firebase-database";
-import styled from "styled-components";
-import { keyframes } from "styled-components";
+import styled, { keyframes } from "styled-components";
 import { UserContext } from "../../context/authentification";
 import { pokedexData } from "../../data/pokedexData";
 
@@ -96,19 +95,6 @@ const PokemonCard = () => {
   const searchValue = useRef();
   const [loading, setLoading] = useState(true);
   const { uid } = useContext(UserContext);
-  // const userr = useContext(UserContext)
-
-  //#region code to fetch data to an api
-
-  // useEffect(() => {
-  //   const fetchData = async () => {
-  //     const res = await fetch("https://app.pokemon-api.xyz/pokemon/all");
-  //     const json = await res.json();
-  //     setData(json);
-  //   };
-  //   fetchData();
-  // }, []);
-  //#endregion
 
   //Get data from firebase
   useEffect(() => {
@@ -120,10 +106,10 @@ const PokemonCard = () => {
       setLoading(false);
     };
     const getDataFromFirebase = () => {
-      const pokedexData = firebase
+      const refPokedexData = firebase
         .database()
         .ref("users/" + uid + "/pokedexData");
-      pokedexData.limitToFirst(897).on("value", (snapshot) => {
+      refPokedexData.limitToFirst(897).on("value", (snapshot) => {
         setData(snapshot.val());
         setPokemon(snapshot.val());
       });
@@ -145,48 +131,46 @@ const PokemonCard = () => {
 
   //#region Select pokemon from specific region
   const PokedexJohto = () => {
-    setData((data = pokemon.filter((data) => data.id > 0 && data.id < 152)));
+    setData(pokemon.filter((data) => data.id > 0 && data.id < 152));
   };
   const PokedexKanto = () => {
-    setData((data = pokemon.filter((data) => data.id > 151 && data.id < 252)));
+    setData(pokemon.filter((data) => data.id > 151 && data.id < 252));
   };
   const PokedexHoenn = () => {
-    setData((data = pokemon.filter((data) => data.id > 251 && data.id < 386)));
+    setData(pokemon.filter((data) => data.id > 251 && data.id < 386));
   };
   const PokedexSinoh = () => {
-    setData((data = pokemon.filter((data) => data.id > 386 && data.id < 493)));
+    setData(pokemon.filter((data) => data.id > 386 && data.id < 493));
   };
   const PokedexUnys = () => {
-    setData((data = pokemon.filter((data) => data.id > 494 && data.id < 649)));
+    setData(pokemon.filter((data) => data.id > 494 && data.id < 649));
   };
   const PokedexKalos = () => {
-    setData((data = pokemon.filter((data) => data.id > 649 && data.id < 721)));
+    setData(pokemon.filter((data) => data.id > 649 && data.id < 721));
   };
   const PokedexAlola = () => {
-    setData((data = pokemon.filter((data) => data.id > 722 && data.id < 809)));
+    setData(pokemon.filter((data) => data.id > 722 && data.id < 809));
   };
   const PokedexGalar = () => {
-    setData((data = pokemon.filter((data) => data.id > 809 && data.id < 897)));
+    setData(pokemon.filter((data) => data.id > 809 && data.id < 897));
   };
   const PokedexFav = () => {
-    setData((data = pokemon.filter((data) => data.favorite === true)));
+    setData(pokemon.filter((data) => data.favorite === true));
   };
   //#endregion
 
   // Search pokemon by name
   const searchPokemon = () => {
     setData(
-      (data = pokemon.filter(
-        (pokemon) => pokemon.french.toLowerCase() === searchValue.current.value
-      ))
+      pokemon.filter((pokemon) =>
+        pokemon.french.toLowerCase().includes(searchValue.current.value)
+      )
     );
   };
 
   // Display all pokemon when input is empty
   const resetData = () => {
-    searchValue.current.value === ""
-      ? setData((data = pokemon))
-      : searchPokemon();
+    searchValue.current.value === "" ? setData(pokemon) : searchPokemon();
   };
 
   return (

@@ -7,7 +7,7 @@ const UserContext = createContext();
 
 //GoogleUser context to pass user to other components
 const UserContextProvider = ({ children }) => {
-  const [user, setUser] = useState(null);
+  const [currentUser, setUser] = useState(null);
   const [uid, setUid] = useState(null);
   let history = useHistory();
 
@@ -25,7 +25,7 @@ const UserContextProvider = ({ children }) => {
   }, [setUser, history]);
   return (
     <>
-      <UserContext.Provider value={{ user, uid }}>
+      <UserContext.Provider value={{ currentUser, uid }}>
         {children}
       </UserContext.Provider>
     </>

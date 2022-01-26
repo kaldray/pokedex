@@ -43,11 +43,10 @@ export const Header = styled.header`
 `;
 
 const PokeballLogo = styled(Pokeball)`
-:hover{
-  cursor: pointer;
-}
-`
-
+  :hover {
+    cursor: pointer;
+  }
+`;
 
 const Navbar = () => {
   let history = useHistory();
@@ -62,22 +61,21 @@ const Navbar = () => {
       });
   };
 
-  const { user } = useContext(UserContext);
+  const { currentUser } = useContext(UserContext);
   const goToTop = () => {
-    window.scrollTo({top: 100,behavior: 'smooth'});
+    window.scrollTo({ top: 100, behavior: "smooth" });
   };
   return (
     <>
       <Header>
         <Nav>
           <PokeballLogo onClick={goToTop}></PokeballLogo>
-          {user ? (
+          {currentUser ? (
             <>
               <Button onClick={LogOut}>Log out</Button>
             </>
           ) : (
-            <>
-            </>
+            <></>
           )}
         </Nav>
       </Header>
