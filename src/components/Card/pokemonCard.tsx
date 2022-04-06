@@ -17,6 +17,7 @@ const ButtonRegion = styled.button`
   margin-left: 20px;
   font-family: "Noto Sans JP";
   text-align: center;
+  vertical-align: center;
   max-height: 31px;
   :hover {
     cursor: pointer;
@@ -53,18 +54,7 @@ const Research = styled.input`
   height: 31px;
   margin-bottom: 30px;
 `;
-const ResearchButton = styled.button`
-  grid-row: 2;
-  width: 100px;
-  grid-column: 2;
-  place-self: center;
-  border-radius: 30px 30px;
-  height: 31px;
-  border-color: black;
-  :hover {
-    cursor: pointer;
-  }
-`;
+
 const spin = keyframes`
   to {
     transform: rotate(360deg);
@@ -98,25 +88,26 @@ const PokemonCard = () => {
 
   const uid = user.uid;
 
+  const writeDataInFirebase = () => {
+    const pokedexRef = firebase.database().ref("users/" + uid);
+    pokedexRef.set({
+      pokedexData,
+    });
+    setLoading(false);
+  };
+  const getDataFromFirebase = () => {
+    const refPokedexData = firebase
+      .database()
+      .ref("users/" + uid + "/pokedexData");
+    refPokedexData.limitToFirst(897).on("value", (snapshot) => {
+      setData(snapshot.val());
+      setPokemon(snapshot.val());
+      setLoading(false);
+    });
+  };
+
   //Get data from firebase
   useEffect(() => {
-    const writeDataInFirebase = () => {
-      const pokedexRef = firebase.database().ref("users/" + uid);
-      pokedexRef.set({
-        pokedexData,
-      });
-      setLoading(false);
-    };
-    const getDataFromFirebase = () => {
-      const refPokedexData = firebase
-        .database()
-        .ref("users/" + uid + "/pokedexData");
-      refPokedexData.limitToFirst(897).on("value", (snapshot) => {
-        setData(snapshot.val());
-        setPokemon(snapshot.val());
-      });
-      setLoading(false);
-    };
     if (loading && uid != null) {
       const pokedexRef = firebase.database().ref("users/" + uid);
       pokedexRef.on("value", (snapshot) => {
@@ -128,7 +119,6 @@ const PokemonCard = () => {
         }
       });
     }
-    return () => setLoading(false);
   }, [setData, loading, uid]);
 
   //#region Select pokemon from specific region
@@ -166,17 +156,12 @@ const PokemonCard = () => {
     setData(
       pokemon.filter((pokemon) => {
         if (searchValue.current !== null) {
-          pokemon.french.toLowerCase().includes(searchValue.current.value);
+          return pokemon.french
+            .toLowerCase()
+            .includes(searchValue.current.value);
         }
       })
     );
-  };
-
-  // Display all pokemon when input is empty
-  const resetData = () => {
-    if (searchValue.current !== null) {
-      searchValue.current.value === "" ? setData(pokemon) : searchPokemon();
-    }
   };
 
   return (
@@ -184,10 +169,9 @@ const PokemonCard = () => {
       <ResearchContainer>
         <Research
           ref={searchValue}
-          onChange={resetData}
+          onChange={searchPokemon}
           placeholder="Rechercher un pokémon"
         />
-        <ResearchButton onClick={searchPokemon}>Capturer</ResearchButton>
       </ResearchContainer>
       <RegionContainer>
         <ButtonRegion onClick={PokedexJohto}>Johto</ButtonRegion>

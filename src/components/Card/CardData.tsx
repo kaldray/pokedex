@@ -1,4 +1,4 @@
-import { useContext, useEffect, useState} from "react";
+import { useContext} from "react";
 import { ReactComponent as Pokeball } from "../../assets/pokeballnb.svg";
 import firebase from "firebase";
 import "firebase/firebase-database";
@@ -47,28 +47,25 @@ type MyComponentProps = {
 
 const CardData = (props: MyComponentProps) => {
   const data = props.data;
-
   const id = (data.id - 1).toString();
 
-  const [favori, setFavori] = useState([]);
+
   const { ...user } = useContext(UserContext);
   const uid = user.uid;
-  useEffect(() => {
-    // get the favorites value for all data
-    const getFavoriDataFromFirebase = () => {
-      const pokedexData = firebase
-        .database()
-        .ref("users/" + uid + "/pokedexData");
-      pokedexData
-        .child(id)
-        .child("favorite")
-        .get()
-        .then((snapshot) => {
-          data.favorite = snapshot.val();
-        });
-    };
-    getFavoriDataFromFirebase();
-  }, [data.favorite, data.id, uid, data]);
+  // useEffect(() => {
+  //   // get the favorites value for all data
+  //   const getFavoriDataFromFirebase = () => {
+  //     const pokedexData = firebase
+  //       .database()
+  //       .ref("users/" + uid + "/pokedexData");
+  //     pokedexData
+  //       .child(id)
+  //       .child("favorite")
+  //       .get()
+  //       .then((snapshot) => {});
+  //   };
+  //   getFavoriDataFromFirebase();
+  // }, []);
 
   const addPokemonToFavorite = () => {
     const pokedexData = firebase
@@ -79,8 +76,7 @@ const CardData = (props: MyComponentProps) => {
       .child(id)
       .child("favorite")
       .once("value", (snapshot) => {
-        props.data.favorite = snapshot.val();
-        setFavori(snapshot.val());
+        data.favorite = snapshot.val();
       });
   };
 
@@ -93,8 +89,7 @@ const CardData = (props: MyComponentProps) => {
       .child(id)
       .child("favorite")
       .once("value", (snapshot) => {
-        props.data.favorite = snapshot.val();
-        setFavori(snapshot.val());
+        data.favorite = snapshot.val();
       });
   };
 
@@ -116,7 +111,7 @@ const CardData = (props: MyComponentProps) => {
             {data.type.secondary ? "et " + data.type.secondary : ""}
           </li>
 
-          {props.data.favorite === false ? (
+          {data.favorite === false ? (
             <>
               <PokeballNoFav onClick={() => addPokemonToFavorite()} />
             </>
