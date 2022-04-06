@@ -71,7 +71,7 @@ const Section = styled.section`
   }
 `;
 
-const Signin = () => {
+const Signin = ()  => {
   //Log to acces to Home with all pokemon Data
   const AuthWithGoogle = () => {
     let provider = new firebase.auth.GoogleAuthProvider();

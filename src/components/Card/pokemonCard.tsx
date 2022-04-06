@@ -1,10 +1,10 @@
-import { useEffect, useState, useRef, useContext } from "react";
+import { useEffect, useState, useRef, useContext} from "react";
 import CardData from "./CardData";
 import firebase from "firebase";
 import "firebase/firebase-database";
 import styled, { keyframes } from "styled-components";
 import { UserContext } from "../../context/authentification";
-import { pokedexData } from "../../data/pokedexData";
+import { pokedexData, PokemonAttributes } from "../../data/pokedexData";
 
 const ButtonRegion = styled.button`
   background-color: #ffbb44;
@@ -89,12 +89,16 @@ const Loader = styled.div`
   }
 `;
 
+
+
 const PokemonCard = () => {
-  let [data, setData] = useState([]);
-  const [pokemon, setPokemon] = useState([]);
-  const searchValue = useRef();
+  let [data, setData] = useState<PokemonAttributes>([]);
+  const [pokemon, setPokemon] = useState<PokemonAttributes>([]);
+  const searchValue = useRef<HTMLInputElement>(null);
   const [loading, setLoading] = useState(true);
-  const { uid } = useContext(UserContext);
+  const { ...user } = useContext(UserContext);
+
+  const uid = user.uid;
 
   //Get data from firebase
   useEffect(() => {
@@ -162,15 +166,19 @@ const PokemonCard = () => {
   // Search pokemon by name
   const searchPokemon = () => {
     setData(
-      pokemon.filter((pokemon) =>
-        pokemon.french.toLowerCase().includes(searchValue.current.value)
-      )
+      pokemon.filter((pokemon) => {
+        if (searchValue.current !== null) {
+          pokemon.french.toLowerCase().includes(searchValue.current.value);
+        }
+      })
     );
   };
 
   // Display all pokemon when input is empty
   const resetData = () => {
-    searchValue.current.value === "" ? setData(pokemon) : searchPokemon();
+    if (searchValue.current !== null) {
+      searchValue.current.value === "" ? setData(pokemon) : searchPokemon();
+    }
   };
 
   return (
@@ -180,7 +188,7 @@ const PokemonCard = () => {
           ref={searchValue}
           onChange={resetData}
           placeholder="Rechercher un pokémon"
-        ></Research>
+        />
         <ResearchButton onClick={searchPokemon}>Capturer</ResearchButton>
       </ResearchContainer>
       <RegionContainer>
@@ -195,9 +203,9 @@ const PokemonCard = () => {
         <ButtonRegion onClick={PokedexFav}>Favori</ButtonRegion>
       </RegionContainer>
       {loading === true ? (
-        <Loader></Loader>
+        <Loader />
       ) : (
-        data.map((data) => <CardData data={data} key={data.id} />)
+        data.map((data) => <CardData data={data} />)
       )}
     </>
   );
