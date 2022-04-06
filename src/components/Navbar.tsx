@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import firebase from "firebase";
-import { useHistory } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import { useContext } from "react";
 import { UserContext } from "../context/authentification";
 import { ReactComponent as Pokeball } from "../assets/pokeball.svg";
@@ -49,7 +49,7 @@ const PokeballLogo = styled(Pokeball)`
 `;
 
 const Navbar = () => {
-  let history = useHistory();
+  let navigate = useNavigate();
 
   //Sign out from firebase
   const LogOut = () => {
@@ -57,11 +57,14 @@ const Navbar = () => {
       .auth()
       .signOut()
       .then(() => {
-        history.push("/");
+        navigate("/");
       });
   };
 
-  const { currentUser } = useContext(UserContext);
+  const { ...User } = useContext(UserContext);
+
+  const currentUser = User.currentUser;
+
   const goToTop = () => {
     window.scrollTo({ top: 100, behavior: "smooth" });
   };

@@ -1,9 +1,10 @@
-import { useContext, useEffect, useState } from "react";
+import { useContext, useEffect, useState} from "react";
 import { ReactComponent as Pokeball } from "../../assets/pokeballnb.svg";
 import firebase from "firebase";
 import "firebase/firebase-database";
 import styled from "styled-components";
 import { UserContext } from "../../context/authentification";
+import { Attributes } from "../../data/pokedexData";
 
 const CardPokemon = styled.div`
   display: flex;
@@ -40,11 +41,18 @@ const PokeballFav = styled(PokeballNoFav)`
   }
 `;
 
-const CardData = (props) => {
-  const { data } = props;
-  const [favori, setFavori] = useState([]);
-  const { uid } = useContext(UserContext);
+type MyComponentProps = {
+  data: Attributes;
+};
 
+const CardData = (props: MyComponentProps) => {
+  const data = props.data;
+
+  const id = (data.id - 1).toString();
+
+  const [favori, setFavori] = useState([]);
+  const { ...user } = useContext(UserContext);
+  const uid = user.uid;
   useEffect(() => {
     // get the favorites value for all data
     const getFavoriDataFromFirebase = () => {
@@ -52,7 +60,7 @@ const CardData = (props) => {
         .database()
         .ref("users/" + uid + "/pokedexData");
       pokedexData
-        .child(data.id - 1)
+        .child(id)
         .child("favorite")
         .get()
         .then((snapshot) => {
@@ -60,19 +68,15 @@ const CardData = (props) => {
         });
     };
     getFavoriDataFromFirebase();
-    return () => getFavoriDataFromFirebase();
   }, [data.favorite, data.id, uid, data]);
 
   const addPokemonToFavorite = () => {
     const pokedexData = firebase
       .database()
       .ref("users/" + uid + "/pokedexData");
+    pokedexData.child(id).child("favorite").set(true);
     pokedexData
-      .child(data.id - 1)
-      .child("favorite")
-      .set(true);
-    pokedexData
-      .child(data.id - 1)
+      .child(id)
       .child("favorite")
       .once("value", (snapshot) => {
         props.data.favorite = snapshot.val();
@@ -84,12 +88,9 @@ const CardData = (props) => {
     const pokedexData = firebase
       .database()
       .ref("users/" + uid + "/pokedexData");
+    pokedexData.child(id).child("favorite").set(false);
     pokedexData
-      .child(data.id - 1)
-      .child("favorite")
-      .set(false);
-    pokedexData
-      .child(data.id - 1)
+      .child(id)
       .child("favorite")
       .once("value", (snapshot) => {
         props.data.favorite = snapshot.val();
