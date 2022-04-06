@@ -1,4 +1,4 @@
-import { useEffect, useState, useRef, useContext} from "react";
+import { useEffect, useState, useRef, useContext } from "react";
 import CardData from "./CardData";
 import firebase from "firebase";
 import "firebase/firebase-database";
@@ -88,8 +88,6 @@ const Loader = styled.div`
     grid-column: 1;
   }
 `;
-
-
 
 const PokemonCard = () => {
   let [data, setData] = useState<PokemonAttributes>([]);
@@ -205,7 +203,7 @@ const PokemonCard = () => {
       {loading === true ? (
         <Loader />
       ) : (
-        data.map((data) => <CardData data={data} />)
+        data.map((data) => <CardData data={data} key={data.id} />)
       )}
     </>
   );
