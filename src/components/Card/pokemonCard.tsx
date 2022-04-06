@@ -205,7 +205,7 @@ const PokemonCard = () => {
       {loading === true ? (
         <Loader />
       ) : (
-        data.map((data) => <CardData data={data} key={data.id} />)
+        data.map((data) => <CardData data={data} />)
       )}
     </>
   );
