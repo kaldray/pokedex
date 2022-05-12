@@ -1,8 +1,7 @@
 import styled from "styled-components";
 import firebase from "firebase";
 import { useNavigate } from "react-router-dom";
-import { useContext } from "react";
-import { UserContext } from "../context/authentification";
+import { useGoogleAuth } from "../context/authentification";
 import { ReactComponent as Pokeball } from "../assets/pokeball.svg";
 
 const Nav = styled.nav`
@@ -48,7 +47,16 @@ const PokeballLogo = styled(Pokeball)`
   }
 `;
 
+const Image = styled.img`
+  width: 30px;
+  height: 30px;
+  border-radius: 3rem;
+  object-fit: contain;
+  object-position: center;
+`;
+
 const Navbar = () => {
+  const user = useGoogleAuth();
   let navigate = useNavigate();
 
   //Sign out from firebase
@@ -61,24 +69,25 @@ const Navbar = () => {
       });
   };
 
-  const { ...User } = useContext(UserContext);
-
-  const currentUser = User.currentUser;
-
   const goToTop = () => {
     window.scrollTo({ top: 100, behavior: "smooth" });
   };
+
+  console.log(user);
+
   return (
     <>
       <Header>
         <Nav>
           <PokeballLogo onClick={goToTop}></PokeballLogo>
-          {currentUser ? (
+          {user.currentUser && (
             <>
+              <Image
+                src={user.currentUser.photoURL || undefined}
+                alt="Votre profil"
+              />
               <Button onClick={LogOut}>Log out</Button>
             </>
-          ) : (
-            <></>
           )}
         </Nav>
       </Header>

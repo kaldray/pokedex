@@ -1,5 +1,5 @@
 import Navbar from "../components/Navbar";
-import PokemonCard from "../components/Card/pokemonCard";
+import PokemonCard from "../components/Card/pokemonWrapper";
 import styled from "styled-components";
 
 export const Container = styled.main`

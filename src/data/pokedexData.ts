@@ -1,14 +1,4 @@
-export type Attributes = {
-  description: string;
-  hires: string | null;
-  id: number;
-  french: string;
-  sprite: string;
-  thumbnail: string;
-  type: { primary: string; secondary?: string };
-  favorite: boolean;
-}
-export type PokemonAttributes = Array<Attributes>
+import { PokemonAttributes } from "../types";
 
 export const pokedexData: PokemonAttributes = [
   {

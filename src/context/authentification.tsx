@@ -1,6 +1,6 @@
 import firebase from "firebase";
 import "firebase/auth";
-import { createContext, useState, useEffect, FC, useContext } from "react";
+import { createContext, useState, useEffect, useContext } from "react";
 import { useNavigate } from "react-router";
 
 export type AuthentificationContextData = {
@@ -8,10 +8,12 @@ export type AuthentificationContextData = {
   uid: string | undefined;
 };
 
-const UserContext = createContext<AuthentificationContextData  | null>(null);
+const UserContext = createContext<AuthentificationContextData | undefined>(
+  undefined
+);
 
 //GoogleUser context to pass user to other components
-const UserContextProvider: FC = ({ children }) => {
+const UserContextProvider = ({ children }: any) => {
   const [currentUser, setUser] = useState<firebase.User | undefined>(undefined);
   const [uid, setUid] = useState<string | undefined>(undefined);
   let navigate = useNavigate();
@@ -37,9 +39,9 @@ const UserContextProvider: FC = ({ children }) => {
   );
 };
 
-export function useAuthentication(): AuthentificationContextData {
+export function useGoogleAuth(): AuthentificationContextData {
   const ctx = useContext(UserContext);
-  if (ctx == null) {
+  if (ctx === undefined) {
     throw new Error("Must be inside <AuthenticationContextProvider>");
   }
 
