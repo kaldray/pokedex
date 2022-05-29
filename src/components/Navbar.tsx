@@ -73,8 +73,6 @@ const Navbar = () => {
     window.scrollTo({ top: 100, behavior: "smooth" });
   };
 
-  console.log(user);
-
   return (
     <>
       <Header>

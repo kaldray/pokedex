@@ -1,6 +1,7 @@
 import Navbar from "../components/Navbar";
 import PokemonCard from "../components/Card/pokemonWrapper";
 import styled from "styled-components";
+import Button from "../components/goToTopButoon";
 
 export const Container = styled.main`
   width: 100%;
@@ -24,6 +25,7 @@ const Home = () => {
       <Navbar></Navbar>
       <Container>
         <PokemonCard />
+        <Button />
       </Container>
     </>
   );
