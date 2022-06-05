@@ -1,7 +1,7 @@
-import firebase from "firebase";
 import Navbar from "../components/Navbar";
 import styled from "styled-components";
 import { ReactComponent as GoogleLogo } from "../assets/google.svg";
+import { authWithGoogle } from "../services";
 
 const Main = styled.main`
   display: flex;
@@ -71,19 +71,7 @@ const Section = styled.section`
   }
 `;
 
-const Signin = ()  => {
-  //Log to acces to Home with all pokemon Data
-  const AuthWithGoogle = () => {
-    let provider = new firebase.auth.GoogleAuthProvider();
-    firebase
-      .auth()
-      .signInWithPopup(provider)
-      .catch((error) => {
-        if (error) {
-          throw new Error("error");
-        }
-      });
-  };
+const SignIn = () => {
   return (
     <>
       <Navbar></Navbar>
@@ -91,7 +79,7 @@ const Signin = ()  => {
         <Section>
           <h1>Venez créer votre équipe de rêve !</h1>
         </Section>
-        <SignButton onClick={AuthWithGoogle}>
+        <SignButton onClick={authWithGoogle}>
           <span className="label">Log in with :</span>
           <div id="customBtn" className="customGPlusSignIn">
             <span className="icon">
@@ -105,4 +93,4 @@ const Signin = ()  => {
   );
 };
 
-export default Signin;
+export default SignIn;

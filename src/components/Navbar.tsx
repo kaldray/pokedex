@@ -1,8 +1,7 @@
 import styled from "styled-components";
-import firebase from "firebase";
-import { useNavigate } from "react-router-dom";
 import { useGoogleAuth } from "../context/authentification";
 import { ReactComponent as Pokeball } from "../assets/pokeball.svg";
+import { logOut } from "../services";
 
 const Nav = styled.nav`
   background-color: #ffbb44;
@@ -37,7 +36,7 @@ const Button = styled.button`
   }
 `;
 
-export const Header = styled.header`
+const Header = styled.header`
   width: 100vw;
 `;
 
@@ -53,21 +52,11 @@ const Image = styled.img`
   border-radius: 3rem;
   object-fit: contain;
   object-position: center;
+  font-size: 12px;
 `;
 
 const Navbar = () => {
   const user = useGoogleAuth();
-  let navigate = useNavigate();
-
-  //Sign out from firebase
-  const LogOut = () => {
-    firebase
-      .auth()
-      .signOut()
-      .then(() => {
-        navigate("/");
-      });
-  };
 
   const goToTop = () => {
     window.scrollTo({ top: 100, behavior: "smooth" });
@@ -84,7 +73,7 @@ const Navbar = () => {
                 src={user.currentUser.photoURL || undefined}
                 alt="Votre profil"
               />
-              <Button onClick={LogOut}>Log out</Button>
+              <Button onClick={logOut}>Log out</Button>
             </>
           )}
         </Nav>
